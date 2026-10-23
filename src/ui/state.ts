@@ -75,6 +75,9 @@ export interface UiState {
   writingOut: string;
   writingError: string;
 
+  /** Set when a quest step was just completed; cleared when dismissed or followed. */
+  questToast: { stepIndex: number } | null;
+
   profileMessage: string;
   testing: boolean;
   testMessage: string;
@@ -119,6 +122,7 @@ export function initialUi(tab: Tab): UiState {
     writingBusy: false,
     writingOut: "",
     writingError: "",
+    questToast: null,
     profileMessage: "",
     testing: false,
     testMessage: "",

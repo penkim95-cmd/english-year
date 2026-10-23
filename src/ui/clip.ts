@@ -340,7 +340,8 @@ export class ClipPlayer {
         return;
       case "done":
         this.app.store.progress.clips[this.week] = true;
-        this.app.store.saveProgress();
+        if (this.week === this.app.week) this.app.track("clip");
+        else this.app.store.saveProgress();
         return this.close();
       case "nextWeek":
         return this.open(this.app, this.week + 1);

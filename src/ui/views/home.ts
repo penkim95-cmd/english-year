@@ -7,9 +7,9 @@ import { FRIENDS, stageOf, weekInfo } from "../../data/curriculum";
 import { dueKeys, learnedCount, slangOfTheDay } from "../../domain/dictionary";
 import { streak } from "../../domain/progress";
 import { RATES, englishVoices, pickVoice } from "../../speech/tts";
-import type { TaskTarget } from "../../types";
-import { flashLabel, numberData, type ActionHandler, type App, type Destination } from "../app";
+import { flashLabel, type ActionHandler, type App, type Destination } from "../app";
 import { avatar, header, speakButton } from "../components";
+import { questCard } from "./quest";
 import { html, raw, type SafeHtml } from "../html";
 
 const youtubeSearch = (q: string) =>
@@ -54,66 +54,24 @@ export function weekCard(app: App, week: number): SafeHtml {
   </section>`;
 }
 
-const TARGET_TO_DESTINATION: Partial<Record<TaskTarget, Destination>> = {
-  clip: "clip",
-  vocab: "vocab",
-  review: "review",
-  sheet: "sheet",
-  dictation: "dictation",
-  speaking: "speaking",
-  friend: "friend",
-  scene: "scene",
-  writing: "writing",
-  voice: "voice",
-};
-
-function todayCard(app: App): SafeHtml {
+/** Progress numbers and the start date, under today's quest. */
+function statsCard(app: App): SafeHtml {
   const { progress, dictionary } = app.store;
-  const stage = app.stage;
-  const done = progress.daily[today()] ?? [];
   const due = dueKeys(dictionary, progress.srs, today()).length;
-  const completed = stage.daily.filter((_, i) => done[i]).length;
-  const start = progress.startDate
-    ? html`<p class="small muted">
-        시작일 ${progress.startDate} · 날짜에 맞춰 주차가 자동으로 넘어가요
-      </p>`
-    : html`<div class="note">
-        시작일을 정하면 오늘이 몇 주차인지 자동으로 계산해요.
-        <button class="btn sm primary" data-action="startCourse">오늘부터 시작</button>
-      </div>`;
   return html`<section class="card">
-    <div class="row between">
-      <h2>오늘 할 일</h2>
-      <span class="chip">${completed} / ${stage.daily.length} 완료</span>
-    </div>
-    ${start}
-    ${stage.daily.map((task, i) => {
-      const destination = TARGET_TO_DESTINATION[task.target];
-      return html`<div class="task ${done[i] ? "done" : ""}">
-        <button
-          class="box"
-          data-action="toggleTask"
-          data-index="${i}"
-          aria-label="완료 표시"
-          aria-pressed="${!!done[i]}"
-        >
-          ${done[i] ? "✓" : ""}
-        </button>
-        <button class="t" data-action="toggleTask" data-index="${i}">
-          ${task.label}${task.target === "review" && due ? html` <span class="chip warn">${due}개</span>` : ""}
-        </button>
-        <span class="min">${task.minutes}분</span>
-        ${destination ? html`<button class="go" data-action="go" data-to="${destination}">하기 →</button>` : ""}
-      </div>`;
-    })}
     <div class="stats">
       <div class="stat"><b>${streak(progress.daily)}</b><span>연속 학습일</span></div>
       <div class="stat"><b>${learnedCount(dictionary, progress.srs)}</b><span>외운 단어</span></div>
       <div class="stat"><b>${due}</b><span>오늘 복습</span></div>
     </div>
-    <p class="small muted">
-      2개 이상 체크하면 그날은 공부한 날로 쳐요. '하기 →'를 누르면 바로 그 공부로 가요.
-    </p>
+    ${
+      progress.startDate
+        ? html`<p class="small muted">
+            시작일 ${progress.startDate} · 날짜에 맞춰 주차가 자동으로 넘어가요. 퀘스트를 2단계 이상
+            하면 공부한 날로 쳐요.
+          </p>`
+        : ""
+    }
   </section>`;
 }
 
@@ -265,8 +223,8 @@ function settingsCard(app: App): SafeHtml {
 }
 
 export function homeView(app: App): SafeHtml {
-  return html`${header(app.week)} ${todayCard(app)} ${weekCard(app, app.week)} ${slangCard(app)}
-    ${friendsCard(app)} ${profileCard(app)} ${voiceCard(app)} ${settingsCard(app)}
+  return html`${header(app.week)} ${questCard(app)} ${statsCard(app)} ${weekCard(app, app.week)}
+    ${slangCard(app)} ${friendsCard(app)} ${profileCard(app)} ${voiceCard(app)} ${settingsCard(app)}
     <section class="card">
       <h3>릴스·영화 보는 법</h3>
       <p class="small">
@@ -283,16 +241,6 @@ const inputValue = (id: string) =>
 export const homeActions: Record<string, ActionHandler> = {
   startCourse(app) {
     app.store.ensureStarted();
-    app.render();
-  },
-  toggleTask(app, el) {
-    const day = today();
-    const flags = (app.store.progress.daily[day] ?? []).slice();
-    const i = numberData(el, "index");
-    flags[i] = !flags[i];
-    app.store.progress.daily[day] = flags;
-    app.store.ensureStarted();
-    app.store.saveProgress();
     app.render();
   },
   go(app, el) {

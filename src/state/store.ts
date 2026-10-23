@@ -11,7 +11,7 @@ import { Dictionary, MAX_SAVED_WORDS } from "../domain/dictionary";
 import type { Personal, Progress, SavedWord } from "../types";
 
 export function defaultProgress(): Progress {
-  return { startDate: null, daily: {}, known: {}, scores: {}, clips: {}, srs: {} };
+  return { startDate: null, daily: {}, known: {}, scores: {}, clips: {}, srs: {}, activity: {} };
 }
 
 export function defaultPersonal(): Personal {
@@ -28,7 +28,9 @@ export function defaultPersonal(): Personal {
   };
 }
 
-const PROGRESS_FIELDS = ["daily", "known", "scores", "clips", "srs"] as const;
+const PROGRESS_FIELDS = ["daily", "known", "scores", "clips", "srs", "activity"] as const;
+/** Days of activity history kept on the device. */
+const ACTIVITY_DAYS = 60;
 const PERSONAL_OBJECT_FIELDS = ["friends", "profile"] as const;
 const PERSONAL_ARRAY_FIELDS = ["writes", "evals"] as const;
 
@@ -113,6 +115,28 @@ export class Store {
     clearTimeout(this.timers.get("personal"));
     writeJson(STORAGE_KEYS.personal, this.personal);
     writeJson(STORAGE_KEYS.progress, this.progress);
+  }
+
+  /** Today's activity counters. */
+  activityOn(day: string): Record<string, number> {
+    const counts = this.progress.activity[day];
+    return counts && typeof counts === "object" ? counts : {};
+  }
+
+  /**
+   * Counts something the learner did today. "max" keeps the highest value seen
+   * (for totals that can be recomputed, like answered questions on a sheet).
+   */
+  track(kind: string, amount = 1, mode: "add" | "max" = "add"): void {
+    const day = today();
+    const counts = { ...this.activityOn(day) };
+    const prev = typeof counts[kind] === "number" ? counts[kind] : 0;
+    counts[kind] = mode === "max" ? Math.max(prev, amount) : prev + amount;
+    const activity = { ...this.progress.activity, [day]: counts };
+    const keep = Object.keys(activity).sort().slice(-ACTIVITY_DAYS);
+    this.progress.activity = Object.fromEntries(keep.map((d) => [d, activity[d]!]));
+    this.ensureStarted();
+    this.saveProgress();
   }
 
   ensureStarted(): void {

@@ -229,6 +229,9 @@ export const vocabActions: Record<string, ActionHandler> = {
       // A missed card comes back three cards later in this session.
       else ui.queue.splice(Math.min(3, ui.queue.length), 0, key);
       app.store.saveProgress();
+      if (ui.vocabMode === "review") app.track("review");
+      else if (ui.vocabMode === "week" && (ui.vocabWeek ?? app.week) === app.week)
+        app.track("vocab");
     }
     ui.flipped = false;
     app.render();

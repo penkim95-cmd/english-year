@@ -8,7 +8,9 @@
 import { today } from "../core/date";
 import { STORAGE_KEYS, readString, writeString } from "../core/storage";
 import { defaultFriendFor, stageOf } from "../data/curriculum";
+import { dueKeys } from "../domain/dictionary";
 import { currentWeek } from "../domain/progress";
+import { buildQuest, newlyDone, type ActivityKind, type Quest } from "../domain/quest";
 import { isListening, stopListening } from "../speech/recognition";
 import { speak, type VoiceSettings } from "../speech/tts";
 import { Store } from "../state/store";
@@ -35,6 +37,8 @@ export type Destination =
 export interface AppConfig {
   root: HTMLElement;
   tabs: HTMLElement;
+  /** Strip above the tab bar that keeps today's quest in sight on every screen. */
+  questBar: { el: HTMLElement; view: View };
   views: Record<Tab, View>;
   actions: Record<string, ActionHandler>;
   openClip: (app: App, week: number) => void;
@@ -50,6 +54,7 @@ export class App {
     this.ui = initialUi(isTab(saved) ? saved : "home");
     config.root.addEventListener("click", (e) => this.dispatch(e));
     config.tabs.addEventListener("click", (e) => this.dispatch(e));
+    config.questBar.el.addEventListener("click", (e) => this.dispatch(e));
   }
 
   get week(): number {
@@ -62,6 +67,27 @@ export class App {
 
   get voice(): VoiceSettings {
     return { rate: this.store.personal.rate, voice: this.store.personal.voice };
+  }
+
+  /** Today's quest, recomputed from today's activity. */
+  get quest(): Quest {
+    const day = today();
+    const dueCount = dueKeys(this.store.dictionary, this.store.progress.srs, day).length;
+    return buildQuest(this.stage.daily, this.store.activityOn(day), { dueCount });
+  }
+
+  /**
+   * Records learning activity. When it finishes a quest step, the daily
+   * checklist (and so the streak) is updated and the next step is announced.
+   */
+  track(kind: ActivityKind, amount = 1, mode: "add" | "max" = "add"): void {
+    const before = this.quest;
+    this.store.track(kind, amount, mode);
+    const after = this.quest;
+    this.store.progress.daily[today()] = after.steps.map((s) => s.done);
+    this.store.saveProgress();
+    const finished = newlyDone(before, after).at(-1);
+    if (finished) this.ui.questToast = { stepIndex: finished.index };
   }
 
   say(text: string, rate?: number): void {
@@ -78,6 +104,7 @@ export class App {
     cancelAnimationFrame(this.frame);
     mount(this.config.root, this.config.views[this.ui.tab](this));
     mount(this.config.tabs, this.tabBar());
+    mount(this.config.questBar.el, this.config.questBar.view(this));
     const chat = this.config.root.querySelector<HTMLElement>("#chat");
     if (chat) chat.scrollTop = chat.scrollHeight;
   }
@@ -85,6 +112,7 @@ export class App {
   setTab(tab: Tab): void {
     if (isListening()) stopListening();
     this.ui.tab = tab;
+    this.ui.questToast = null;
     writeString(STORAGE_KEYS.lastTab, tab);
     this.renderNow();
     window.scrollTo(0, 0);

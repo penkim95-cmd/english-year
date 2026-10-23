@@ -390,6 +390,7 @@ function recordScore(app: App, key: string): void {
   const sheet = activeSheet(app);
   if (sheet.key !== key) return;
   const score = scoreSheet(sheet.questions, app.ui.answers[key] ?? {});
+  if (key === `w${app.week}`) app.track("sheet", score.answered, "max");
   if (score.answered < score.total) return;
   const best = app.store.progress.scores[key];
   if (best === undefined || score.correct > best) {
@@ -501,6 +502,7 @@ export const sheetActions: Record<string, ActionHandler> = {
     if (!st.input.trim()) return;
     st.checked = true;
     st.results[st.index] = compare(sentencesFor(st.week)[st.index]!.en, st.input).exact;
+    app.track("dictation");
     app.render();
   },
   dictationNext(app) {
@@ -559,6 +561,7 @@ export const sheetActions: Record<string, ActionHandler> = {
         if (!heard.trim()) return;
         const result = compare(target, heard);
         st.result = { ...result, heard };
+        app.track("speaking");
         st.best[st.index] = Math.max(st.best[st.index] ?? 0, result.accuracy);
         const tries = Object.values(st.best);
         const mean = Math.round(tries.reduce((a, b) => a + b, 0) / tries.length);

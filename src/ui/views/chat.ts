@@ -456,6 +456,11 @@ async function sendMessage(app: App, text: string | null): Promise<void> {
   try {
     if (ui.chatMode === "friend") await talkToFriend(app, message);
     else await talkInScene(app, message!);
+    // Only the learner's own messages count toward the daily quest.
+    if (message !== null) {
+      app.track(ui.chatMode === "friend" ? "friend" : "scene");
+      if (app.store.personal.voiceMode) app.track("voice");
+    }
   } catch (err) {
     ui.chatError = errorMessage(err);
   }
@@ -665,6 +670,7 @@ export const chatActions: Record<string, ActionHandler> = {
       writes.push({ d: today(), task, src: text.slice(0, 1500), out: out.slice(0, 3000) });
       app.store.personal.writes = writes.slice(-20);
       app.store.savePersonal();
+      app.track("writing");
     } catch (err) {
       ui.writingError = errorMessage(err);
     }

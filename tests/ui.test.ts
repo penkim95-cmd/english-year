@@ -5,6 +5,7 @@ import { App, type ActionHandler } from "../src/ui/app";
 import { chatActions, chatView } from "../src/ui/views/chat";
 import { homeActions, homeView } from "../src/ui/views/home";
 import { planActions, planView } from "../src/ui/views/plan";
+import { questActions, questBar } from "../src/ui/views/quest";
 import { sheetActions, sheetView } from "../src/ui/views/sheet";
 import { vocabActions, vocabView } from "../src/ui/views/vocab";
 
@@ -12,9 +13,10 @@ vi.stubGlobal("__APP_VERSION__", "test");
 vi.stubGlobal("scrollTo", () => {});
 
 function createApp() {
-  document.body.innerHTML = '<main id="app"></main><div id="tabs"></div>';
+  document.body.innerHTML = '<main id="app"></main><div id="quest"></div><div id="tabs"></div>';
   const actions: Record<string, ActionHandler> = {
     ...homeActions,
+    ...questActions,
     ...planActions,
     ...sheetActions,
     ...vocabActions,
@@ -24,6 +26,7 @@ function createApp() {
   const app = new App({
     root: document.getElementById("app")!,
     tabs: document.getElementById("tabs")!,
+    questBar: { el: document.getElementById("quest")!, view: questBar },
     views: { home: homeView, plan: planView, sheet: sheetView, vocab: vocabView, chat: chatView },
     actions,
     openClip,
@@ -45,7 +48,7 @@ beforeEach(() => localStorage.clear());
 describe("app shell", () => {
   it("opens on the home tab and switches tabs from the tab bar", () => {
     createApp();
-    expect(text()).toContain("오늘 할 일");
+    expect(text()).toContain("오늘의 퀘스트");
     click('[data-tab="plan"]');
     expect(text()).toContain("1단계");
     click('[data-tab="sheet"]');
@@ -57,17 +60,44 @@ describe("app shell", () => {
     expect(localStorage.getItem(STORAGE_KEYS.lastTab)).toBe("chat");
   });
 
-  it("starts the course and checks off a daily task", () => {
+  it("walks through today's quest step by step", () => {
     const { app } = createApp();
-    click('[data-action="startCourse"]');
-    expect(app.store.progress.startDate).not.toBeNull();
-    click('[data-action="toggleTask"][data-index="0"]');
-    expect(text()).toContain("1 / 5 완료");
+    const steps = () => [...document.querySelectorAll(".qstep")].map((e) => e.classList[1]);
+    expect(text()).toContain("오늘의 퀘스트");
+    expect(steps()[0]).toBe("current");
+    expect(
+      steps()
+        .slice(1)
+        .filter((s) => s === "locked").length,
+    ).toBeGreaterThan(0);
+
+    // Step 1 (clip) is finished by watching this week's clip.
+    app.track("clip");
+    app.renderNow();
+    expect(steps()[0]).toBe("done");
+    expect(steps()[1]).toBe("current");
+    expect(app.ui.questToast).toEqual({ stepIndex: 0 });
+    expect(app.store.progress.daily[Object.keys(app.store.progress.daily)[0]!]![0]).toBe(true);
+
+    // The bar above the tabs announces it and leads to the next step.
+    click('[data-action="questNext"]');
+    expect(app.ui.tab).toBe("vocab");
+    expect(document.getElementById("quest")!.textContent).toContain("퀘스트 2/5");
   });
 
-  it("routes 하기 → buttons to the right screen", () => {
+  it("counts flashcards toward the vocabulary step", () => {
+    const { app } = createApp();
+    click('[data-action="questGo"][data-index="0"]');
+    app.track("clip");
+    app.setTab("vocab");
+    for (let i = 0; i < 3; i++) click('[data-action="answerCard"][data-known="1"]');
+    expect(app.quest.steps[1]!.progress).toBe(3);
+    expect(document.getElementById("quest")!.textContent).toContain("3 / 15장");
+  });
+
+  it("routes quest and shortcut buttons to the right screen", () => {
     const { app, openClip } = createApp();
-    click('[data-action="go"][data-to="clip"]');
+    click('[data-action="questGo"][data-index="0"]');
     expect(openClip).toHaveBeenCalledWith(app, 1);
     click('[data-action="go"][data-to="vocab"]');
     expect(app.ui.tab).toBe("vocab");

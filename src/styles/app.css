@@ -83,7 +83,7 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding-inline: 16px;
-  padding-block: 16px 110px;
+  padding-block: 16px 170px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1177,4 +1177,169 @@ input[type="date"] {
   font-family: var(--display);
   font-size: 20px;
   line-height: 1.35;
+}
+
+/* ---------- daily quest ---------- */
+.quest .qsegs {
+  display: flex;
+  gap: 4px;
+}
+.quest .qsegs i {
+  flex: 1;
+  height: 6px;
+  border-radius: 6px;
+  background: var(--line);
+}
+.quest .qsegs i.done {
+  background: var(--good);
+}
+.quest .qsegs i.current {
+  background: var(--accent);
+}
+.qsteps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.qstep {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: var(--soft);
+}
+.qstep .qn {
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  font-weight: 800;
+}
+.qstep.done .qn {
+  background: var(--good);
+  color: #fff;
+}
+.qstep .qt {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.qstep .qt small {
+  color: var(--muted);
+}
+.qstep.done .qt {
+  color: var(--muted);
+}
+.qstep.locked {
+  opacity: 0.55;
+}
+.qstep.current {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+  box-shadow: var(--shadow);
+}
+.qstep.current .qlabel {
+  font-family: var(--en);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  color: var(--accent);
+}
+.qstep.current .qtitle {
+  font-family: var(--display);
+  font-size: 19px;
+  line-height: 1.35;
+}
+.qmeter {
+  height: 10px;
+  border-radius: 10px;
+  background: var(--soft);
+  overflow: hidden;
+}
+.qmeter i {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+  background: var(--accent);
+  transition: width 0.3s;
+}
+.qdone {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px;
+  border-radius: 16px;
+  background: var(--soft);
+  text-align: center;
+}
+.questbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(68px + env(safe-area-inset-bottom, 0px));
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  padding-inline: 12px;
+  pointer-events: none;
+}
+.qbar {
+  pointer-events: auto;
+  width: 100%;
+  max-width: 696px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.qbar.toast {
+  border: 2px solid var(--good);
+}
+.qbar .qbt {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 13.5px;
+}
+.qbar .qbt b,
+.qbar .qbt small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.qbar .qbt small {
+  color: var(--muted);
+}
+.qbar .x {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--soft);
+  font-size: 18px;
+}
+.qring {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 800;
+  background:
+    radial-gradient(closest-side, var(--surface) 72%, transparent 73%),
+    conic-gradient(var(--accent) calc(var(--p) * 1%), var(--line) 0);
 }

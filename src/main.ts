@@ -8,6 +8,7 @@ import { bindInputs } from "./ui/inputs";
 import { chatActions, chatView } from "./ui/views/chat";
 import { homeActions, homeView } from "./ui/views/home";
 import { planActions, planView } from "./ui/views/plan";
+import { questActions, questBar } from "./ui/views/quest";
 import { sheetActions, sheetView } from "./ui/views/sheet";
 import { vocabActions, vocabView } from "./ui/views/vocab";
 
@@ -28,6 +29,7 @@ const commonActions: Record<string, ActionHandler> = {
 const actions: Record<string, ActionHandler> = {
   ...commonActions,
   ...homeActions,
+  ...questActions,
   ...planActions,
   ...sheetActions,
   ...vocabActions,
@@ -37,6 +39,7 @@ const actions: Record<string, ActionHandler> = {
 const app = new App({
   root: byId("app"),
   tabs: byId("tabs"),
+  questBar: { el: byId("quest"), view: questBar },
   views: { home: homeView, plan: planView, sheet: sheetView, vocab: vocabView, chat: chatView },
   actions,
   openClip: (a, week) => clip.open(a, week),

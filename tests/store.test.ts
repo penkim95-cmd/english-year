@@ -34,6 +34,7 @@ describe("normalize", () => {
       scores: { w1: 7 },
       clips: {},
       srs: {},
+      activity: {},
     });
   });
 

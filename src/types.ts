@@ -151,6 +151,8 @@ export interface Progress {
   scores: Record<string, number>;
   clips: Record<string, boolean>;
   srs: Record<string, SrsRecord>;
+  /** YYYY-MM-DD → how much of each activity was done that day (drives the daily quest). */
+  activity: Record<string, Record<string, number>>;
 }
 
 export interface ChatMessage {
