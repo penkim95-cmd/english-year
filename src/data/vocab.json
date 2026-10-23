@@ -1,0 +1,4942 @@
+[
+ {
+  "week": 1,
+  "words": [
+   {
+    "en": "apple",
+    "ko": "사과",
+    "example": "I eat an apple every day.",
+    "exampleKo": "나는 매일 사과를 먹어요."
+   },
+   {
+    "en": "bag",
+    "ko": "가방",
+    "example": "My bag is heavy.",
+    "exampleKo": "내 가방은 무거워요."
+   },
+   {
+    "en": "cat",
+    "ko": "고양이",
+    "example": "The cat is sleeping.",
+    "exampleKo": "고양이가 자고 있어요."
+   },
+   {
+    "en": "dog",
+    "ko": "개",
+    "example": "I have a dog.",
+    "exampleKo": "나는 개를 키워요."
+   },
+   {
+    "en": "egg",
+    "ko": "달걀",
+    "example": "I want two eggs.",
+    "exampleKo": "달걀 두 개 주세요."
+   },
+   {
+    "en": "fish",
+    "ko": "물고기, 생선",
+    "example": "I like fish.",
+    "exampleKo": "나는 생선을 좋아해요."
+   },
+   {
+    "en": "girl",
+    "ko": "여자아이",
+    "example": "The girl is my sister.",
+    "exampleKo": "그 여자아이는 내 여동생이에요."
+   },
+   {
+    "en": "hat",
+    "ko": "모자",
+    "example": "Nice hat!",
+    "exampleKo": "모자 멋지다!"
+   },
+   {
+    "en": "ink",
+    "ko": "잉크",
+    "example": "The pen has no ink.",
+    "exampleKo": "펜에 잉크가 없어요."
+   },
+   {
+    "en": "jam",
+    "ko": "잼",
+    "example": "I like bread and jam.",
+    "exampleKo": "빵에 잼 바른 거 좋아해요."
+   },
+   {
+    "en": "kid",
+    "ko": "아이",
+    "example": "He's a good kid.",
+    "exampleKo": "그는 착한 아이예요."
+   },
+   {
+    "en": "lemon",
+    "ko": "레몬",
+    "example": "Water with lemon, please.",
+    "exampleKo": "레몬 넣은 물 주세요."
+   },
+   {
+    "en": "man",
+    "ko": "남자",
+    "example": "That man is tall.",
+    "exampleKo": "저 남자는 키가 커요."
+   },
+   {
+    "en": "milk",
+    "ko": "우유",
+    "example": "Do you have milk?",
+    "exampleKo": "우유 있어요?"
+   },
+   {
+    "en": "map",
+    "ko": "지도",
+    "example": "Can I see the map?",
+    "exampleKo": "지도 좀 볼 수 있을까요?"
+   }
+  ]
+ },
+ {
+  "week": 2,
+  "words": [
+   {
+    "en": "nose",
+    "ko": "코",
+    "example": "My nose is cold.",
+    "exampleKo": "코가 시려요."
+   },
+   {
+    "en": "pen",
+    "ko": "펜",
+    "example": "Can I borrow a pen?",
+    "exampleKo": "펜 좀 빌려도 될까요?"
+   },
+   {
+    "en": "queen",
+    "ko": "여왕",
+    "example": "She's the queen of the party.",
+    "exampleKo": "그녀가 파티의 여왕이에요."
+   },
+   {
+    "en": "red",
+    "ko": "빨간",
+    "example": "I like the red one.",
+    "exampleKo": "빨간 게 좋아요."
+   },
+   {
+    "en": "sun",
+    "ko": "해, 태양",
+    "example": "The sun is hot today.",
+    "exampleKo": "오늘 해가 뜨거워요."
+   },
+   {
+    "en": "ten",
+    "ko": "10, 열",
+    "example": "I'll be there in ten minutes.",
+    "exampleKo": "10분 뒤에 도착해요."
+   },
+   {
+    "en": "up",
+    "ko": "위로",
+    "example": "Look up!",
+    "exampleKo": "위를 봐!"
+   },
+   {
+    "en": "van",
+    "ko": "승합차",
+    "example": "We took a van to the hotel.",
+    "exampleKo": "우리는 승합차로 호텔에 갔어요."
+   },
+   {
+    "en": "water",
+    "ko": "물",
+    "example": "Can I get some water?",
+    "exampleKo": "물 좀 주실래요?"
+   },
+   {
+    "en": "box",
+    "ko": "상자",
+    "example": "Put it in the box.",
+    "exampleKo": "상자에 넣어 주세요."
+   },
+   {
+    "en": "yes",
+    "ko": "네",
+    "example": "Yes, please.",
+    "exampleKo": "네, 주세요."
+   },
+   {
+    "en": "zoo",
+    "ko": "동물원",
+    "example": "Let's go to the zoo.",
+    "exampleKo": "동물원 가자."
+   },
+   {
+    "en": "bed",
+    "ko": "침대",
+    "example": "I'm going to bed.",
+    "exampleKo": "자러 갈게요."
+   },
+   {
+    "en": "hot",
+    "ko": "뜨거운, 더운",
+    "example": "It's so hot today.",
+    "exampleKo": "오늘 너무 더워요."
+   },
+   {
+    "en": "cup",
+    "ko": "컵",
+    "example": "A cup of coffee, please.",
+    "exampleKo": "커피 한 잔 주세요."
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "words": [
+   {
+    "en": "cake",
+    "ko": "케이크",
+    "example": "This cake is so good.",
+    "exampleKo": "이 케이크 정말 맛있다."
+   },
+   {
+    "en": "name",
+    "ko": "이름",
+    "example": "What's your name?",
+    "exampleKo": "이름이 뭐예요?"
+   },
+   {
+    "en": "time",
+    "ko": "시간",
+    "example": "What time is it?",
+    "exampleKo": "몇 시예요?"
+   },
+   {
+    "en": "home",
+    "ko": "집",
+    "example": "I'm at home.",
+    "exampleKo": "집이에요."
+   },
+   {
+    "en": "cute",
+    "ko": "귀여운",
+    "example": "Your dog is so cute!",
+    "exampleKo": "강아지 너무 귀엽다!"
+   },
+   {
+    "en": "shop",
+    "ko": "가게",
+    "example": "The shop is closed.",
+    "exampleKo": "가게가 문 닫았어요."
+   },
+   {
+    "en": "fish and chips",
+    "ko": "피시 앤 칩스",
+    "example": "Let's get fish and chips.",
+    "exampleKo": "피시 앤 칩스 먹자."
+   },
+   {
+    "en": "shoes",
+    "ko": "신발",
+    "example": "I need new shoes.",
+    "exampleKo": "새 신발이 필요해요."
+   },
+   {
+    "en": "chair",
+    "ko": "의자",
+    "example": "Take a chair.",
+    "exampleKo": "의자에 앉으세요."
+   },
+   {
+    "en": "cheap",
+    "ko": "싼",
+    "example": "It's really cheap.",
+    "exampleKo": "정말 싸요."
+   },
+   {
+    "en": "think",
+    "ko": "생각하다",
+    "example": "Let me think.",
+    "exampleKo": "생각 좀 해 볼게요."
+   },
+   {
+    "en": "thing",
+    "ko": "것, 물건",
+    "example": "One more thing.",
+    "exampleKo": "하나 더요."
+   },
+   {
+    "en": "mother",
+    "ko": "어머니",
+    "example": "My mother is a teacher.",
+    "exampleKo": "우리 어머니는 선생님이에요."
+   },
+   {
+    "en": "phone",
+    "ko": "전화기",
+    "example": "My phone is dead.",
+    "exampleKo": "폰 배터리가 나갔어요."
+   },
+   {
+    "en": "white",
+    "ko": "흰색의",
+    "example": "I want the white shirt.",
+    "exampleKo": "흰 셔츠로 할게요."
+   }
+  ]
+ },
+ {
+  "week": 4,
+  "words": [
+   {
+    "en": "student",
+    "ko": "학생",
+    "example": "I'm not a student.",
+    "exampleKo": "저는 학생이 아니에요."
+   },
+   {
+    "en": "friend",
+    "ko": "친구",
+    "example": "She's my best friend.",
+    "exampleKo": "그녀는 제 제일 친한 친구예요."
+   },
+   {
+    "en": "tired",
+    "ko": "피곤한",
+    "example": "I'm so tired.",
+    "exampleKo": "너무 피곤해요."
+   },
+   {
+    "en": "busy",
+    "ko": "바쁜",
+    "example": "Are you busy now?",
+    "exampleKo": "지금 바빠요?"
+   },
+   {
+    "en": "happy",
+    "ko": "행복한",
+    "example": "I'm happy to see you.",
+    "exampleKo": "만나서 기뻐요."
+   },
+   {
+    "en": "hungry",
+    "ko": "배고픈",
+    "example": "Are you hungry?",
+    "exampleKo": "배고파요?"
+   },
+   {
+    "en": "sleepy",
+    "ko": "졸린",
+    "example": "I'm a little sleepy.",
+    "exampleKo": "좀 졸려요."
+   },
+   {
+    "en": "single",
+    "ko": "미혼의, 혼자인",
+    "example": "I'm single.",
+    "exampleKo": "저는 미혼이에요."
+   },
+   {
+    "en": "married",
+    "ko": "결혼한",
+    "example": "Are you married?",
+    "exampleKo": "결혼하셨어요?"
+   },
+   {
+    "en": "Korean",
+    "ko": "한국인, 한국어",
+    "example": "I'm Korean.",
+    "exampleKo": "저는 한국인이에요."
+   },
+   {
+    "en": "from",
+    "ko": "~에서 온",
+    "example": "Where are you from?",
+    "exampleKo": "어디서 오셨어요?"
+   },
+   {
+    "en": "years old",
+    "ko": "~살",
+    "example": "I'm 33 years old.",
+    "exampleKo": "저는 33살이에요."
+   },
+   {
+    "en": "nice",
+    "ko": "좋은, 친절한",
+    "example": "You're very nice.",
+    "exampleKo": "정말 친절하시네요."
+   },
+   {
+    "en": "ready",
+    "ko": "준비된",
+    "example": "Are you ready?",
+    "exampleKo": "준비됐어요?"
+   },
+   {
+    "en": "late",
+    "ko": "늦은",
+    "example": "Sorry, I'm late.",
+    "exampleKo": "늦어서 미안해요."
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "words": [
+   {
+    "en": "like",
+    "ko": "좋아하다",
+    "example": "I like this song.",
+    "exampleKo": "이 노래 좋아요."
+   },
+   {
+    "en": "want",
+    "ko": "원하다",
+    "example": "I want a big one.",
+    "exampleKo": "큰 걸로 원해요."
+   },
+   {
+    "en": "need",
+    "ko": "필요하다",
+    "example": "I need a taxi.",
+    "exampleKo": "택시가 필요해요."
+   },
+   {
+    "en": "have",
+    "ko": "가지고 있다",
+    "example": "I have two brothers.",
+    "exampleKo": "형제가 두 명 있어요."
+   },
+   {
+    "en": "go",
+    "ko": "가다",
+    "example": "I go to the gym.",
+    "exampleKo": "헬스장에 다녀요."
+   },
+   {
+    "en": "eat",
+    "ko": "먹다",
+    "example": "I eat lunch at noon.",
+    "exampleKo": "정오에 점심 먹어요."
+   },
+   {
+    "en": "drink",
+    "ko": "마시다",
+    "example": "I drink coffee every morning.",
+    "exampleKo": "매일 아침 커피 마셔요."
+   },
+   {
+    "en": "work",
+    "ko": "일하다",
+    "example": "I work in Seoul.",
+    "exampleKo": "서울에서 일해요."
+   },
+   {
+    "en": "live",
+    "ko": "살다",
+    "example": "I live alone.",
+    "exampleKo": "혼자 살아요."
+   },
+   {
+    "en": "know",
+    "ko": "알다",
+    "example": "I know that place.",
+    "exampleKo": "거기 알아요."
+   },
+   {
+    "en": "love",
+    "ko": "사랑하다, 아주 좋아하다",
+    "example": "I love Korean food.",
+    "exampleKo": "한국 음식 정말 좋아해요."
+   },
+   {
+    "en": "watch",
+    "ko": "보다(영상)",
+    "example": "I watch YouTube a lot.",
+    "exampleKo": "유튜브 많이 봐요."
+   },
+   {
+    "en": "play",
+    "ko": "놀다, 경기하다",
+    "example": "I play soccer on Sundays.",
+    "exampleKo": "일요일마다 축구해요."
+   },
+   {
+    "en": "study",
+    "ko": "공부하다",
+    "example": "I study English every day.",
+    "exampleKo": "매일 영어 공부해요."
+   },
+   {
+    "en": "sleep",
+    "ko": "자다",
+    "example": "I sleep at midnight.",
+    "exampleKo": "자정에 자요."
+   }
+  ]
+ },
+ {
+  "week": 6,
+  "words": [
+   {
+    "en": "Do you ~?",
+    "ko": "~해요?",
+    "example": "Do you live here?",
+    "exampleKo": "여기 살아요?"
+   },
+   {
+    "en": "don't",
+    "ko": "~하지 않다",
+    "example": "I don't eat meat.",
+    "exampleKo": "고기 안 먹어요."
+   },
+   {
+    "en": "doesn't",
+    "ko": "(그/그녀가) ~하지 않다",
+    "example": "He doesn't drink.",
+    "exampleKo": "그는 술 안 마셔요."
+   },
+   {
+    "en": "Does he ~?",
+    "ko": "그는 ~해요?",
+    "example": "Does he speak English?",
+    "exampleKo": "그는 영어 해요?"
+   },
+   {
+    "en": "what",
+    "ko": "무엇",
+    "example": "What do you want?",
+    "exampleKo": "뭐 원해요?"
+   },
+   {
+    "en": "where",
+    "ko": "어디",
+    "example": "Where do you live?",
+    "exampleKo": "어디 살아요?"
+   },
+   {
+    "en": "when",
+    "ko": "언제",
+    "example": "When do you work?",
+    "exampleKo": "언제 일해요?"
+   },
+   {
+    "en": "who",
+    "ko": "누구",
+    "example": "Who is that?",
+    "exampleKo": "저 사람 누구예요?"
+   },
+   {
+    "en": "why",
+    "ko": "왜",
+    "example": "Why not?",
+    "exampleKo": "왜 안 돼? / 좋아!"
+   },
+   {
+    "en": "how",
+    "ko": "어떻게",
+    "example": "How do you say this?",
+    "exampleKo": "이거 어떻게 말해요?"
+   },
+   {
+    "en": "which",
+    "ko": "어느 것",
+    "example": "Which one is yours?",
+    "exampleKo": "어느 게 당신 거예요?"
+   },
+   {
+    "en": "not",
+    "ko": "아니다",
+    "example": "It's not my bag.",
+    "exampleKo": "제 가방 아니에요."
+   },
+   {
+    "en": "really",
+    "ko": "정말",
+    "example": "Do you really like it?",
+    "exampleKo": "정말 좋아해요?"
+   },
+   {
+    "en": "sure",
+    "ko": "물론",
+    "example": "Sure, why not?",
+    "exampleKo": "물론이죠, 좋아요."
+   },
+   {
+    "en": "maybe",
+    "ko": "아마도",
+    "example": "Maybe tomorrow.",
+    "exampleKo": "아마 내일요."
+   }
+  ]
+ },
+ {
+  "week": 7,
+  "words": [
+   {
+    "en": "hundred",
+    "ko": "100, 백",
+    "example": "It's two hundred dollars.",
+    "exampleKo": "200달러예요."
+   },
+   {
+    "en": "thousand",
+    "ko": "1,000, 천",
+    "example": "Ten thousand won, please.",
+    "exampleKo": "만 원이요."
+   },
+   {
+    "en": "half",
+    "ko": "반",
+    "example": "It's half past seven.",
+    "exampleKo": "7시 반이에요."
+   },
+   {
+    "en": "quarter",
+    "ko": "15분, 4분의 1",
+    "example": "It's a quarter to nine.",
+    "exampleKo": "9시 15분 전이에요."
+   },
+   {
+    "en": "o'clock",
+    "ko": "~시 정각",
+    "example": "Let's meet at six o'clock.",
+    "exampleKo": "6시 정각에 만나요."
+   },
+   {
+    "en": "minute",
+    "ko": "분",
+    "example": "Wait a minute.",
+    "exampleKo": "잠깐만요."
+   },
+   {
+    "en": "hour",
+    "ko": "시간",
+    "example": "It takes an hour.",
+    "exampleKo": "한 시간 걸려요."
+   },
+   {
+    "en": "price",
+    "ko": "가격",
+    "example": "What's the price?",
+    "exampleKo": "가격이 얼마예요?"
+   },
+   {
+    "en": "dollar",
+    "ko": "달러",
+    "example": "Five dollars, please.",
+    "exampleKo": "5달러입니다."
+   },
+   {
+    "en": "cash",
+    "ko": "현금",
+    "example": "Can I pay in cash?",
+    "exampleKo": "현금으로 내도 돼요?"
+   },
+   {
+    "en": "card",
+    "ko": "카드",
+    "example": "Card is fine.",
+    "exampleKo": "카드도 돼요."
+   },
+   {
+    "en": "expensive",
+    "ko": "비싼",
+    "example": "It's too expensive.",
+    "exampleKo": "너무 비싸요."
+   },
+   {
+    "en": "discount",
+    "ko": "할인",
+    "example": "Is there a discount?",
+    "exampleKo": "할인돼요?"
+   },
+   {
+    "en": "total",
+    "ko": "합계",
+    "example": "What's the total?",
+    "exampleKo": "합계가 얼마예요?"
+   },
+   {
+    "en": "change",
+    "ko": "거스름돈",
+    "example": "Keep the change.",
+    "exampleKo": "잔돈은 가지세요."
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "words": [
+   {
+    "en": "went",
+    "ko": "갔다(go)",
+    "example": "I went to Busan last week.",
+    "exampleKo": "지난주에 부산 갔어요."
+   },
+   {
+    "en": "ate",
+    "ko": "먹었다(eat)",
+    "example": "I ate too much.",
+    "exampleKo": "너무 많이 먹었어요."
+   },
+   {
+    "en": "saw",
+    "ko": "봤다(see)",
+    "example": "I saw your post.",
+    "exampleKo": "네 게시물 봤어."
+   },
+   {
+    "en": "had",
+    "ko": "가졌다, 먹었다(have)",
+    "example": "I had a great time.",
+    "exampleKo": "정말 즐거웠어요."
+   },
+   {
+    "en": "made",
+    "ko": "만들었다(make)",
+    "example": "I made dinner.",
+    "exampleKo": "저녁 만들었어요."
+   },
+   {
+    "en": "got",
+    "ko": "받았다, 생겼다(get)",
+    "example": "I got a new phone.",
+    "exampleKo": "새 폰 생겼어요."
+   },
+   {
+    "en": "came",
+    "ko": "왔다(come)",
+    "example": "He came late.",
+    "exampleKo": "그는 늦게 왔어요."
+   },
+   {
+    "en": "bought",
+    "ko": "샀다(buy)",
+    "example": "I bought a jacket.",
+    "exampleKo": "재킷 샀어요."
+   },
+   {
+    "en": "told",
+    "ko": "말했다(tell)",
+    "example": "She told me the news.",
+    "exampleKo": "그녀가 소식을 알려 줬어요."
+   },
+   {
+    "en": "took",
+    "ko": "탔다, 가져갔다(take)",
+    "example": "I took a taxi.",
+    "exampleKo": "택시 탔어요."
+   },
+   {
+    "en": "yesterday",
+    "ko": "어제",
+    "example": "I was busy yesterday.",
+    "exampleKo": "어제 바빴어요."
+   },
+   {
+    "en": "last night",
+    "ko": "어젯밤",
+    "example": "I slept late last night.",
+    "exampleKo": "어젯밤에 늦게 잤어요."
+   },
+   {
+    "en": "ago",
+    "ko": "~전에",
+    "example": "I came here two days ago.",
+    "exampleKo": "이틀 전에 여기 왔어요."
+   },
+   {
+    "en": "was",
+    "ko": "~였다(am/is)",
+    "example": "It was fun.",
+    "exampleKo": "재밌었어요."
+   },
+   {
+    "en": "were",
+    "ko": "~였다(are)",
+    "example": "Where were you?",
+    "exampleKo": "어디 있었어요?"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "words": [
+   {
+    "en": "I'd like",
+    "ko": "~ 주세요",
+    "example": "I'd like a glass of wine.",
+    "exampleKo": "와인 한 잔 주세요."
+   },
+   {
+    "en": "please",
+    "ko": "부탁합니다",
+    "example": "Water, please.",
+    "exampleKo": "물 주세요."
+   },
+   {
+    "en": "order",
+    "ko": "주문하다",
+    "example": "Are you ready to order?",
+    "exampleKo": "주문하시겠어요?"
+   },
+   {
+    "en": "menu",
+    "ko": "메뉴",
+    "example": "Can I see the menu?",
+    "exampleKo": "메뉴 좀 볼 수 있을까요?"
+   },
+   {
+    "en": "seat",
+    "ko": "좌석",
+    "example": "I'd like a window seat.",
+    "exampleKo": "창가 좌석으로 주세요."
+   },
+   {
+    "en": "glass",
+    "ko": "잔",
+    "example": "A glass of water, please.",
+    "exampleKo": "물 한 잔 주세요."
+   },
+   {
+    "en": "bottle",
+    "ko": "병",
+    "example": "A bottle of water, please.",
+    "exampleKo": "물 한 병 주세요."
+   },
+   {
+    "en": "small",
+    "ko": "작은",
+    "example": "A small one, please.",
+    "exampleKo": "작은 걸로 주세요."
+   },
+   {
+    "en": "large",
+    "ko": "큰",
+    "example": "I'd like a large coffee.",
+    "exampleKo": "큰 사이즈 커피로 주세요."
+   },
+   {
+    "en": "hot or iced",
+    "ko": "뜨거운 거 아니면 차가운 거",
+    "example": "Hot or iced?",
+    "exampleKo": "따뜻한 거요, 아이스요?"
+   },
+   {
+    "en": "this one",
+    "ko": "이것",
+    "example": "I'd like this one.",
+    "exampleKo": "이걸로 할게요."
+   },
+   {
+    "en": "the same",
+    "ko": "같은 것",
+    "example": "I'll have the same.",
+    "exampleKo": "저도 같은 걸로요."
+   },
+   {
+    "en": "try",
+    "ko": "해 보다, 먹어 보다",
+    "example": "I'd like to try this.",
+    "exampleKo": "이거 먹어 볼게요."
+   },
+   {
+    "en": "instead",
+    "ko": "대신에",
+    "example": "Can I get tea instead?",
+    "exampleKo": "대신 차로 주실 수 있어요?"
+   },
+   {
+    "en": "without",
+    "ko": "~없이",
+    "example": "Without onions, please.",
+    "exampleKo": "양파 빼 주세요."
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "words": [
+   {
+    "en": "help",
+    "ko": "돕다",
+    "example": "Can you help me?",
+    "exampleKo": "도와줄 수 있어요?"
+   },
+   {
+    "en": "borrow",
+    "ko": "빌리다",
+    "example": "Can I borrow your charger?",
+    "exampleKo": "충전기 좀 빌려도 될까요?"
+   },
+   {
+    "en": "use",
+    "ko": "사용하다",
+    "example": "Can I use the restroom?",
+    "exampleKo": "화장실 써도 될까요?"
+   },
+   {
+    "en": "open",
+    "ko": "열다",
+    "example": "Could you open the door?",
+    "exampleKo": "문 좀 열어 주실래요?"
+   },
+   {
+    "en": "close",
+    "ko": "닫다",
+    "example": "Could you close the window?",
+    "exampleKo": "창문 좀 닫아 주실래요?"
+   },
+   {
+    "en": "repeat",
+    "ko": "반복하다",
+    "example": "Could you repeat that?",
+    "exampleKo": "다시 말씀해 주실래요?"
+   },
+   {
+    "en": "slowly",
+    "ko": "천천히",
+    "example": "Please speak slowly.",
+    "exampleKo": "천천히 말해 주세요."
+   },
+   {
+    "en": "take a picture",
+    "ko": "사진을 찍다",
+    "example": "Could you take a picture of me?",
+    "exampleKo": "제 사진 좀 찍어 주실래요?"
+   },
+   {
+    "en": "wait",
+    "ko": "기다리다",
+    "example": "Could you wait a second?",
+    "exampleKo": "잠깐만 기다려 주실래요?"
+   },
+   {
+    "en": "show",
+    "ko": "보여 주다",
+    "example": "Could you show me the way?",
+    "exampleKo": "길 좀 알려 주실래요?"
+   },
+   {
+    "en": "pass",
+    "ko": "건네다",
+    "example": "Could you pass the salt?",
+    "exampleKo": "소금 좀 건네주실래요?"
+   },
+   {
+    "en": "check",
+    "ko": "확인하다",
+    "example": "Could you check it for me?",
+    "exampleKo": "확인 좀 해 주실래요?"
+   },
+   {
+    "en": "of course",
+    "ko": "물론이죠",
+    "example": "Of course!",
+    "exampleKo": "물론이죠!"
+   },
+   {
+    "en": "no problem",
+    "ko": "문제없어요",
+    "example": "No problem at all.",
+    "exampleKo": "전혀 문제없어요."
+   },
+   {
+    "en": "Excuse me",
+    "ko": "실례합니다",
+    "example": "Excuse me, can I ask something?",
+    "exampleKo": "실례지만, 뭐 좀 물어봐도 될까요?"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "words": [
+   {
+    "en": "look for",
+    "ko": "찾다",
+    "example": "I'm looking for my hotel.",
+    "exampleKo": "제 호텔을 찾고 있어요."
+   },
+   {
+    "en": "station",
+    "ko": "역",
+    "example": "Where's the subway station?",
+    "exampleKo": "지하철역 어디예요?"
+   },
+   {
+    "en": "restroom",
+    "ko": "화장실",
+    "example": "Where's the restroom?",
+    "exampleKo": "화장실 어디예요?"
+   },
+   {
+    "en": "exit",
+    "ko": "출구",
+    "example": "Where is exit 3?",
+    "exampleKo": "3번 출구 어디예요?"
+   },
+   {
+    "en": "entrance",
+    "ko": "입구",
+    "example": "The entrance is over there.",
+    "exampleKo": "입구는 저쪽이에요."
+   },
+   {
+    "en": "bus stop",
+    "ko": "버스 정류장",
+    "example": "Is there a bus stop near here?",
+    "exampleKo": "근처에 버스 정류장 있어요?"
+   },
+   {
+    "en": "near",
+    "ko": "가까운",
+    "example": "Is it near here?",
+    "exampleKo": "여기서 가까워요?"
+   },
+   {
+    "en": "far",
+    "ko": "먼",
+    "example": "Is it far?",
+    "exampleKo": "멀어요?"
+   },
+   {
+    "en": "over there",
+    "ko": "저쪽에",
+    "example": "It's over there.",
+    "exampleKo": "저쪽에 있어요."
+   },
+   {
+    "en": "next to",
+    "ko": "~옆에",
+    "example": "It's next to the bank.",
+    "exampleKo": "은행 옆에 있어요."
+   },
+   {
+    "en": "across from",
+    "ko": "~맞은편에",
+    "example": "It's across from the park.",
+    "exampleKo": "공원 맞은편이에요."
+   },
+   {
+    "en": "upstairs",
+    "ko": "위층에",
+    "example": "The restroom is upstairs.",
+    "exampleKo": "화장실은 위층에 있어요."
+   },
+   {
+    "en": "downstairs",
+    "ko": "아래층에",
+    "example": "The cafe is downstairs.",
+    "exampleKo": "카페는 아래층에 있어요."
+   },
+   {
+    "en": "pharmacy",
+    "ko": "약국",
+    "example": "I'm looking for a pharmacy.",
+    "exampleKo": "약국을 찾고 있어요."
+   },
+   {
+    "en": "convenience store",
+    "ko": "편의점",
+    "example": "Is there a convenience store?",
+    "exampleKo": "편의점 있어요?"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "words": [
+   {
+    "en": "listen",
+    "ko": "듣다",
+    "example": "Listen carefully.",
+    "exampleKo": "잘 들어 보세요."
+   },
+   {
+    "en": "follow",
+    "ko": "따라가다",
+    "example": "Follow me.",
+    "exampleKo": "따라오세요."
+   },
+   {
+    "en": "out loud",
+    "ko": "소리 내어",
+    "example": "Read it out loud.",
+    "exampleKo": "소리 내서 읽어 보세요."
+   },
+   {
+    "en": "again",
+    "ko": "다시",
+    "example": "One more time, again.",
+    "exampleKo": "한 번 더, 다시요."
+   },
+   {
+    "en": "pronounce",
+    "ko": "발음하다",
+    "example": "How do you pronounce this?",
+    "exampleKo": "이거 어떻게 발음해요?"
+   },
+   {
+    "en": "sound",
+    "ko": "소리, ~처럼 들리다",
+    "example": "You sound great!",
+    "exampleKo": "소리 좋아요! / 말 잘하네요!"
+   },
+   {
+    "en": "accent",
+    "ko": "억양, 말투",
+    "example": "I like your accent.",
+    "exampleKo": "말투가 좋네요."
+   },
+   {
+    "en": "practice",
+    "ko": "연습하다",
+    "example": "I practice every day.",
+    "exampleKo": "매일 연습해요."
+   },
+   {
+    "en": "mistake",
+    "ko": "실수",
+    "example": "Don't worry about mistakes.",
+    "exampleKo": "실수는 걱정하지 마세요."
+   },
+   {
+    "en": "fast",
+    "ko": "빠른, 빨리",
+    "example": "You speak too fast.",
+    "exampleKo": "말이 너무 빨라요."
+   },
+   {
+    "en": "clearly",
+    "ko": "분명하게",
+    "example": "Speak clearly.",
+    "exampleKo": "또박또박 말하세요."
+   },
+   {
+    "en": "sentence",
+    "ko": "문장",
+    "example": "Repeat each sentence.",
+    "exampleKo": "문장마다 따라 하세요."
+   },
+   {
+    "en": "copy",
+    "ko": "따라 하다",
+    "example": "Copy the speaker.",
+    "exampleKo": "화자를 따라 하세요."
+   },
+   {
+    "en": "How are you doing?",
+    "ko": "어떻게 지내요?",
+    "example": "Hey, how are you doing?",
+    "exampleKo": "안녕, 어떻게 지내?"
+   },
+   {
+    "en": "Not bad.",
+    "ko": "나쁘지 않아요.",
+    "example": "Not bad, thanks.",
+    "exampleKo": "나쁘지 않아요, 고마워요."
+   }
+  ]
+ },
+ {
+  "week": 13,
+  "words": [
+   {
+    "en": "Let's",
+    "ko": "~하자",
+    "example": "Let's eat out tonight.",
+    "exampleKo": "오늘 밤 외식하자."
+   },
+   {
+    "en": "How about",
+    "ko": "~어때?",
+    "example": "How about Friday?",
+    "exampleKo": "금요일 어때?"
+   },
+   {
+    "en": "grab",
+    "ko": "간단히 먹다/사다",
+    "example": "Let's grab a coffee.",
+    "exampleKo": "커피 한잔하자."
+   },
+   {
+    "en": "join",
+    "ko": "함께하다",
+    "example": "Can I join you?",
+    "exampleKo": "같이 해도 돼요?"
+   },
+   {
+    "en": "together",
+    "ko": "함께",
+    "example": "Let's go together.",
+    "exampleKo": "같이 가자."
+   },
+   {
+    "en": "sometime",
+    "ko": "언젠가",
+    "example": "Let's meet up sometime.",
+    "exampleKo": "언제 한번 만나자."
+   },
+   {
+    "en": "tonight",
+    "ko": "오늘 밤",
+    "example": "Are you free tonight?",
+    "exampleKo": "오늘 밤 시간 돼?"
+   },
+   {
+    "en": "weekend",
+    "ko": "주말",
+    "example": "How about this weekend?",
+    "exampleKo": "이번 주말 어때?"
+   },
+   {
+    "en": "plan",
+    "ko": "계획",
+    "example": "Do you have any plans?",
+    "exampleKo": "무슨 계획 있어?"
+   },
+   {
+    "en": "idea",
+    "ko": "생각, 아이디어",
+    "example": "Good idea!",
+    "exampleKo": "좋은 생각이야!"
+   },
+   {
+    "en": "Sounds good.",
+    "ko": "좋아요.",
+    "example": "Sounds good to me.",
+    "exampleKo": "저는 좋아요."
+   },
+   {
+    "en": "Why not?",
+    "ko": "좋지!",
+    "example": "Why not? Let's do it.",
+    "exampleKo": "좋지! 하자."
+   },
+   {
+    "en": "next time",
+    "ko": "다음번에",
+    "example": "Maybe next time.",
+    "exampleKo": "다음에 하자."
+   },
+   {
+    "en": "instead of",
+    "ko": "~대신에",
+    "example": "How about tea instead of coffee?",
+    "exampleKo": "커피 대신 차 어때?"
+   },
+   {
+    "en": "walk",
+    "ko": "걷다",
+    "example": "Let's walk there.",
+    "exampleKo": "거기까지 걸어가자."
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "words": [
+   {
+    "en": "suppose",
+    "ko": "~라고 생각하다",
+    "example": "I suppose you're right.",
+    "exampleKo": "네 말이 맞는 것 같아."
+   },
+   {
+    "en": "feel",
+    "ko": "느끼다",
+    "example": "I feel better now.",
+    "exampleKo": "이제 좀 나아졌어요."
+   },
+   {
+    "en": "guess",
+    "ko": "추측하다",
+    "example": "I guess so.",
+    "exampleKo": "그런 것 같아요."
+   },
+   {
+    "en": "believe",
+    "ko": "믿다",
+    "example": "I can't believe it!",
+    "exampleKo": "믿을 수가 없어!"
+   },
+   {
+    "en": "opinion",
+    "ko": "의견",
+    "example": "What's your opinion?",
+    "exampleKo": "당신 의견은 어때요?"
+   },
+   {
+    "en": "agree",
+    "ko": "동의하다",
+    "example": "I agree with you.",
+    "exampleKo": "당신 말에 동의해요."
+   },
+   {
+    "en": "worried",
+    "ko": "걱정되는",
+    "example": "I'm worried about it.",
+    "exampleKo": "그게 걱정돼요."
+   },
+   {
+    "en": "excited",
+    "ko": "신나는",
+    "example": "I'm so excited!",
+    "exampleKo": "너무 신나요!"
+   },
+   {
+    "en": "nervous",
+    "ko": "긴장한",
+    "example": "I feel nervous.",
+    "exampleKo": "긴장돼요."
+   },
+   {
+    "en": "bored",
+    "ko": "지루한",
+    "example": "I'm bored.",
+    "exampleKo": "지루해요."
+   },
+   {
+    "en": "stressed",
+    "ko": "스트레스 받은",
+    "example": "I'm stressed out.",
+    "exampleKo": "스트레스 받아요."
+   },
+   {
+    "en": "comfortable",
+    "ko": "편안한",
+    "example": "I feel comfortable here.",
+    "exampleKo": "여기 편해요."
+   },
+   {
+    "en": "probably",
+    "ko": "아마",
+    "example": "It's probably fine.",
+    "exampleKo": "아마 괜찮을 거예요."
+   },
+   {
+    "en": "actually",
+    "ko": "사실은",
+    "example": "Actually, I like it.",
+    "exampleKo": "사실 저 그거 좋아해요."
+   },
+   {
+    "en": "feel like",
+    "ko": "~하고 싶다",
+    "example": "I feel like going out.",
+    "exampleKo": "나가고 싶어요."
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "words": [
+   {
+    "en": "going to",
+    "ko": "~할 것이다",
+    "example": "I'm going to visit Paris.",
+    "exampleKo": "파리에 갈 거예요."
+   },
+   {
+    "en": "will",
+    "ko": "~할 것이다",
+    "example": "I will call you.",
+    "exampleKo": "전화할게요."
+   },
+   {
+    "en": "soon",
+    "ko": "곧",
+    "example": "See you soon!",
+    "exampleKo": "곧 봐요!"
+   },
+   {
+    "en": "later",
+    "ko": "나중에",
+    "example": "Talk to you later.",
+    "exampleKo": "나중에 얘기해요."
+   },
+   {
+    "en": "next month",
+    "ko": "다음 달",
+    "example": "I'm moving next month.",
+    "exampleKo": "다음 달에 이사 가요."
+   },
+   {
+    "en": "tomorrow morning",
+    "ko": "내일 아침",
+    "example": "I'll leave tomorrow morning.",
+    "exampleKo": "내일 아침에 떠날 거예요."
+   },
+   {
+    "en": "someday",
+    "ko": "언젠가",
+    "example": "I want to live abroad someday.",
+    "exampleKo": "언젠가 해외에 살고 싶어요."
+   },
+   {
+    "en": "travel",
+    "ko": "여행하다",
+    "example": "I'm going to travel alone.",
+    "exampleKo": "혼자 여행할 거예요."
+   },
+   {
+    "en": "visit",
+    "ko": "방문하다",
+    "example": "I'll visit my parents.",
+    "exampleKo": "부모님 댁에 갈 거예요."
+   },
+   {
+    "en": "stay",
+    "ko": "머물다",
+    "example": "I'm going to stay home.",
+    "exampleKo": "집에 있을 거예요."
+   },
+   {
+    "en": "book",
+    "ko": "예약하다",
+    "example": "I'll book a table.",
+    "exampleKo": "테이블 예약할게요."
+   },
+   {
+    "en": "decide",
+    "ko": "결정하다",
+    "example": "I haven't decided yet.",
+    "exampleKo": "아직 결정 안 했어요."
+   },
+   {
+    "en": "promise",
+    "ko": "약속하다",
+    "example": "I promise I'll come.",
+    "exampleKo": "꼭 올게요, 약속해요."
+   },
+   {
+    "en": "probably will",
+    "ko": "아마 ~할 것이다",
+    "example": "I'll probably be late.",
+    "exampleKo": "아마 늦을 거예요."
+   },
+   {
+    "en": "the day after tomorrow",
+    "ko": "모레",
+    "example": "I'm leaving the day after tomorrow.",
+    "exampleKo": "모레 떠나요."
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "words": [
+   {
+    "en": "right now",
+    "ko": "지금 당장",
+    "example": "I'm busy right now.",
+    "exampleKo": "지금 바빠요."
+   },
+   {
+    "en": "these days",
+    "ko": "요즘",
+    "example": "I'm learning to cook these days.",
+    "exampleKo": "요즘 요리 배우고 있어요."
+   },
+   {
+    "en": "working on",
+    "ko": "~작업 중",
+    "example": "I'm working on a new project.",
+    "exampleKo": "새 프로젝트 하는 중이에요."
+   },
+   {
+    "en": "waiting for",
+    "ko": "~를 기다리는 중",
+    "example": "I'm waiting for my friend.",
+    "exampleKo": "친구 기다리는 중이에요."
+   },
+   {
+    "en": "on my way",
+    "ko": "가는 중",
+    "example": "I'm on my way!",
+    "exampleKo": "가는 중이야!"
+   },
+   {
+    "en": "cooking",
+    "ko": "요리하는 중",
+    "example": "I'm cooking dinner.",
+    "exampleKo": "저녁 만드는 중이에요."
+   },
+   {
+    "en": "driving",
+    "ko": "운전 중",
+    "example": "I'm driving now. Call you later.",
+    "exampleKo": "지금 운전 중이야. 나중에 전화할게."
+   },
+   {
+    "en": "talking on the phone",
+    "ko": "통화 중",
+    "example": "She's talking on the phone.",
+    "exampleKo": "그녀는 통화 중이에요."
+   },
+   {
+    "en": "taking a break",
+    "ko": "쉬는 중",
+    "example": "I'm taking a break.",
+    "exampleKo": "잠깐 쉬는 중이에요."
+   },
+   {
+    "en": "getting ready",
+    "ko": "준비하는 중",
+    "example": "I'm getting ready to go out.",
+    "exampleKo": "나갈 준비 중이에요."
+   },
+   {
+    "en": "What's up?",
+    "ko": "무슨 일이야? / 잘 지내?",
+    "example": "What's up, man?",
+    "exampleKo": "잘 지냈어?"
+   },
+   {
+    "en": "up to",
+    "ko": "~하고 지내는",
+    "example": "What are you up to?",
+    "exampleKo": "요즘 뭐 하고 지내?"
+   },
+   {
+    "en": "nothing much",
+    "ko": "별일 없어",
+    "example": "Nothing much. Just working.",
+    "exampleKo": "별일 없어. 그냥 일해."
+   },
+   {
+    "en": "still",
+    "ko": "아직도",
+    "example": "Are you still there?",
+    "exampleKo": "아직 거기 있어?"
+   },
+   {
+    "en": "at the moment",
+    "ko": "지금은",
+    "example": "I'm out at the moment.",
+    "exampleKo": "지금은 밖이에요."
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "words": [
+   {
+    "en": "gonna",
+    "ko": "going to (~할 거야)",
+    "example": "I'm gonna be late.",
+    "exampleKo": "나 늦을 거야."
+   },
+   {
+    "en": "wanna",
+    "ko": "want to (~하고 싶어)",
+    "example": "Do you wanna come?",
+    "exampleKo": "올래?"
+   },
+   {
+    "en": "gotta",
+    "ko": "have to (~해야 해)",
+    "example": "I gotta go now.",
+    "exampleKo": "나 이제 가야 돼."
+   },
+   {
+    "en": "kinda",
+    "ko": "kind of (좀, 약간)",
+    "example": "I'm kinda tired.",
+    "exampleKo": "나 좀 피곤해."
+   },
+   {
+    "en": "lemme",
+    "ko": "let me (내가 ~할게)",
+    "example": "Lemme see.",
+    "exampleKo": "어디 보자."
+   },
+   {
+    "en": "dunno",
+    "ko": "don't know (몰라)",
+    "example": "I dunno.",
+    "exampleKo": "몰라."
+   },
+   {
+    "en": "gimme",
+    "ko": "give me (줘)",
+    "example": "Gimme a second.",
+    "exampleKo": "잠깐만."
+   },
+   {
+    "en": "y'all",
+    "ko": "you all (너희들)",
+    "example": "Are y'all ready?",
+    "exampleKo": "너희 다 준비됐어?"
+   },
+   {
+    "en": "ya",
+    "ko": "you (너)",
+    "example": "See ya!",
+    "exampleKo": "잘 가!"
+   },
+   {
+    "en": "'cause",
+    "ko": "because (왜냐하면)",
+    "example": "I left 'cause I was tired.",
+    "exampleKo": "피곤해서 나왔어."
+   },
+   {
+    "en": "sorta",
+    "ko": "sort of (좀, 약간)",
+    "example": "It's sorta weird.",
+    "exampleKo": "좀 이상해."
+   },
+   {
+    "en": "outta",
+    "ko": "out of (~밖으로)",
+    "example": "Get outta here!",
+    "exampleKo": "말도 안 돼! / 나가!"
+   },
+   {
+    "en": "whatcha",
+    "ko": "what are you (뭐 ~해?)",
+    "example": "Whatcha doing?",
+    "exampleKo": "뭐 해?"
+   },
+   {
+    "en": "c'mon",
+    "ko": "come on (어서, 에이)",
+    "example": "C'mon, let's go!",
+    "exampleKo": "어서, 가자!"
+   },
+   {
+    "en": "a lot of",
+    "ko": "많은",
+    "example": "I have a lot of work.",
+    "exampleKo": "일이 많아요."
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "words": [
+   {
+    "en": "been to",
+    "ko": "~에 가 본 적 있다",
+    "example": "I've been to London.",
+    "exampleKo": "런던에 가 봤어요."
+   },
+   {
+    "en": "tried",
+    "ko": "해 봤다(try)",
+    "example": "Have you tried sushi?",
+    "exampleKo": "초밥 먹어 봤어요?"
+   },
+   {
+    "en": "seen",
+    "ko": "본(see)",
+    "example": "I've seen it twice.",
+    "exampleKo": "그거 두 번 봤어요."
+   },
+   {
+    "en": "done",
+    "ko": "한(do)",
+    "example": "Have you done this before?",
+    "exampleKo": "이거 전에 해 봤어요?"
+   },
+   {
+    "en": "eaten",
+    "ko": "먹은(eat)",
+    "example": "I've never eaten snails.",
+    "exampleKo": "달팽이는 먹어 본 적 없어요."
+   },
+   {
+    "en": "met",
+    "ko": "만난(meet)",
+    "example": "Have we met before?",
+    "exampleKo": "우리 전에 만난 적 있나요?"
+   },
+   {
+    "en": "heard",
+    "ko": "들은(hear)",
+    "example": "I've heard of it.",
+    "exampleKo": "들어 본 적 있어요."
+   },
+   {
+    "en": "never",
+    "ko": "한 번도 ~않다",
+    "example": "I've never been abroad.",
+    "exampleKo": "해외에 가 본 적이 없어요."
+   },
+   {
+    "en": "ever",
+    "ko": "한 번이라도",
+    "example": "Have you ever been to Korea?",
+    "exampleKo": "한국 가 본 적 있어요?"
+   },
+   {
+    "en": "once",
+    "ko": "한 번",
+    "example": "I've been there once.",
+    "exampleKo": "거기 한 번 가 봤어요."
+   },
+   {
+    "en": "twice",
+    "ko": "두 번",
+    "example": "I've tried it twice.",
+    "exampleKo": "두 번 해 봤어요."
+   },
+   {
+    "en": "many times",
+    "ko": "여러 번",
+    "example": "I've seen that movie many times.",
+    "exampleKo": "그 영화 여러 번 봤어요."
+   },
+   {
+    "en": "already",
+    "ko": "이미",
+    "example": "I've already eaten.",
+    "exampleKo": "이미 먹었어요."
+   },
+   {
+    "en": "yet",
+    "ko": "아직",
+    "example": "I haven't finished yet.",
+    "exampleKo": "아직 못 끝냈어요."
+   },
+   {
+    "en": "experience",
+    "ko": "경험",
+    "example": "It was a great experience.",
+    "exampleKo": "정말 좋은 경험이었어요."
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "words": [
+   {
+    "en": "No way!",
+    "ko": "말도 안 돼!",
+    "example": "No way! That's amazing!",
+    "exampleKo": "말도 안 돼! 대박이다!"
+   },
+   {
+    "en": "Seriously?",
+    "ko": "진짜로?",
+    "example": "Seriously? You quit?",
+    "exampleKo": "진짜로? 그만뒀어?"
+   },
+   {
+    "en": "Wow",
+    "ko": "와",
+    "example": "Wow, look at that!",
+    "exampleKo": "와, 저것 좀 봐!"
+   },
+   {
+    "en": "Awesome!",
+    "ko": "끝내준다!",
+    "example": "That's awesome!",
+    "exampleKo": "끝내준다!"
+   },
+   {
+    "en": "Cool",
+    "ko": "멋지다, 좋아",
+    "example": "Cool, see you then.",
+    "exampleKo": "좋아, 그때 봐."
+   },
+   {
+    "en": "Nice!",
+    "ko": "좋다!",
+    "example": "Nice! Good job!",
+    "exampleKo": "좋아! 잘했어!"
+   },
+   {
+    "en": "Oh my God",
+    "ko": "세상에",
+    "example": "Oh my God, really?",
+    "exampleKo": "세상에, 진짜?"
+   },
+   {
+    "en": "That's crazy",
+    "ko": "말도 안 돼, 대단하다",
+    "example": "That's crazy!",
+    "exampleKo": "말도 안 돼!"
+   },
+   {
+    "en": "Lucky you!",
+    "ko": "좋겠다!",
+    "example": "Lucky you! I'm jealous.",
+    "exampleKo": "좋겠다! 부럽다."
+   },
+   {
+    "en": "Congrats!",
+    "ko": "축하해!",
+    "example": "Congrats on your new job!",
+    "exampleKo": "새 직장 축하해!"
+   },
+   {
+    "en": "Too bad",
+    "ko": "아쉽다",
+    "example": "Too bad you can't come.",
+    "exampleKo": "못 온다니 아쉽다."
+   },
+   {
+    "en": "Poor you",
+    "ko": "안됐다",
+    "example": "Oh, poor you.",
+    "exampleKo": "아, 안됐다."
+   },
+   {
+    "en": "I know, right?",
+    "ko": "그러니까!",
+    "example": "I know, right? So good.",
+    "exampleKo": "그러니까! 너무 좋아."
+   },
+   {
+    "en": "Exactly",
+    "ko": "바로 그거야",
+    "example": "Exactly! That's what I mean.",
+    "exampleKo": "바로 그거야! 내 말이 그거야."
+   },
+   {
+    "en": "Fair enough",
+    "ko": "그럴 만하네",
+    "example": "Fair enough.",
+    "exampleKo": "그럴 만하네. / 알겠어."
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "words": [
+   {
+    "en": "What about you?",
+    "ko": "너는?",
+    "example": "I'm from Seoul. What about you?",
+    "exampleKo": "난 서울 출신이야. 너는?"
+   },
+   {
+    "en": "How come?",
+    "ko": "어째서?",
+    "example": "How come you're here?",
+    "exampleKo": "어쩐 일로 여기 왔어?"
+   },
+   {
+    "en": "Tell me more",
+    "ko": "더 말해 줘",
+    "example": "Tell me more about it.",
+    "exampleKo": "그거 더 얘기해 줘."
+   },
+   {
+    "en": "What was it like?",
+    "ko": "어땠어?",
+    "example": "You went to Spain? What was it like?",
+    "exampleKo": "스페인 갔다고? 어땠어?"
+   },
+   {
+    "en": "By the way",
+    "ko": "그런데",
+    "example": "By the way, what's your name?",
+    "exampleKo": "그런데 이름이 뭐야?"
+   },
+   {
+    "en": "Anyway",
+    "ko": "아무튼",
+    "example": "Anyway, how was your day?",
+    "exampleKo": "아무튼, 오늘 하루 어땠어?"
+   },
+   {
+    "en": "I mean",
+    "ko": "내 말은",
+    "example": "I mean, it's not bad.",
+    "exampleKo": "내 말은, 나쁘진 않다는 거야."
+   },
+   {
+    "en": "you know",
+    "ko": "있잖아",
+    "example": "It's, you know, a small town.",
+    "exampleKo": "그게, 있잖아, 작은 동네야."
+   },
+   {
+    "en": "Really?",
+    "ko": "정말?",
+    "example": "Really? I didn't know that.",
+    "exampleKo": "정말? 몰랐어."
+   },
+   {
+    "en": "Me too",
+    "ko": "나도",
+    "example": "Me too! I love it.",
+    "exampleKo": "나도! 정말 좋아."
+   },
+   {
+    "en": "Me neither",
+    "ko": "나도 아니야",
+    "example": "Me neither.",
+    "exampleKo": "나도 안 그래."
+   },
+   {
+    "en": "Same here",
+    "ko": "나도 마찬가지야",
+    "example": "Same here.",
+    "exampleKo": "나도 그래."
+   },
+   {
+    "en": "sounds like",
+    "ko": "~인 것 같다",
+    "example": "Sounds like fun.",
+    "exampleKo": "재밌을 것 같다."
+   },
+   {
+    "en": "What do you mean?",
+    "ko": "무슨 뜻이야?",
+    "example": "What do you mean by that?",
+    "exampleKo": "그게 무슨 말이야?"
+   },
+   {
+    "en": "Go on",
+    "ko": "계속해",
+    "example": "Go on, I'm listening.",
+    "exampleKo": "계속해, 듣고 있어."
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "words": [
+   {
+    "en": "Hey",
+    "ko": "야, 안녕",
+    "example": "Hey! Long time no see!",
+    "exampleKo": "야! 오랜만이야!"
+   },
+   {
+    "en": "Long time no see",
+    "ko": "오랜만이야",
+    "example": "Wow, long time no see!",
+    "exampleKo": "와, 진짜 오랜만이다!"
+   },
+   {
+    "en": "How have you been?",
+    "ko": "어떻게 지냈어?",
+    "example": "How have you been?",
+    "exampleKo": "그동안 어떻게 지냈어?"
+   },
+   {
+    "en": "new job",
+    "ko": "새 직장",
+    "example": "I got a new job.",
+    "exampleKo": "새 직장 구했어."
+   },
+   {
+    "en": "celebrate",
+    "ko": "축하하다",
+    "example": "Let's celebrate tonight!",
+    "exampleKo": "오늘 밤 축하하자!"
+   },
+   {
+    "en": "guys",
+    "ko": "얘들아, 너희",
+    "example": "Hey guys, what's up?",
+    "exampleKo": "얘들아, 뭐 해?"
+   },
+   {
+    "en": "What's going on?",
+    "ko": "무슨 일이야?",
+    "example": "What's going on here?",
+    "exampleKo": "여기 무슨 일이야?"
+   },
+   {
+    "en": "Whatever",
+    "ko": "아무거나, 됐어",
+    "example": "Whatever you want.",
+    "exampleKo": "네가 원하는 거 아무거나."
+   },
+   {
+    "en": "Oh, come on",
+    "ko": "아, 좀",
+    "example": "Oh, come on!",
+    "exampleKo": "아, 좀!"
+   },
+   {
+    "en": "Hold on",
+    "ko": "잠깐만",
+    "example": "Hold on a second.",
+    "exampleKo": "잠깐만 기다려."
+   },
+   {
+    "en": "Shut up!",
+    "ko": "설마! / 조용히 해",
+    "example": "Shut up! Really?",
+    "exampleKo": "설마! 진짜?"
+   },
+   {
+    "en": "I'm kidding",
+    "ko": "농담이야",
+    "example": "Relax, I'm kidding.",
+    "exampleKo": "진정해, 농담이야."
+   },
+   {
+    "en": "Got it",
+    "ko": "알았어",
+    "example": "Got it, thanks.",
+    "exampleKo": "알았어, 고마워."
+   },
+   {
+    "en": "Never mind",
+    "ko": "신경 쓰지 마",
+    "example": "Never mind, it's nothing.",
+    "exampleKo": "신경 쓰지 마, 아무것도 아냐."
+   },
+   {
+    "en": "See you around",
+    "ko": "또 보자",
+    "example": "See you around!",
+    "exampleKo": "또 보자!"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "words": [
+   {
+    "en": "job",
+    "ko": "직업, 일",
+    "example": "What's your job?",
+    "exampleKo": "직업이 뭐예요?"
+   },
+   {
+    "en": "company",
+    "ko": "회사",
+    "example": "I work for a small company.",
+    "exampleKo": "작은 회사에 다녀요."
+   },
+   {
+    "en": "office",
+    "ko": "사무실",
+    "example": "My office is downtown.",
+    "exampleKo": "제 사무실은 시내에 있어요."
+   },
+   {
+    "en": "boss",
+    "ko": "상사",
+    "example": "My boss is nice.",
+    "exampleKo": "제 상사는 좋은 분이에요."
+   },
+   {
+    "en": "coworker",
+    "ko": "동료",
+    "example": "I had lunch with a coworker.",
+    "exampleKo": "동료랑 점심 먹었어요."
+   },
+   {
+    "en": "marketing",
+    "ko": "마케팅",
+    "example": "I work in marketing.",
+    "exampleKo": "마케팅 일을 해요."
+   },
+   {
+    "en": "freelancer",
+    "ko": "프리랜서",
+    "example": "I'm a freelancer.",
+    "exampleKo": "저는 프리랜서예요."
+   },
+   {
+    "en": "hobby",
+    "ko": "취미",
+    "example": "What's your hobby?",
+    "exampleKo": "취미가 뭐예요?"
+   },
+   {
+    "en": "free time",
+    "ko": "여가 시간",
+    "example": "What do you do in your free time?",
+    "exampleKo": "시간 날 때 뭐 해요?"
+   },
+   {
+    "en": "work out",
+    "ko": "운동하다",
+    "example": "I work out three times a week.",
+    "exampleKo": "일주일에 세 번 운동해요."
+   },
+   {
+    "en": "hiking",
+    "ko": "등산",
+    "example": "I love hiking.",
+    "exampleKo": "등산 정말 좋아해요."
+   },
+   {
+    "en": "gaming",
+    "ko": "게임",
+    "example": "I'm into gaming.",
+    "exampleKo": "게임에 빠져 있어요."
+   },
+   {
+    "en": "reading",
+    "ko": "독서",
+    "example": "I enjoy reading on weekends.",
+    "exampleKo": "주말엔 독서를 즐겨요."
+   },
+   {
+    "en": "into",
+    "ko": "~에 빠진",
+    "example": "I'm really into photography.",
+    "exampleKo": "사진에 푹 빠졌어요."
+   },
+   {
+    "en": "for fun",
+    "ko": "재미로",
+    "example": "What do you do for fun?",
+    "exampleKo": "재미로 뭐 해요?"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "words": [
+   {
+    "en": "favorite",
+    "ko": "가장 좋아하는",
+    "example": "What's your favorite movie?",
+    "exampleKo": "제일 좋아하는 영화가 뭐예요?"
+   },
+   {
+    "en": "action movie",
+    "ko": "액션 영화",
+    "example": "I love action movies.",
+    "exampleKo": "액션 영화 정말 좋아해요."
+   },
+   {
+    "en": "comedy",
+    "ko": "코미디",
+    "example": "I like comedies.",
+    "exampleKo": "코미디 좋아해요."
+   },
+   {
+    "en": "horror",
+    "ko": "공포",
+    "example": "I can't watch horror movies.",
+    "exampleKo": "공포 영화는 못 봐요."
+   },
+   {
+    "en": "series",
+    "ko": "시리즈, 드라마",
+    "example": "I'm watching a new series.",
+    "exampleKo": "새 드라마 보고 있어요."
+   },
+   {
+    "en": "actor",
+    "ko": "배우",
+    "example": "Who's your favorite actor?",
+    "exampleKo": "제일 좋아하는 배우가 누구예요?"
+   },
+   {
+    "en": "spicy",
+    "ko": "매운",
+    "example": "Korean food is spicy.",
+    "exampleKo": "한국 음식은 매워요."
+   },
+   {
+    "en": "sweet",
+    "ko": "단",
+    "example": "This is too sweet.",
+    "exampleKo": "이거 너무 달아요."
+   },
+   {
+    "en": "delicious",
+    "ko": "맛있는",
+    "example": "This is delicious!",
+    "exampleKo": "이거 정말 맛있다!"
+   },
+   {
+    "en": "recommend",
+    "ko": "추천하다",
+    "example": "I recommend this place.",
+    "exampleKo": "여기 추천해요."
+   },
+   {
+    "en": "must-see",
+    "ko": "꼭 봐야 할 것",
+    "example": "It's a must-see.",
+    "exampleKo": "꼭 봐야 하는 거예요."
+   },
+   {
+    "en": "boring",
+    "ko": "지루한",
+    "example": "The movie was boring.",
+    "exampleKo": "영화가 지루했어요."
+   },
+   {
+    "en": "funny",
+    "ko": "웃긴",
+    "example": "He's so funny.",
+    "exampleKo": "그 사람 너무 웃겨요."
+   },
+   {
+    "en": "because",
+    "ko": "왜냐하면",
+    "example": "I like it because it's simple.",
+    "exampleKo": "간단해서 좋아요."
+   },
+   {
+    "en": "especially",
+    "ko": "특히",
+    "example": "I love Italian food, especially pasta.",
+    "exampleKo": "이탈리아 음식 좋아해요, 특히 파스타요."
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "words": [
+   {
+    "en": "introduce",
+    "ko": "소개하다",
+    "example": "Let me introduce myself.",
+    "exampleKo": "제 소개를 할게요."
+   },
+   {
+    "en": "grew up",
+    "ko": "자랐다",
+    "example": "I grew up in Busan.",
+    "exampleKo": "부산에서 자랐어요."
+   },
+   {
+    "en": "currently",
+    "ko": "현재",
+    "example": "I'm currently working in Seoul.",
+    "exampleKo": "현재 서울에서 일하고 있어요."
+   },
+   {
+    "en": "goal",
+    "ko": "목표",
+    "example": "My goal is to speak English well.",
+    "exampleKo": "제 목표는 영어를 잘하는 거예요."
+   },
+   {
+    "en": "abroad",
+    "ko": "해외에서",
+    "example": "I want to work abroad.",
+    "exampleKo": "해외에서 일하고 싶어요."
+   },
+   {
+    "en": "dream",
+    "ko": "꿈",
+    "example": "My dream is to travel the world.",
+    "exampleKo": "제 꿈은 세계 여행이에요."
+   },
+   {
+    "en": "personality",
+    "ko": "성격",
+    "example": "I have an outgoing personality.",
+    "exampleKo": "저는 외향적인 성격이에요."
+   },
+   {
+    "en": "outgoing",
+    "ko": "외향적인",
+    "example": "I'm pretty outgoing.",
+    "exampleKo": "저는 꽤 외향적이에요."
+   },
+   {
+    "en": "shy",
+    "ko": "수줍은",
+    "example": "I'm a little shy at first.",
+    "exampleKo": "처음엔 좀 수줍어해요."
+   },
+   {
+    "en": "learn",
+    "ko": "배우다",
+    "example": "I'm learning English to travel.",
+    "exampleKo": "여행하려고 영어 배우고 있어요."
+   },
+   {
+    "en": "record",
+    "ko": "녹음하다",
+    "example": "I record my voice every week.",
+    "exampleKo": "매주 제 목소리를 녹음해요."
+   },
+   {
+    "en": "improve",
+    "ko": "향상시키다",
+    "example": "I want to improve my English.",
+    "exampleKo": "영어 실력을 늘리고 싶어요."
+   },
+   {
+    "en": "confident",
+    "ko": "자신 있는",
+    "example": "I feel more confident now.",
+    "exampleKo": "이제 더 자신감이 생겼어요."
+   },
+   {
+    "en": "challenge",
+    "ko": "도전",
+    "example": "Learning English is a fun challenge.",
+    "exampleKo": "영어 배우기는 재밌는 도전이에요."
+   },
+   {
+    "en": "Nice to meet you",
+    "ko": "만나서 반가워요",
+    "example": "Nice to meet you, too.",
+    "exampleKo": "저도 만나서 반가워요."
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "words": [
+   {
+    "en": "passport",
+    "ko": "여권",
+    "example": "May I see your passport?",
+    "exampleKo": "여권 좀 보여 주시겠어요?"
+   },
+   {
+    "en": "boarding pass",
+    "ko": "탑승권",
+    "example": "Here's my boarding pass.",
+    "exampleKo": "여기 탑승권이요."
+   },
+   {
+    "en": "gate",
+    "ko": "탑승구",
+    "example": "Which gate is it?",
+    "exampleKo": "몇 번 탑승구예요?"
+   },
+   {
+    "en": "flight",
+    "ko": "항공편",
+    "example": "My flight is delayed.",
+    "exampleKo": "제 비행기가 지연됐어요."
+   },
+   {
+    "en": "delayed",
+    "ko": "지연된",
+    "example": "The flight is delayed by an hour.",
+    "exampleKo": "비행기가 한 시간 지연됐어요."
+   },
+   {
+    "en": "customs",
+    "ko": "세관",
+    "example": "Go through customs first.",
+    "exampleKo": "먼저 세관을 통과하세요."
+   },
+   {
+    "en": "immigration",
+    "ko": "입국 심사",
+    "example": "Where's immigration?",
+    "exampleKo": "입국 심사대가 어디예요?"
+   },
+   {
+    "en": "purpose",
+    "ko": "목적",
+    "example": "What's the purpose of your trip?",
+    "exampleKo": "여행 목적이 뭐예요?"
+   },
+   {
+    "en": "sightseeing",
+    "ko": "관광",
+    "example": "I'm here for sightseeing.",
+    "exampleKo": "관광하러 왔어요."
+   },
+   {
+    "en": "on business",
+    "ko": "출장으로",
+    "example": "I'm here on business.",
+    "exampleKo": "출장으로 왔어요."
+   },
+   {
+    "en": "baggage claim",
+    "ko": "수하물 찾는 곳",
+    "example": "Where's the baggage claim?",
+    "exampleKo": "짐 찾는 곳이 어디예요?"
+   },
+   {
+    "en": "suitcase",
+    "ko": "여행 가방",
+    "example": "My suitcase is missing.",
+    "exampleKo": "제 여행 가방이 없어졌어요."
+   },
+   {
+    "en": "carry-on",
+    "ko": "기내 수하물",
+    "example": "Is this okay as a carry-on?",
+    "exampleKo": "이거 기내에 들고 타도 돼요?"
+   },
+   {
+    "en": "aisle seat",
+    "ko": "통로 좌석",
+    "example": "Can I get an aisle seat?",
+    "exampleKo": "통로 쪽 좌석 받을 수 있어요?"
+   },
+   {
+    "en": "declare",
+    "ko": "신고하다",
+    "example": "I have nothing to declare.",
+    "exampleKo": "신고할 물건 없어요."
+   }
+  ]
+ },
+ {
+  "week": 26,
+  "words": [
+   {
+    "en": "reservation",
+    "ko": "예약",
+    "example": "I have a reservation.",
+    "exampleKo": "예약했어요."
+   },
+   {
+    "en": "check in",
+    "ko": "체크인하다",
+    "example": "I'd like to check in.",
+    "exampleKo": "체크인할게요."
+   },
+   {
+    "en": "check out",
+    "ko": "체크아웃하다",
+    "example": "What time is check-out?",
+    "exampleKo": "체크아웃 몇 시예요?"
+   },
+   {
+    "en": "front desk",
+    "ko": "프런트",
+    "example": "Call the front desk.",
+    "exampleKo": "프런트에 전화하세요."
+   },
+   {
+    "en": "key card",
+    "ko": "카드 키",
+    "example": "My key card doesn't work.",
+    "exampleKo": "카드 키가 안 돼요."
+   },
+   {
+    "en": "towel",
+    "ko": "수건",
+    "example": "Can I get more towels?",
+    "exampleKo": "수건 더 받을 수 있어요?"
+   },
+   {
+    "en": "included",
+    "ko": "포함된",
+    "example": "Is breakfast included?",
+    "exampleKo": "조식 포함이에요?"
+   },
+   {
+    "en": "single room",
+    "ko": "1인실",
+    "example": "I booked a single room.",
+    "exampleKo": "1인실 예약했어요."
+   },
+   {
+    "en": "double room",
+    "ko": "더블룸",
+    "example": "Do you have a double room?",
+    "exampleKo": "더블룸 있어요?"
+   },
+   {
+    "en": "view",
+    "ko": "전망",
+    "example": "A room with a view, please.",
+    "exampleKo": "전망 좋은 방으로 주세요."
+   },
+   {
+    "en": "Wi-Fi password",
+    "ko": "와이파이 비밀번호",
+    "example": "What's the Wi-Fi password?",
+    "exampleKo": "와이파이 비밀번호가 뭐예요?"
+   },
+   {
+    "en": "luggage",
+    "ko": "짐",
+    "example": "Can you keep my luggage?",
+    "exampleKo": "짐 좀 맡아 주실래요?"
+   },
+   {
+    "en": "elevator",
+    "ko": "엘리베이터",
+    "example": "Where's the elevator?",
+    "exampleKo": "엘리베이터 어디 있어요?"
+   },
+   {
+    "en": "noisy",
+    "ko": "시끄러운",
+    "example": "My room is too noisy.",
+    "exampleKo": "제 방이 너무 시끄러워요."
+   },
+   {
+    "en": "late check-out",
+    "ko": "늦은 체크아웃",
+    "example": "Can I get a late check-out?",
+    "exampleKo": "체크아웃 늦게 해도 될까요?"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "words": [
+   {
+    "en": "table for two",
+    "ko": "2인 테이블",
+    "example": "A table for two, please.",
+    "exampleKo": "2명 자리 주세요."
+   },
+   {
+    "en": "waiter",
+    "ko": "종업원",
+    "example": "Let's ask the waiter.",
+    "exampleKo": "종업원한테 물어보자."
+   },
+   {
+    "en": "appetizer",
+    "ko": "전채 요리",
+    "example": "Do you want an appetizer?",
+    "exampleKo": "에피타이저 먹을래?"
+   },
+   {
+    "en": "main course",
+    "ko": "메인 요리",
+    "example": "What's the main course?",
+    "exampleKo": "메인 요리가 뭐예요?"
+   },
+   {
+    "en": "dessert",
+    "ko": "디저트",
+    "example": "Let's share a dessert.",
+    "exampleKo": "디저트 나눠 먹자."
+   },
+   {
+    "en": "vegetarian",
+    "ko": "채식주의자의",
+    "example": "Do you have vegetarian options?",
+    "exampleKo": "채식 메뉴 있어요?"
+   },
+   {
+    "en": "allergic to",
+    "ko": "~에 알레르기가 있는",
+    "example": "I'm allergic to peanuts.",
+    "exampleKo": "땅콩 알레르기가 있어요."
+   },
+   {
+    "en": "refill",
+    "ko": "리필",
+    "example": "Can I get a refill?",
+    "exampleKo": "리필해 주실래요?"
+   },
+   {
+    "en": "takeout",
+    "ko": "포장 음식",
+    "example": "Let's get takeout tonight.",
+    "exampleKo": "오늘 밤엔 포장해 오자."
+   },
+   {
+    "en": "for here",
+    "ko": "매장에서 먹기",
+    "example": "For here, please.",
+    "exampleKo": "여기서 먹을게요."
+   },
+   {
+    "en": "side dish",
+    "ko": "곁들이 요리",
+    "example": "What side dish comes with it?",
+    "exampleKo": "곁들이 요리는 뭐가 나와요?"
+   },
+   {
+    "en": "split the bill",
+    "ko": "나눠 내다",
+    "example": "Let's split the bill.",
+    "exampleKo": "나눠서 내자."
+   },
+   {
+    "en": "tip",
+    "ko": "팁",
+    "example": "Is the tip included?",
+    "exampleKo": "팁 포함이에요?"
+   },
+   {
+    "en": "well-done",
+    "ko": "완전히 익힌",
+    "example": "Well-done, please.",
+    "exampleKo": "완전히 익혀 주세요."
+   },
+   {
+    "en": "medium rare",
+    "ko": "미디엄 레어",
+    "example": "I'd like my steak medium rare.",
+    "exampleKo": "스테이크는 미디엄 레어로 주세요."
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "words": [
+   {
+    "en": "straight",
+    "ko": "곧장",
+    "example": "Go straight for two blocks.",
+    "exampleKo": "두 블록 직진하세요."
+   },
+   {
+    "en": "turn left",
+    "ko": "왼쪽으로 돌다",
+    "example": "Turn left at the light.",
+    "exampleKo": "신호등에서 왼쪽으로 도세요."
+   },
+   {
+    "en": "turn right",
+    "ko": "오른쪽으로 돌다",
+    "example": "Turn right at the corner.",
+    "exampleKo": "모퉁이에서 오른쪽으로 도세요."
+   },
+   {
+    "en": "corner",
+    "ko": "모퉁이",
+    "example": "It's on the corner.",
+    "exampleKo": "모퉁이에 있어요."
+   },
+   {
+    "en": "block",
+    "ko": "블록",
+    "example": "It's two blocks away.",
+    "exampleKo": "두 블록 떨어져 있어요."
+   },
+   {
+    "en": "traffic light",
+    "ko": "신호등",
+    "example": "Stop at the traffic light.",
+    "exampleKo": "신호등에서 멈추세요."
+   },
+   {
+    "en": "crosswalk",
+    "ko": "횡단보도",
+    "example": "Cross at the crosswalk.",
+    "exampleKo": "횡단보도로 건너세요."
+   },
+   {
+    "en": "subway",
+    "ko": "지하철",
+    "example": "Let's take the subway.",
+    "exampleKo": "지하철 타자."
+   },
+   {
+    "en": "transfer",
+    "ko": "갈아타다",
+    "example": "Where do I transfer?",
+    "exampleKo": "어디서 갈아타요?"
+   },
+   {
+    "en": "get off",
+    "ko": "내리다",
+    "example": "Get off at the next stop.",
+    "exampleKo": "다음 정거장에서 내리세요."
+   },
+   {
+    "en": "ticket machine",
+    "ko": "발권기",
+    "example": "Use the ticket machine.",
+    "exampleKo": "발권기를 이용하세요."
+   },
+   {
+    "en": "one-way",
+    "ko": "편도",
+    "example": "A one-way ticket, please.",
+    "exampleKo": "편도 표 한 장 주세요."
+   },
+   {
+    "en": "round-trip",
+    "ko": "왕복",
+    "example": "How much is a round-trip ticket?",
+    "exampleKo": "왕복 표는 얼마예요?"
+   },
+   {
+    "en": "lost",
+    "ko": "길을 잃은",
+    "example": "I think I'm lost.",
+    "exampleKo": "길을 잃은 것 같아요."
+   },
+   {
+    "en": "landmark",
+    "ko": "랜드마크, 표지물",
+    "example": "Is there a landmark nearby?",
+    "exampleKo": "근처에 눈에 띄는 건물 있어요?"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "words": [
+   {
+    "en": "try on",
+    "ko": "입어 보다",
+    "example": "Can I try this on?",
+    "exampleKo": "이거 입어 봐도 돼요?"
+   },
+   {
+    "en": "fitting room",
+    "ko": "탈의실",
+    "example": "Where's the fitting room?",
+    "exampleKo": "탈의실 어디예요?"
+   },
+   {
+    "en": "size",
+    "ko": "사이즈",
+    "example": "Do you have this in a smaller size?",
+    "exampleKo": "이거 더 작은 사이즈 있어요?"
+   },
+   {
+    "en": "tight",
+    "ko": "꽉 끼는",
+    "example": "These jeans are too tight.",
+    "exampleKo": "이 청바지 너무 끼어요."
+   },
+   {
+    "en": "loose",
+    "ko": "헐렁한",
+    "example": "It's a little loose.",
+    "exampleKo": "좀 헐렁해요."
+   },
+   {
+    "en": "on sale",
+    "ko": "할인 중인",
+    "example": "Is this on sale?",
+    "exampleKo": "이거 세일 중이에요?"
+   },
+   {
+    "en": "receipt",
+    "ko": "영수증",
+    "example": "Can I have the receipt?",
+    "exampleKo": "영수증 주실래요?"
+   },
+   {
+    "en": "exchange",
+    "ko": "교환하다",
+    "example": "Can I exchange this?",
+    "exampleKo": "이거 교환할 수 있어요?"
+   },
+   {
+    "en": "return",
+    "ko": "반품하다",
+    "example": "I'd like to return this.",
+    "exampleKo": "이거 반품하고 싶어요."
+   },
+   {
+    "en": "refund",
+    "ko": "환불",
+    "example": "Can I get a refund?",
+    "exampleKo": "환불받을 수 있어요?"
+   },
+   {
+    "en": "tax-free",
+    "ko": "면세의",
+    "example": "Is this tax-free?",
+    "exampleKo": "이거 면세 돼요?"
+   },
+   {
+    "en": "gift wrap",
+    "ko": "선물 포장",
+    "example": "Can you gift wrap it?",
+    "exampleKo": "선물 포장해 주실래요?"
+   },
+   {
+    "en": "just looking",
+    "ko": "그냥 구경하는",
+    "example": "I'm just looking, thanks.",
+    "exampleKo": "그냥 구경 중이에요."
+   },
+   {
+    "en": "in stock",
+    "ko": "재고가 있는",
+    "example": "Is this in stock?",
+    "exampleKo": "이거 재고 있어요?"
+   },
+   {
+    "en": "souvenir",
+    "ko": "기념품",
+    "example": "I'm looking for souvenirs.",
+    "exampleKo": "기념품을 찾고 있어요."
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "words": [
+   {
+    "en": "emergency",
+    "ko": "긴급 상황",
+    "example": "It's an emergency!",
+    "exampleKo": "긴급 상황이에요!"
+   },
+   {
+    "en": "police",
+    "ko": "경찰",
+    "example": "Call the police!",
+    "exampleKo": "경찰 불러 주세요!"
+   },
+   {
+    "en": "ambulance",
+    "ko": "구급차",
+    "example": "We need an ambulance.",
+    "exampleKo": "구급차가 필요해요."
+   },
+   {
+    "en": "hospital",
+    "ko": "병원",
+    "example": "Take me to the hospital.",
+    "exampleKo": "병원에 데려다주세요."
+   },
+   {
+    "en": "stolen",
+    "ko": "도둑맞은",
+    "example": "My bag was stolen.",
+    "exampleKo": "가방을 도둑맞았어요."
+   },
+   {
+    "en": "embassy",
+    "ko": "대사관",
+    "example": "Where's the Korean embassy?",
+    "exampleKo": "한국 대사관이 어디예요?"
+   },
+   {
+    "en": "hurt",
+    "ko": "아프다, 다치다",
+    "example": "My leg hurts.",
+    "exampleKo": "다리가 아파요."
+   },
+   {
+    "en": "fever",
+    "ko": "열",
+    "example": "I have a fever.",
+    "exampleKo": "열이 나요."
+   },
+   {
+    "en": "headache",
+    "ko": "두통",
+    "example": "I have a headache.",
+    "exampleKo": "머리가 아파요."
+   },
+   {
+    "en": "medicine",
+    "ko": "약",
+    "example": "Do you have any medicine for colds?",
+    "exampleKo": "감기약 있어요?"
+   },
+   {
+    "en": "insurance",
+    "ko": "보험",
+    "example": "Do you have travel insurance?",
+    "exampleKo": "여행자 보험 있어요?"
+   },
+   {
+    "en": "dizzy",
+    "ko": "어지러운",
+    "example": "I feel dizzy.",
+    "exampleKo": "어지러워요."
+   },
+   {
+    "en": "injured",
+    "ko": "다친",
+    "example": "Is anyone injured?",
+    "exampleKo": "다친 사람 있어요?"
+   },
+   {
+    "en": "lost and found",
+    "ko": "분실물 센터",
+    "example": "Where's the lost and found?",
+    "exampleKo": "분실물 센터가 어디예요?"
+   },
+   {
+    "en": "report",
+    "ko": "신고하다",
+    "example": "I want to report a theft.",
+    "exampleKo": "도난 신고하고 싶어요."
+   }
+  ]
+ },
+ {
+  "week": 31,
+  "words": [
+   {
+    "en": "Is this seat taken?",
+    "ko": "이 자리 있어요?",
+    "example": "Excuse me, is this seat taken?",
+    "exampleKo": "실례지만 이 자리 주인 있어요?"
+   },
+   {
+    "en": "weather",
+    "ko": "날씨",
+    "example": "Crazy weather today, huh?",
+    "exampleKo": "오늘 날씨 장난 아니네요?"
+   },
+   {
+    "en": "first time",
+    "ko": "처음",
+    "example": "Is this your first time here?",
+    "exampleKo": "여기 처음이세요?"
+   },
+   {
+    "en": "How long",
+    "ko": "얼마나 오래",
+    "example": "How long have you been here?",
+    "exampleKo": "여기 온 지 얼마나 됐어요?"
+   },
+   {
+    "en": "local",
+    "ko": "현지인, 현지의",
+    "example": "Are you a local?",
+    "exampleKo": "여기 사세요?"
+   },
+   {
+    "en": "traveling",
+    "ko": "여행 중인",
+    "example": "Are you traveling alone?",
+    "exampleKo": "혼자 여행 중이세요?"
+   },
+   {
+    "en": "What brings you here?",
+    "ko": "여긴 무슨 일로?",
+    "example": "So, what brings you here?",
+    "exampleKo": "그래서 여긴 무슨 일로 왔어요?"
+   },
+   {
+    "en": "small talk",
+    "ko": "가벼운 대화",
+    "example": "I'm bad at small talk.",
+    "exampleKo": "가벼운 대화는 서툴러요."
+   },
+   {
+    "en": "neighborhood",
+    "ko": "동네",
+    "example": "Do you live in this neighborhood?",
+    "exampleKo": "이 동네 사세요?"
+   },
+   {
+    "en": "recommendation",
+    "ko": "추천",
+    "example": "Any recommendations for dinner?",
+    "exampleKo": "저녁 먹을 곳 추천 있어요?"
+   },
+   {
+    "en": "What do you do?",
+    "ko": "무슨 일 하세요?",
+    "example": "So, what do you do?",
+    "exampleKo": "그래서 무슨 일 하세요?"
+   },
+   {
+    "en": "catch your name",
+    "ko": "이름을 듣다",
+    "example": "Sorry, I didn't catch your name.",
+    "exampleKo": "죄송해요, 이름을 못 들었어요."
+   },
+   {
+    "en": "How's it going?",
+    "ko": "잘 지내요?",
+    "example": "Hey, how's it going?",
+    "exampleKo": "안녕, 잘 지내?"
+   },
+   {
+    "en": "pretty good",
+    "ko": "꽤 좋은",
+    "example": "Pretty good, thanks.",
+    "exampleKo": "꽤 좋아요, 고마워요."
+   },
+   {
+    "en": "chat",
+    "ko": "잡담하다",
+    "example": "It was nice chatting with you.",
+    "exampleKo": "얘기 나눠서 즐거웠어요."
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "words": [
+   {
+    "en": "hang out",
+    "ko": "같이 놀다",
+    "example": "Do you want to hang out later?",
+    "exampleKo": "이따 같이 놀래?"
+   },
+   {
+    "en": "keep in touch",
+    "ko": "연락하고 지내다",
+    "example": "Let's keep in touch.",
+    "exampleKo": "계속 연락하자."
+   },
+   {
+    "en": "add",
+    "ko": "친구 추가하다",
+    "example": "I'll add you on Instagram.",
+    "exampleKo": "인스타 친구 추가할게."
+   },
+   {
+    "en": "DM",
+    "ko": "메시지(다이렉트 메시지)",
+    "example": "Just DM me.",
+    "exampleKo": "그냥 DM 보내."
+   },
+   {
+    "en": "number",
+    "ko": "전화번호",
+    "example": "Can I get your number?",
+    "exampleKo": "번호 알려 줄래?"
+   },
+   {
+    "en": "free",
+    "ko": "한가한",
+    "example": "Are you free on Saturday?",
+    "exampleKo": "토요일에 한가해?"
+   },
+   {
+    "en": "meet up",
+    "ko": "만나다",
+    "example": "Let's meet up this weekend.",
+    "exampleKo": "이번 주말에 만나자."
+   },
+   {
+    "en": "text",
+    "ko": "문자하다",
+    "example": "I'll text you later.",
+    "exampleKo": "나중에 문자할게."
+   },
+   {
+    "en": "get along",
+    "ko": "잘 지내다",
+    "example": "We really get along.",
+    "exampleKo": "우리 정말 잘 맞아."
+   },
+   {
+    "en": "in common",
+    "ko": "공통으로",
+    "example": "We have a lot in common.",
+    "exampleKo": "우리 공통점이 많아."
+   },
+   {
+    "en": "show around",
+    "ko": "구경시켜 주다",
+    "example": "I can show you around.",
+    "exampleKo": "내가 구경시켜 줄게."
+   },
+   {
+    "en": "invite",
+    "ko": "초대하다",
+    "example": "Thanks for inviting me.",
+    "exampleKo": "초대해 줘서 고마워."
+   },
+   {
+    "en": "Are you on ~?",
+    "ko": "~ 해?(SNS)",
+    "example": "Are you on Instagram?",
+    "exampleKo": "인스타 해?"
+   },
+   {
+    "en": "It was great meeting you",
+    "ko": "만나서 정말 좋았어",
+    "example": "It was great meeting you!",
+    "exampleKo": "만나서 정말 좋았어!"
+   },
+   {
+    "en": "Let me know",
+    "ko": "알려 줘",
+    "example": "Let me know when you're free.",
+    "exampleKo": "시간 될 때 알려 줘."
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "words": [
+   {
+    "en": "on tap",
+    "ko": "생맥주로 나오는",
+    "example": "What do you have on tap?",
+    "exampleKo": "생맥주 뭐 있어요?"
+   },
+   {
+    "en": "round",
+    "ko": "한 차례(술)",
+    "example": "This round's on me.",
+    "exampleKo": "이번 잔은 내가 살게."
+   },
+   {
+    "en": "Cheers",
+    "ko": "건배",
+    "example": "Cheers to us!",
+    "exampleKo": "우리를 위해 건배!"
+   },
+   {
+    "en": "on me",
+    "ko": "내가 낼게",
+    "example": "Dinner's on me.",
+    "exampleKo": "저녁은 내가 살게."
+   },
+   {
+    "en": "shot",
+    "ko": "샷(한 잔)",
+    "example": "Let's do a shot!",
+    "exampleKo": "한 잔 원샷하자!"
+   },
+   {
+    "en": "cocktail",
+    "ko": "칵테일",
+    "example": "What cocktail do you recommend?",
+    "exampleKo": "어떤 칵테일 추천해요?"
+   },
+   {
+    "en": "host",
+    "ko": "주최자",
+    "example": "Who's the host?",
+    "exampleKo": "파티 주인이 누구야?"
+   },
+   {
+    "en": "crowded",
+    "ko": "붐비는",
+    "example": "It's so crowded tonight.",
+    "exampleKo": "오늘 밤 너무 붐빈다."
+   },
+   {
+    "en": "loud",
+    "ko": "시끄러운",
+    "example": "It's too loud in here.",
+    "exampleKo": "여기 너무 시끄러워."
+   },
+   {
+    "en": "dance",
+    "ko": "춤추다",
+    "example": "Do you want to dance?",
+    "exampleKo": "춤출래?"
+   },
+   {
+    "en": "drunk",
+    "ko": "취한",
+    "example": "I think I'm a little drunk.",
+    "exampleKo": "나 좀 취한 것 같아."
+   },
+   {
+    "en": "tipsy",
+    "ko": "알딸딸한",
+    "example": "I'm just a bit tipsy.",
+    "exampleKo": "그냥 살짝 알딸딸해."
+   },
+   {
+    "en": "call it a night",
+    "ko": "그만 마무리하다",
+    "example": "Let's call it a night.",
+    "exampleKo": "오늘은 여기까지 하자."
+   },
+   {
+    "en": "pregame",
+    "ko": "미리 한잔하다",
+    "example": "Let's pregame at my place.",
+    "exampleKo": "우리 집에서 미리 한잔하자."
+   },
+   {
+    "en": "designated driver",
+    "ko": "지명 운전자(술 안 마시는 운전자)",
+    "example": "I'm the designated driver tonight.",
+    "exampleKo": "오늘 밤엔 내가 운전 담당이야."
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "words": [
+   {
+    "en": "language exchange",
+    "ko": "언어 교환",
+    "example": "Do you want to do a language exchange?",
+    "exampleKo": "언어 교환 할래?"
+   },
+   {
+    "en": "native speaker",
+    "ko": "원어민",
+    "example": "Are you a native speaker?",
+    "exampleKo": "원어민이세요?"
+   },
+   {
+    "en": "correct",
+    "ko": "고쳐 주다",
+    "example": "Please correct me if I'm wrong.",
+    "exampleKo": "틀리면 고쳐 줘."
+   },
+   {
+    "en": "natural",
+    "ko": "자연스러운",
+    "example": "Does this sound natural?",
+    "exampleKo": "이거 자연스럽게 들려?"
+   },
+   {
+    "en": "mean",
+    "ko": "의미하다",
+    "example": "What does this word mean?",
+    "exampleKo": "이 단어 무슨 뜻이야?"
+   },
+   {
+    "en": "voice message",
+    "ko": "음성 메시지",
+    "example": "I'll send you a voice message.",
+    "exampleKo": "음성 메시지 보낼게."
+   },
+   {
+    "en": "profile",
+    "ko": "프로필",
+    "example": "I saw your profile.",
+    "exampleKo": "네 프로필 봤어."
+   },
+   {
+    "en": "interested in",
+    "ko": "~에 관심 있는",
+    "example": "I'm interested in Korean culture.",
+    "exampleKo": "한국 문화에 관심 있어."
+   },
+   {
+    "en": "slang",
+    "ko": "속어",
+    "example": "Can you teach me some slang?",
+    "exampleKo": "슬랭 좀 알려 줄래?"
+   },
+   {
+    "en": "spell",
+    "ko": "철자를 말하다",
+    "example": "How do you spell that?",
+    "exampleKo": "그거 철자가 어떻게 돼?"
+   },
+   {
+    "en": "typo",
+    "ko": "오타",
+    "example": "Sorry, that was a typo.",
+    "exampleKo": "미안, 오타였어."
+   },
+   {
+    "en": "translate",
+    "ko": "번역하다",
+    "example": "Can you translate this?",
+    "exampleKo": "이거 번역해 줄래?"
+   },
+   {
+    "en": "reply",
+    "ko": "답장하다",
+    "example": "Sorry for the late reply.",
+    "exampleKo": "답장 늦어서 미안."
+   },
+   {
+    "en": "time zone",
+    "ko": "시간대",
+    "example": "What time zone are you in?",
+    "exampleKo": "거기 시간대가 어떻게 돼?"
+   },
+   {
+    "en": "video call",
+    "ko": "영상 통화",
+    "example": "Do you want to video call?",
+    "exampleKo": "영상 통화할래?"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "words": [
+   {
+    "en": "beginner",
+    "ko": "초보자",
+    "example": "I'm a beginner.",
+    "exampleKo": "저는 초보예요."
+   },
+   {
+    "en": "intermediate",
+    "ko": "중급의",
+    "example": "I'm at an intermediate level.",
+    "exampleKo": "저는 중급 수준이에요."
+   },
+   {
+    "en": "level",
+    "ko": "수준",
+    "example": "What's my level?",
+    "exampleKo": "제 수준이 어느 정도예요?"
+   },
+   {
+    "en": "lesson",
+    "ko": "수업",
+    "example": "Today's lesson was fun.",
+    "exampleKo": "오늘 수업 재밌었어요."
+   },
+   {
+    "en": "tutor",
+    "ko": "개인 교사",
+    "example": "My tutor is from Canada.",
+    "exampleKo": "제 선생님은 캐나다 출신이에요."
+   },
+   {
+    "en": "feedback",
+    "ko": "피드백",
+    "example": "Can you give me feedback?",
+    "exampleKo": "피드백 주실 수 있어요?"
+   },
+   {
+    "en": "pronunciation",
+    "ko": "발음",
+    "example": "My pronunciation needs work.",
+    "exampleKo": "제 발음은 연습이 필요해요."
+   },
+   {
+    "en": "grammar",
+    "ko": "문법",
+    "example": "I'm weak at grammar.",
+    "exampleKo": "문법이 약해요."
+   },
+   {
+    "en": "vocabulary",
+    "ko": "어휘",
+    "example": "I want to build my vocabulary.",
+    "exampleKo": "어휘를 늘리고 싶어요."
+   },
+   {
+    "en": "fluent",
+    "ko": "유창한",
+    "example": "I want to be fluent.",
+    "exampleKo": "유창해지고 싶어요."
+   },
+   {
+    "en": "topic",
+    "ko": "주제",
+    "example": "Can we change the topic?",
+    "exampleKo": "주제 바꿔도 될까요?"
+   },
+   {
+    "en": "homework",
+    "ko": "숙제",
+    "example": "Do I have any homework?",
+    "exampleKo": "숙제 있어요?"
+   },
+   {
+    "en": "mute",
+    "ko": "음소거하다",
+    "example": "Sorry, I was on mute.",
+    "exampleKo": "죄송해요, 음소거였어요."
+   },
+   {
+    "en": "connection",
+    "ko": "연결",
+    "example": "My connection is bad.",
+    "exampleKo": "제 연결 상태가 안 좋아요."
+   },
+   {
+    "en": "work on",
+    "ko": "~을 연습하다",
+    "example": "What should I work on?",
+    "exampleKo": "뭘 더 연습해야 할까요?"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "words": [
+   {
+    "en": "awesome",
+    "ko": "끝내주는",
+    "example": "The concert was awesome.",
+    "exampleKo": "콘서트 끝내줬어."
+   },
+   {
+    "en": "chill",
+    "ko": "느긋한, 쉬다",
+    "example": "Let's just chill tonight.",
+    "exampleKo": "오늘 밤엔 그냥 쉬자."
+   },
+   {
+    "en": "legit",
+    "ko": "진짜, 제대로인",
+    "example": "This place is legit.",
+    "exampleKo": "여기 진짜 괜찮다."
+   },
+   {
+    "en": "no big deal",
+    "ko": "별거 아니야",
+    "example": "Don't worry, it's no big deal.",
+    "exampleKo": "걱정 마, 별거 아니야."
+   },
+   {
+    "en": "my bad",
+    "ko": "내 잘못",
+    "example": "Oops, my bad.",
+    "exampleKo": "앗, 내 실수야."
+   },
+   {
+    "en": "I'm down",
+    "ko": "나 할래",
+    "example": "Pizza? I'm down.",
+    "exampleKo": "피자? 나 콜."
+   },
+   {
+    "en": "for real",
+    "ko": "진짜로",
+    "example": "Are you for real?",
+    "exampleKo": "너 진심이야?"
+   },
+   {
+    "en": "hilarious",
+    "ko": "엄청 웃긴",
+    "example": "That video is hilarious.",
+    "exampleKo": "그 영상 완전 웃겨."
+   },
+   {
+    "en": "broke",
+    "ko": "빈털터리인",
+    "example": "I'm broke this month.",
+    "exampleKo": "이번 달 거지야."
+   },
+   {
+    "en": "hangry",
+    "ko": "배고파서 짜증 난",
+    "example": "Let's eat. I'm getting hangry.",
+    "exampleKo": "밥 먹자. 배고파서 짜증 나려 해."
+   },
+   {
+    "en": "crash",
+    "ko": "자다, 묵다",
+    "example": "Can I crash at your place?",
+    "exampleKo": "너희 집에서 자도 돼?"
+   },
+   {
+    "en": "ghost",
+    "ko": "잠수 타다",
+    "example": "He ghosted me.",
+    "exampleKo": "그가 잠수 탔어."
+   },
+   {
+    "en": "low-key",
+    "ko": "은근히",
+    "example": "I'm low-key excited.",
+    "exampleKo": "은근 신나."
+   },
+   {
+    "en": "no worries",
+    "ko": "괜찮아",
+    "example": "No worries, take your time.",
+    "exampleKo": "괜찮아, 천천히 해."
+   },
+   {
+    "en": "What's the plan?",
+    "ko": "계획이 뭐야?",
+    "example": "So what's the plan tonight?",
+    "exampleKo": "그래서 오늘 밤 계획이 뭐야?"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "words": [
+   {
+    "en": "happened",
+    "ko": "일어났다",
+    "example": "Guess what happened today.",
+    "exampleKo": "오늘 무슨 일 있었는지 맞혀 봐."
+   },
+   {
+    "en": "suddenly",
+    "ko": "갑자기",
+    "example": "Suddenly, the lights went out.",
+    "exampleKo": "갑자기 불이 꺼졌어."
+   },
+   {
+    "en": "at first",
+    "ko": "처음에는",
+    "example": "At first, I was scared.",
+    "exampleKo": "처음엔 무서웠어."
+   },
+   {
+    "en": "after that",
+    "ko": "그 후에",
+    "example": "After that, we went to a bar.",
+    "exampleKo": "그 후에 우리는 바에 갔어."
+   },
+   {
+    "en": "finally",
+    "ko": "마침내",
+    "example": "Finally, we found the hotel.",
+    "exampleKo": "마침내 호텔을 찾았어."
+   },
+   {
+    "en": "in the end",
+    "ko": "결국",
+    "example": "In the end, everything was fine.",
+    "exampleKo": "결국 다 괜찮았어."
+   },
+   {
+    "en": "the funny thing is",
+    "ko": "웃긴 건",
+    "example": "The funny thing is, he was Korean too.",
+    "exampleKo": "웃긴 건, 그 사람도 한국인이었어."
+   },
+   {
+    "en": "I remember",
+    "ko": "~가 기억나",
+    "example": "I remember my first trip.",
+    "exampleKo": "첫 여행이 기억나."
+   },
+   {
+    "en": "all of a sudden",
+    "ko": "갑자기",
+    "example": "All of a sudden, it started to rain.",
+    "exampleKo": "갑자기 비가 오기 시작했어."
+   },
+   {
+    "en": "embarrassing",
+    "ko": "창피한",
+    "example": "It was so embarrassing.",
+    "exampleKo": "너무 창피했어."
+   },
+   {
+    "en": "scary",
+    "ko": "무서운",
+    "example": "It was a little scary.",
+    "exampleKo": "좀 무서웠어."
+   },
+   {
+    "en": "unforgettable",
+    "ko": "잊을 수 없는",
+    "example": "It was an unforgettable trip.",
+    "exampleKo": "잊을 수 없는 여행이었어."
+   },
+   {
+    "en": "guess what",
+    "ko": "있잖아, 맞혀 봐",
+    "example": "Guess what? I got the job!",
+    "exampleKo": "있잖아, 나 합격했어!"
+   },
+   {
+    "en": "turn out",
+    "ko": "~로 판명되다",
+    "example": "It turned out to be fun.",
+    "exampleKo": "결국 재밌었어."
+   },
+   {
+    "en": "luckily",
+    "ko": "다행히",
+    "example": "Luckily, someone helped me.",
+    "exampleKo": "다행히 누가 도와줬어."
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "words": [
+   {
+    "en": "agree to disagree",
+    "ko": "의견 차이를 인정하다",
+    "example": "Let's agree to disagree.",
+    "exampleKo": "의견 차이는 인정하고 넘어가죠."
+   },
+   {
+    "en": "disagree",
+    "ko": "동의하지 않다",
+    "example": "I have to disagree.",
+    "exampleKo": "저는 생각이 달라요."
+   },
+   {
+    "en": "point",
+    "ko": "요점, 일리",
+    "example": "You have a point.",
+    "exampleKo": "일리 있네요."
+   },
+   {
+    "en": "true",
+    "ko": "사실인",
+    "example": "That's true.",
+    "exampleKo": "맞는 말이에요."
+   },
+   {
+    "en": "on the other hand",
+    "ko": "반면에",
+    "example": "On the other hand, it's expensive.",
+    "exampleKo": "반면에 비싸요."
+   },
+   {
+    "en": "I'm not sure about that",
+    "ko": "글쎄요",
+    "example": "I'm not sure about that.",
+    "exampleKo": "그건 잘 모르겠어요."
+   },
+   {
+    "en": "absolutely",
+    "ko": "전적으로",
+    "example": "Absolutely, I'm with you.",
+    "exampleKo": "전적으로 같은 생각이에요."
+   },
+   {
+    "en": "depends",
+    "ko": "~에 달려 있다",
+    "example": "It depends on the price.",
+    "exampleKo": "가격에 따라 달라요."
+   },
+   {
+    "en": "fair",
+    "ko": "공정한, 타당한",
+    "example": "That's a fair point.",
+    "exampleKo": "타당한 지적이에요."
+   },
+   {
+    "en": "prefer",
+    "ko": "더 좋아하다",
+    "example": "I prefer the first option.",
+    "exampleKo": "첫 번째 안이 더 좋아요."
+   },
+   {
+    "en": "compromise",
+    "ko": "타협",
+    "example": "Let's find a compromise.",
+    "exampleKo": "타협점을 찾아봐요."
+   },
+   {
+    "en": "convince",
+    "ko": "설득하다",
+    "example": "You convinced me.",
+    "exampleKo": "당신 말에 설득됐어요."
+   },
+   {
+    "en": "I see what you mean",
+    "ko": "무슨 말인지 알겠어요",
+    "example": "I see what you mean, but...",
+    "exampleKo": "무슨 말인지 알지만..."
+   },
+   {
+    "en": "strongly",
+    "ko": "강하게",
+    "example": "I strongly agree.",
+    "exampleKo": "강하게 동의해요."
+   },
+   {
+    "en": "no doubt",
+    "ko": "틀림없이",
+    "example": "No doubt about it.",
+    "exampleKo": "의심의 여지가 없어요."
+   }
+  ]
+ },
+ {
+  "week": 39,
+  "words": [
+   {
+    "en": "subtitles",
+    "ko": "자막",
+    "example": "Turn off the subtitles.",
+    "exampleKo": "자막 꺼."
+   },
+   {
+    "en": "scene",
+    "ko": "장면",
+    "example": "This is my favorite scene.",
+    "exampleKo": "이게 제일 좋아하는 장면이야."
+   },
+   {
+    "en": "plot",
+    "ko": "줄거리",
+    "example": "The plot is simple.",
+    "exampleKo": "줄거리가 단순해."
+   },
+   {
+    "en": "character",
+    "ko": "등장인물",
+    "example": "Who's your favorite character?",
+    "exampleKo": "제일 좋아하는 캐릭터가 누구야?"
+   },
+   {
+    "en": "spoiler",
+    "ko": "스포일러",
+    "example": "No spoilers, please!",
+    "exampleKo": "스포 금지!"
+   },
+   {
+    "en": "episode",
+    "ko": "에피소드, 회",
+    "example": "I watched three episodes last night.",
+    "exampleKo": "어젯밤에 세 편 봤어."
+   },
+   {
+    "en": "season",
+    "ko": "시즌",
+    "example": "The new season is out.",
+    "exampleKo": "새 시즌 나왔어."
+   },
+   {
+    "en": "binge-watch",
+    "ko": "몰아 보다",
+    "example": "I binge-watched the whole show.",
+    "exampleKo": "드라마 전체를 몰아 봤어."
+   },
+   {
+    "en": "ending",
+    "ko": "결말",
+    "example": "The ending was sad.",
+    "exampleKo": "결말이 슬펐어."
+   },
+   {
+    "en": "twist",
+    "ko": "반전",
+    "example": "What a twist!",
+    "exampleKo": "완전 반전이다!"
+   },
+   {
+    "en": "line",
+    "ko": "대사",
+    "example": "I love that line.",
+    "exampleKo": "그 대사 정말 좋아."
+   },
+   {
+    "en": "streaming",
+    "ko": "스트리밍",
+    "example": "Is it on streaming?",
+    "exampleKo": "스트리밍에 있어?"
+   },
+   {
+    "en": "rewind",
+    "ko": "되감다",
+    "example": "Can you rewind a bit?",
+    "exampleKo": "조금만 되감아 줄래?"
+   },
+   {
+    "en": "catch",
+    "ko": "알아듣다",
+    "example": "I didn't catch that.",
+    "exampleKo": "그거 못 알아들었어."
+   },
+   {
+    "en": "based on",
+    "ko": "~을 바탕으로 한",
+    "example": "It's based on a true story.",
+    "exampleKo": "실화를 바탕으로 했어."
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "words": [
+   {
+    "en": "itinerary",
+    "ko": "여행 일정",
+    "example": "Let's check the itinerary.",
+    "exampleKo": "여행 일정 확인하자."
+   },
+   {
+    "en": "tour",
+    "ko": "관광, 투어",
+    "example": "Is there a city tour?",
+    "exampleKo": "시티 투어 있어요?"
+   },
+   {
+    "en": "guide",
+    "ko": "가이드",
+    "example": "Our guide was great.",
+    "exampleKo": "우리 가이드 최고였어요."
+   },
+   {
+    "en": "admission",
+    "ko": "입장료",
+    "example": "How much is admission?",
+    "exampleKo": "입장료 얼마예요?"
+   },
+   {
+    "en": "open until",
+    "ko": "~까지 영업하는",
+    "example": "How late are you open until?",
+    "exampleKo": "몇 시까지 영업해요?"
+   },
+   {
+    "en": "sold out",
+    "ko": "매진된",
+    "example": "Tickets are sold out.",
+    "exampleKo": "표가 매진됐어요."
+   },
+   {
+    "en": "queue",
+    "ko": "줄",
+    "example": "How long is the queue?",
+    "exampleKo": "줄이 얼마나 길어요?"
+   },
+   {
+    "en": "sunset",
+    "ko": "일몰",
+    "example": "Let's watch the sunset.",
+    "exampleKo": "노을 보자."
+   },
+   {
+    "en": "beach",
+    "ko": "해변",
+    "example": "How do I get to the beach?",
+    "exampleKo": "해변에 어떻게 가요?"
+   },
+   {
+    "en": "rent",
+    "ko": "빌리다",
+    "example": "Can I rent a bike here?",
+    "exampleKo": "여기서 자전거 빌릴 수 있어요?"
+   },
+   {
+    "en": "currency exchange",
+    "ko": "환전소",
+    "example": "Where's a currency exchange?",
+    "exampleKo": "환전소 어디예요?"
+   },
+   {
+    "en": "exchange rate",
+    "ko": "환율",
+    "example": "What's the exchange rate?",
+    "exampleKo": "환율이 어떻게 돼요?"
+   },
+   {
+    "en": "jet lag",
+    "ko": "시차증",
+    "example": "I have terrible jet lag.",
+    "exampleKo": "시차 적응이 너무 힘들어요."
+   },
+   {
+    "en": "backpack",
+    "ko": "배낭",
+    "example": "I travel with a backpack.",
+    "exampleKo": "배낭 하나로 여행해요."
+   },
+   {
+    "en": "trip",
+    "ko": "여행",
+    "example": "Have a nice trip!",
+    "exampleKo": "즐거운 여행 되세요!"
+   }
+  ]
+ },
+ {
+  "week": 41,
+  "words": [
+   {
+    "en": "in charge of",
+    "ko": "~을 담당하는",
+    "example": "I'm in charge of marketing.",
+    "exampleKo": "마케팅을 담당하고 있어요."
+   },
+   {
+    "en": "position",
+    "ko": "직책",
+    "example": "What's your position?",
+    "exampleKo": "직책이 어떻게 되세요?"
+   },
+   {
+    "en": "manager",
+    "ko": "관리자, 매니저",
+    "example": "I'm a marketing manager.",
+    "exampleKo": "마케팅 매니저입니다."
+   },
+   {
+    "en": "team",
+    "ko": "팀",
+    "example": "I lead a small team.",
+    "exampleKo": "작은 팀을 이끌고 있어요."
+   },
+   {
+    "en": "department",
+    "ko": "부서",
+    "example": "Which department are you in?",
+    "exampleKo": "어느 부서에 계세요?"
+   },
+   {
+    "en": "business card",
+    "ko": "명함",
+    "example": "Here's my business card.",
+    "exampleKo": "제 명함입니다."
+   },
+   {
+    "en": "background",
+    "ko": "경력, 배경",
+    "example": "I have a background in sales.",
+    "exampleKo": "영업 쪽 경력이 있어요."
+   },
+   {
+    "en": "responsible for",
+    "ko": "~을 책임지는",
+    "example": "I'm responsible for our ads.",
+    "exampleKo": "광고를 책임지고 있어요."
+   },
+   {
+    "en": "specialize in",
+    "ko": "~을 전문으로 하다",
+    "example": "We specialize in social media.",
+    "exampleKo": "저희는 소셜 미디어 전문이에요."
+   },
+   {
+    "en": "client",
+    "ko": "고객",
+    "example": "Our clients are mostly startups.",
+    "exampleKo": "저희 고객은 대부분 스타트업이에요."
+   },
+   {
+    "en": "industry",
+    "ko": "업계",
+    "example": "What industry are you in?",
+    "exampleKo": "어떤 업계에 계세요?"
+   },
+   {
+    "en": "pleasure",
+    "ko": "기쁨",
+    "example": "It's a pleasure to meet you.",
+    "exampleKo": "만나 뵙게 되어 기쁩니다."
+   },
+   {
+    "en": "colleague",
+    "ko": "동료",
+    "example": "This is my colleague, Jane.",
+    "exampleKo": "제 동료 제인입니다."
+   },
+   {
+    "en": "based in",
+    "ko": "~에 본사를 둔",
+    "example": "We're based in Seoul.",
+    "exampleKo": "저희는 서울에 있어요."
+   },
+   {
+    "en": "work with",
+    "ko": "~와 함께 일하다",
+    "example": "I'd love to work with you.",
+    "exampleKo": "함께 일하고 싶어요."
+   }
+  ]
+ },
+ {
+  "week": 42,
+  "words": [
+   {
+    "en": "subject",
+    "ko": "제목",
+    "example": "Write a clear subject.",
+    "exampleKo": "제목을 명확하게 쓰세요."
+   },
+   {
+    "en": "attach",
+    "ko": "첨부하다",
+    "example": "I've attached the file.",
+    "exampleKo": "파일 첨부했습니다."
+   },
+   {
+    "en": "attachment",
+    "ko": "첨부 파일",
+    "example": "Please see the attachment.",
+    "exampleKo": "첨부 파일 확인해 주세요."
+   },
+   {
+    "en": "regarding",
+    "ko": "~에 관하여",
+    "example": "I'm writing regarding the meeting.",
+    "exampleKo": "회의 건으로 연락드려요."
+   },
+   {
+    "en": "reply all",
+    "ko": "전체 답장",
+    "example": "Please don't reply all.",
+    "exampleKo": "전체 답장은 하지 마세요."
+   },
+   {
+    "en": "confirm",
+    "ko": "확인하다",
+    "example": "Could you confirm the date?",
+    "exampleKo": "날짜 확인해 주실 수 있나요?"
+   },
+   {
+    "en": "request",
+    "ko": "요청",
+    "example": "I have a quick request.",
+    "exampleKo": "간단한 요청이 있어요."
+   },
+   {
+    "en": "deadline",
+    "ko": "마감 기한",
+    "example": "The deadline is Friday.",
+    "exampleKo": "마감은 금요일이에요."
+   },
+   {
+    "en": "update",
+    "ko": "최신 소식",
+    "example": "Here's a quick update.",
+    "exampleKo": "간단히 진행 상황 알려 드려요."
+   },
+   {
+    "en": "forward",
+    "ko": "전달하다",
+    "example": "I'll forward this to my team.",
+    "exampleKo": "팀에 전달할게요."
+   },
+   {
+    "en": "cc",
+    "ko": "참조로 넣다",
+    "example": "I'll cc my manager.",
+    "exampleKo": "매니저를 참조로 넣을게요."
+   },
+   {
+    "en": "as soon as possible",
+    "ko": "가능한 한 빨리",
+    "example": "Please reply as soon as possible.",
+    "exampleKo": "가능한 한 빨리 답장 주세요."
+   },
+   {
+    "en": "look forward to",
+    "ko": "~을 기대하다",
+    "example": "I look forward to your reply.",
+    "exampleKo": "답장 기다리겠습니다."
+   },
+   {
+    "en": "Best regards",
+    "ko": "감사합니다(맺음말)",
+    "example": "Best regards, Kim",
+    "exampleKo": "김 드림"
+   },
+   {
+    "en": "apologize",
+    "ko": "사과하다",
+    "example": "I apologize for the delay.",
+    "exampleKo": "늦어져서 죄송합니다."
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "words": [
+   {
+    "en": "agenda",
+    "ko": "안건",
+    "example": "Let's look at the agenda.",
+    "exampleKo": "안건을 볼게요."
+   },
+   {
+    "en": "meeting",
+    "ko": "회의",
+    "example": "The meeting starts at ten.",
+    "exampleKo": "회의는 10시에 시작해요."
+   },
+   {
+    "en": "schedule",
+    "ko": "일정을 잡다",
+    "example": "Let's schedule a meeting.",
+    "exampleKo": "회의 일정을 잡읍시다."
+   },
+   {
+    "en": "minutes",
+    "ko": "회의록",
+    "example": "Who's taking the minutes?",
+    "exampleKo": "회의록은 누가 쓰나요?"
+   },
+   {
+    "en": "discuss",
+    "ko": "논의하다",
+    "example": "Let's discuss the budget.",
+    "exampleKo": "예산을 논의합시다."
+   },
+   {
+    "en": "suggestion",
+    "ko": "제안",
+    "example": "I have a suggestion.",
+    "exampleKo": "제안이 하나 있어요."
+   },
+   {
+    "en": "point out",
+    "ko": "지적하다",
+    "example": "I'd like to point out one thing.",
+    "exampleKo": "한 가지 짚고 싶어요."
+   },
+   {
+    "en": "follow up",
+    "ko": "후속 조치하다",
+    "example": "I'll follow up next week.",
+    "exampleKo": "다음 주에 후속으로 연락할게요."
+   },
+   {
+    "en": "action item",
+    "ko": "실행 항목",
+    "example": "What are the action items?",
+    "exampleKo": "실행 항목이 뭔가요?"
+   },
+   {
+    "en": "wrap up",
+    "ko": "마무리하다",
+    "example": "Let's wrap up the meeting.",
+    "exampleKo": "회의를 마무리합시다."
+   },
+   {
+    "en": "on the same page",
+    "ko": "같은 이해를 하는",
+    "example": "Are we on the same page?",
+    "exampleKo": "우리 같은 생각인 거죠?"
+   },
+   {
+    "en": "move on",
+    "ko": "넘어가다",
+    "example": "Let's move on to the next item.",
+    "exampleKo": "다음 안건으로 넘어가죠."
+   },
+   {
+    "en": "clarify",
+    "ko": "명확히 하다",
+    "example": "Could you clarify that?",
+    "exampleKo": "그 부분 명확히 해 주실래요?"
+   },
+   {
+    "en": "decision",
+    "ko": "결정",
+    "example": "We need a decision today.",
+    "exampleKo": "오늘 결정이 필요해요."
+   },
+   {
+    "en": "by the end of",
+    "ko": "~까지",
+    "example": "By the end of the week, please.",
+    "exampleKo": "이번 주 안으로 부탁해요."
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "words": [
+   {
+    "en": "target audience",
+    "ko": "목표 고객층",
+    "example": "Who's our target audience?",
+    "exampleKo": "우리 목표 고객층이 누구죠?"
+   },
+   {
+    "en": "brand",
+    "ko": "브랜드",
+    "example": "We need to build the brand.",
+    "exampleKo": "브랜드를 키워야 해요."
+   },
+   {
+    "en": "brand awareness",
+    "ko": "브랜드 인지도",
+    "example": "The goal is brand awareness.",
+    "exampleKo": "목표는 브랜드 인지도예요."
+   },
+   {
+    "en": "campaign",
+    "ko": "캠페인",
+    "example": "The campaign starts next week.",
+    "exampleKo": "캠페인은 다음 주에 시작해요."
+   },
+   {
+    "en": "content",
+    "ko": "콘텐츠",
+    "example": "Content is key on social media.",
+    "exampleKo": "소셜 미디어에선 콘텐츠가 핵심이에요."
+   },
+   {
+    "en": "engagement",
+    "ko": "참여도",
+    "example": "Engagement went up this month.",
+    "exampleKo": "이번 달 참여도가 올랐어요."
+   },
+   {
+    "en": "reach",
+    "ko": "도달 범위",
+    "example": "Our reach is growing.",
+    "exampleKo": "도달 범위가 늘고 있어요."
+   },
+   {
+    "en": "conversion",
+    "ko": "전환",
+    "example": "We need more conversions.",
+    "exampleKo": "전환이 더 필요해요."
+   },
+   {
+    "en": "funnel",
+    "ko": "퍼널(구매 단계)",
+    "example": "Let's look at the sales funnel.",
+    "exampleKo": "판매 퍼널을 봅시다."
+   },
+   {
+    "en": "KPI",
+    "ko": "핵심 성과 지표",
+    "example": "What are the KPIs?",
+    "exampleKo": "KPI가 뭔가요?"
+   },
+   {
+    "en": "ROI",
+    "ko": "투자 수익률",
+    "example": "The ROI was great.",
+    "exampleKo": "투자 수익률이 좋았어요."
+   },
+   {
+    "en": "influencer",
+    "ko": "인플루언서",
+    "example": "Let's work with influencers.",
+    "exampleKo": "인플루언서와 협업해요."
+   },
+   {
+    "en": "ad",
+    "ko": "광고",
+    "example": "The ad is performing well.",
+    "exampleKo": "그 광고 성과가 좋아요."
+   },
+   {
+    "en": "organic",
+    "ko": "자연 유입의",
+    "example": "Organic traffic is growing.",
+    "exampleKo": "자연 유입 트래픽이 늘고 있어요."
+   },
+   {
+    "en": "positioning",
+    "ko": "포지셔닝",
+    "example": "Our positioning is unclear.",
+    "exampleKo": "우리 포지셔닝이 불분명해요."
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "words": [
+   {
+    "en": "increase",
+    "ko": "증가하다",
+    "example": "Sales increased by 15%.",
+    "exampleKo": "매출이 15% 증가했어요."
+   },
+   {
+    "en": "decrease",
+    "ko": "감소하다",
+    "example": "Costs decreased last month.",
+    "exampleKo": "지난달 비용이 줄었어요."
+   },
+   {
+    "en": "rise",
+    "ko": "오르다",
+    "example": "Prices are rising.",
+    "exampleKo": "가격이 오르고 있어요."
+   },
+   {
+    "en": "drop",
+    "ko": "떨어지다",
+    "example": "Traffic dropped in May.",
+    "exampleKo": "5월에 트래픽이 떨어졌어요."
+   },
+   {
+    "en": "peak",
+    "ko": "최고점에 달하다",
+    "example": "Sales peaked in December.",
+    "exampleKo": "매출은 12월에 정점을 찍었어요."
+   },
+   {
+    "en": "steady",
+    "ko": "꾸준한",
+    "example": "We saw steady growth.",
+    "exampleKo": "꾸준한 성장을 보였어요."
+   },
+   {
+    "en": "sharp",
+    "ko": "급격한",
+    "example": "There was a sharp drop.",
+    "exampleKo": "급격한 하락이 있었어요."
+   },
+   {
+    "en": "slightly",
+    "ko": "약간",
+    "example": "Sales went up slightly.",
+    "exampleKo": "매출이 약간 올랐어요."
+   },
+   {
+    "en": "significantly",
+    "ko": "상당히",
+    "example": "Costs rose significantly.",
+    "exampleKo": "비용이 크게 올랐어요."
+   },
+   {
+    "en": "percent",
+    "ko": "퍼센트",
+    "example": "It grew by 20 percent.",
+    "exampleKo": "20퍼센트 성장했어요."
+   },
+   {
+    "en": "chart",
+    "ko": "차트",
+    "example": "This chart shows our revenue.",
+    "exampleKo": "이 차트는 우리 매출을 보여 줘요."
+   },
+   {
+    "en": "trend",
+    "ko": "추세",
+    "example": "The trend is positive.",
+    "exampleKo": "추세가 긍정적이에요."
+   },
+   {
+    "en": "compared to",
+    "ko": "~에 비해",
+    "example": "Compared to last year, it's higher.",
+    "exampleKo": "작년에 비해 높아요."
+   },
+   {
+    "en": "year-over-year",
+    "ko": "전년 대비",
+    "example": "Revenue is up 10% year-over-year.",
+    "exampleKo": "매출이 전년 대비 10% 늘었어요."
+   },
+   {
+    "en": "average",
+    "ko": "평균",
+    "example": "The average is about 500.",
+    "exampleKo": "평균은 500 정도예요."
+   }
+  ]
+ },
+ {
+  "week": 46,
+  "words": [
+   {
+    "en": "obstacle",
+    "ko": "장애물",
+    "example": "What's the biggest obstacle?",
+    "exampleKo": "가장 큰 장애물이 뭔가요?"
+   },
+   {
+    "en": "objective",
+    "ko": "(업무) 목표",
+    "example": "What's the main objective?",
+    "exampleKo": "주요 목표가 뭔가요?"
+   },
+   {
+    "en": "budget",
+    "ko": "예산",
+    "example": "What's your budget?",
+    "exampleKo": "예산이 어떻게 되나요?"
+   },
+   {
+    "en": "timeline",
+    "ko": "일정",
+    "example": "What's the timeline?",
+    "exampleKo": "일정이 어떻게 되나요?"
+   },
+   {
+    "en": "current",
+    "ko": "현재의",
+    "example": "What's your current strategy?",
+    "exampleKo": "현재 전략이 뭔가요?"
+   },
+   {
+    "en": "so far",
+    "ko": "지금까지",
+    "example": "What have you tried so far?",
+    "exampleKo": "지금까지 뭘 해 보셨어요?"
+   },
+   {
+    "en": "customer",
+    "ko": "고객",
+    "example": "Who are your customers?",
+    "exampleKo": "고객이 누구인가요?"
+   },
+   {
+    "en": "competitor",
+    "ko": "경쟁사",
+    "example": "Who are your main competitors?",
+    "exampleKo": "주요 경쟁사는 어디인가요?"
+   },
+   {
+    "en": "pain point",
+    "ko": "고객의 불편",
+    "example": "What are their pain points?",
+    "exampleKo": "고객의 불편은 뭔가요?"
+   },
+   {
+    "en": "priority",
+    "ko": "우선순위",
+    "example": "What's your top priority?",
+    "exampleKo": "최우선 순위가 뭔가요?"
+   },
+   {
+    "en": "expectation",
+    "ko": "기대",
+    "example": "What are your expectations?",
+    "exampleKo": "기대하시는 바가 뭔가요?"
+   },
+   {
+    "en": "measure",
+    "ko": "측정하다",
+    "example": "How do you measure success?",
+    "exampleKo": "성공을 어떻게 측정하세요?"
+   },
+   {
+    "en": "insight",
+    "ko": "통찰",
+    "example": "That's a great insight.",
+    "exampleKo": "좋은 통찰이네요."
+   },
+   {
+    "en": "in other words",
+    "ko": "다시 말해",
+    "example": "In other words, you need more leads.",
+    "exampleKo": "다시 말해 잠재 고객이 더 필요하시군요."
+   },
+   {
+    "en": "walk me through",
+    "ko": "차근차근 설명하다",
+    "example": "Can you walk me through the process?",
+    "exampleKo": "과정을 차근차근 설명해 주시겠어요?"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "words": [
+   {
+    "en": "persuade",
+    "ko": "설득하다",
+    "example": "How can we persuade them?",
+    "exampleKo": "어떻게 그들을 설득할까요?"
+   },
+   {
+    "en": "suggest",
+    "ko": "제안하다",
+    "example": "I suggest we start with Instagram.",
+    "exampleKo": "인스타그램부터 시작하길 제안드려요."
+   },
+   {
+    "en": "benefit",
+    "ko": "이점",
+    "example": "The main benefit is speed.",
+    "exampleKo": "주요 이점은 속도예요."
+   },
+   {
+    "en": "option",
+    "ko": "선택지",
+    "example": "We have two options.",
+    "exampleKo": "두 가지 선택지가 있어요."
+   },
+   {
+    "en": "solution",
+    "ko": "해결책",
+    "example": "This is a simple solution.",
+    "exampleKo": "이건 간단한 해결책이에요."
+   },
+   {
+    "en": "proposal",
+    "ko": "제안서",
+    "example": "I'll send you the proposal.",
+    "exampleKo": "제안서 보내 드릴게요."
+   },
+   {
+    "en": "evidence",
+    "ko": "근거",
+    "example": "Here's the evidence.",
+    "exampleKo": "근거는 이거예요."
+   },
+   {
+    "en": "effective",
+    "ko": "효과적인",
+    "example": "This method is very effective.",
+    "exampleKo": "이 방법은 아주 효과적이에요."
+   },
+   {
+    "en": "risk",
+    "ko": "위험",
+    "example": "The risk is low.",
+    "exampleKo": "위험은 낮아요."
+   },
+   {
+    "en": "worth it",
+    "ko": "그만한 가치가 있는",
+    "example": "Trust me, it's worth it.",
+    "exampleKo": "믿어 보세요, 그럴 가치가 있어요."
+   },
+   {
+    "en": "concern",
+    "ko": "우려",
+    "example": "I understand your concern.",
+    "exampleKo": "우려하시는 점 이해해요."
+   },
+   {
+    "en": "guarantee",
+    "ko": "보장하다",
+    "example": "We can't guarantee results.",
+    "exampleKo": "결과를 보장할 수는 없어요."
+   },
+   {
+    "en": "in the long run",
+    "ko": "장기적으로",
+    "example": "It saves money in the long run.",
+    "exampleKo": "장기적으로 돈이 절약돼요."
+   },
+   {
+    "en": "make sense",
+    "ko": "말이 되다",
+    "example": "Does that make sense?",
+    "exampleKo": "이해되시나요?"
+   },
+   {
+    "en": "Why don't we",
+    "ko": "~하는 게 어때요?",
+    "example": "Why don't we try it for a month?",
+    "exampleKo": "한 달만 해 보는 건 어때요?"
+   }
+  ]
+ },
+ {
+  "week": 48,
+  "words": [
+   {
+    "en": "presentation",
+    "ko": "발표",
+    "example": "My presentation is ten minutes.",
+    "exampleKo": "제 발표는 10분이에요."
+   },
+   {
+    "en": "slide",
+    "ko": "슬라이드",
+    "example": "Let's look at the next slide.",
+    "exampleKo": "다음 슬라이드를 보시죠."
+   },
+   {
+    "en": "overview",
+    "ko": "개요",
+    "example": "Here's a quick overview.",
+    "exampleKo": "간단한 개요입니다."
+   },
+   {
+    "en": "first of all",
+    "ko": "우선",
+    "example": "First of all, thank you for coming.",
+    "exampleKo": "우선, 와 주셔서 감사합니다."
+   },
+   {
+    "en": "main point",
+    "ko": "핵심",
+    "example": "My main point is simple.",
+    "exampleKo": "제 핵심은 간단해요."
+   },
+   {
+    "en": "for example",
+    "ko": "예를 들어",
+    "example": "For example, look at this case.",
+    "exampleKo": "예를 들어 이 사례를 보세요."
+   },
+   {
+    "en": "moving on",
+    "ko": "다음으로 넘어가서",
+    "example": "Moving on, let's talk about costs.",
+    "exampleKo": "다음으로 비용 얘기를 하죠."
+   },
+   {
+    "en": "summary",
+    "ko": "요약",
+    "example": "Here's a short summary.",
+    "exampleKo": "짧은 요약입니다."
+   },
+   {
+    "en": "to sum up",
+    "ko": "정리하면",
+    "example": "To sum up, we need more data.",
+    "exampleKo": "정리하면, 데이터가 더 필요해요."
+   },
+   {
+    "en": "audience",
+    "ko": "청중",
+    "example": "Look at the audience.",
+    "exampleKo": "청중을 보세요."
+   },
+   {
+    "en": "question",
+    "ko": "질문",
+    "example": "Any questions?",
+    "exampleKo": "질문 있으신가요?"
+   },
+   {
+    "en": "highlight",
+    "ko": "강조하다",
+    "example": "I want to highlight this number.",
+    "exampleKo": "이 숫자를 강조하고 싶어요."
+   },
+   {
+    "en": "conclusion",
+    "ko": "결론",
+    "example": "In conclusion, it worked.",
+    "exampleKo": "결론적으로, 효과가 있었어요."
+   },
+   {
+    "en": "handout",
+    "ko": "유인물",
+    "example": "Please take a handout.",
+    "exampleKo": "유인물 한 장씩 가져가세요."
+   },
+   {
+    "en": "thank you for your attention",
+    "ko": "경청해 주셔서 감사합니다",
+    "example": "Thank you for your attention.",
+    "exampleKo": "경청해 주셔서 감사합니다."
+   }
+  ]
+ },
+ {
+  "week": 49,
+  "words": [
+   {
+    "en": "share my screen",
+    "ko": "화면을 공유하다",
+    "example": "Let me share my screen.",
+    "exampleKo": "제 화면 공유할게요."
+   },
+   {
+    "en": "breaking up",
+    "ko": "소리가 끊기는",
+    "example": "You're breaking up.",
+    "exampleKo": "소리가 끊겨요."
+   },
+   {
+    "en": "freeze",
+    "ko": "화면이 멈추다",
+    "example": "Your screen froze.",
+    "exampleKo": "화면이 멈췄어요."
+   },
+   {
+    "en": "unmute",
+    "ko": "음소거를 해제하다",
+    "example": "Please unmute yourself.",
+    "exampleKo": "음소거 해제해 주세요."
+   },
+   {
+    "en": "lag",
+    "ko": "지연",
+    "example": "There's a little lag.",
+    "exampleKo": "약간 지연이 있어요."
+   },
+   {
+    "en": "camera",
+    "ko": "카메라",
+    "example": "Can you turn on your camera?",
+    "exampleKo": "카메라 켜 주실 수 있어요?"
+   },
+   {
+    "en": "link",
+    "ko": "링크",
+    "example": "I'll send the meeting link.",
+    "exampleKo": "회의 링크 보낼게요."
+   },
+   {
+    "en": "breakout room",
+    "ko": "소회의실",
+    "example": "Let's split into breakout rooms.",
+    "exampleKo": "소회의실로 나눠 갑시다."
+   },
+   {
+    "en": "drop off",
+    "ko": "나가다(연결 끊김)",
+    "example": "Sorry, I dropped off.",
+    "exampleKo": "죄송해요, 연결이 끊겼어요."
+   },
+   {
+    "en": "on hold",
+    "ko": "대기 중인",
+    "example": "Sorry to keep you on hold.",
+    "exampleKo": "기다리게 해서 죄송해요."
+   },
+   {
+    "en": "call back",
+    "ko": "다시 전화하다",
+    "example": "I'll call you back.",
+    "exampleKo": "다시 전화드릴게요."
+   },
+   {
+    "en": "speaking",
+    "ko": "(전화에서) 접니다",
+    "example": "This is Kim speaking.",
+    "exampleKo": "김입니다."
+   },
+   {
+    "en": "put through",
+    "ko": "연결하다",
+    "example": "Could you put me through to sales?",
+    "exampleKo": "영업부 좀 연결해 주실래요?"
+   },
+   {
+    "en": "leave a message",
+    "ko": "메시지를 남기다",
+    "example": "Can I leave a message?",
+    "exampleKo": "메시지 남겨도 될까요?"
+   },
+   {
+    "en": "background noise",
+    "ko": "주변 소음",
+    "example": "Sorry for the background noise.",
+    "exampleKo": "주변이 시끄러워서 죄송해요."
+   }
+  ]
+ },
+ {
+  "week": 50,
+  "words": [
+   {
+    "en": "case study",
+    "ko": "사례 연구",
+    "example": "Let's read a case study.",
+    "exampleKo": "사례 연구를 읽어 봅시다."
+   },
+   {
+    "en": "launch",
+    "ko": "출시하다",
+    "example": "They launched a new product.",
+    "exampleKo": "그들은 신제품을 출시했어요."
+   },
+   {
+    "en": "target",
+    "ko": "겨냥하다",
+    "example": "The ad targeted young people.",
+    "exampleKo": "그 광고는 젊은 층을 겨냥했어요."
+   },
+   {
+    "en": "strategy",
+    "ko": "전략",
+    "example": "Their strategy was simple.",
+    "exampleKo": "그들의 전략은 단순했어요."
+   },
+   {
+    "en": "result",
+    "ko": "결과",
+    "example": "The results were amazing.",
+    "exampleKo": "결과가 놀라웠어요."
+   },
+   {
+    "en": "grow",
+    "ko": "성장하다",
+    "example": "The company grew fast.",
+    "exampleKo": "회사가 빠르게 성장했어요."
+   },
+   {
+    "en": "market share",
+    "ko": "시장 점유율",
+    "example": "They gained market share.",
+    "exampleKo": "그들은 시장 점유율을 늘렸어요."
+   },
+   {
+    "en": "loyal",
+    "ko": "충성도 높은",
+    "example": "They have loyal customers.",
+    "exampleKo": "충성 고객이 있어요."
+   },
+   {
+    "en": "viral",
+    "ko": "입소문이 난",
+    "example": "The video went viral.",
+    "exampleKo": "그 영상이 입소문을 탔어요."
+   },
+   {
+    "en": "rebrand",
+    "ko": "브랜드를 새로 바꾸다",
+    "example": "They decided to rebrand.",
+    "exampleKo": "그들은 리브랜딩하기로 했어요."
+   },
+   {
+    "en": "partnership",
+    "ko": "제휴",
+    "example": "They formed a partnership.",
+    "exampleKo": "그들은 제휴를 맺었어요."
+   },
+   {
+    "en": "revenue",
+    "ko": "매출",
+    "example": "Revenue doubled.",
+    "exampleKo": "매출이 두 배가 됐어요."
+   },
+   {
+    "en": "lesson learned",
+    "ko": "얻은 교훈",
+    "example": "What's the lesson learned?",
+    "exampleKo": "얻은 교훈이 뭔가요?"
+   },
+   {
+    "en": "as a result",
+    "ko": "그 결과",
+    "example": "As a result, sales grew.",
+    "exampleKo": "그 결과 매출이 늘었어요."
+   },
+   {
+    "en": "key takeaway",
+    "ko": "핵심 시사점",
+    "example": "The key takeaway is focus.",
+    "exampleKo": "핵심 시사점은 집중이에요."
+   }
+  ]
+ },
+ {
+  "week": 51,
+  "words": [
+   {
+    "en": "negotiate",
+    "ko": "협상하다",
+    "example": "Let's negotiate the price.",
+    "exampleKo": "가격을 협상합시다."
+   },
+   {
+    "en": "offer",
+    "ko": "제안하다, 제안",
+    "example": "That's a fair offer.",
+    "exampleKo": "공정한 제안이네요."
+   },
+   {
+    "en": "counteroffer",
+    "ko": "역제안",
+    "example": "Can we make a counteroffer?",
+    "exampleKo": "역제안해도 될까요?"
+   },
+   {
+    "en": "terms",
+    "ko": "조건",
+    "example": "Let's discuss the terms.",
+    "exampleKo": "조건을 논의합시다."
+   },
+   {
+    "en": "contract",
+    "ko": "계약",
+    "example": "Please sign the contract.",
+    "exampleKo": "계약서에 서명해 주세요."
+   },
+   {
+    "en": "flexible",
+    "ko": "유연한",
+    "example": "We're flexible on the date.",
+    "exampleKo": "날짜는 조정 가능해요."
+   },
+   {
+    "en": "deal",
+    "ko": "거래",
+    "example": "It's a deal!",
+    "exampleKo": "좋아요, 그렇게 하죠!"
+   },
+   {
+    "en": "available",
+    "ko": "시간이 되는",
+    "example": "Are you available on Monday?",
+    "exampleKo": "월요일에 시간 되세요?"
+   },
+   {
+    "en": "reschedule",
+    "ko": "일정을 변경하다",
+    "example": "Can we reschedule?",
+    "exampleKo": "일정 변경할 수 있을까요?"
+   },
+   {
+    "en": "postpone",
+    "ko": "연기하다",
+    "example": "We need to postpone the meeting.",
+    "exampleKo": "회의를 연기해야 해요."
+   },
+   {
+    "en": "work for",
+    "ko": "~에게 괜찮다",
+    "example": "Does 3 p.m. work for you?",
+    "exampleKo": "오후 3시 괜찮으세요?"
+   },
+   {
+    "en": "middle ground",
+    "ko": "절충안",
+    "example": "Let's find a middle ground.",
+    "exampleKo": "절충안을 찾아봅시다."
+   },
+   {
+    "en": "final",
+    "ko": "최종의",
+    "example": "Is this your final offer?",
+    "exampleKo": "이게 최종 제안인가요?"
+   },
+   {
+    "en": "get back to",
+    "ko": "나중에 답하다",
+    "example": "I'll get back to you tomorrow.",
+    "exampleKo": "내일 다시 연락드릴게요."
+   },
+   {
+    "en": "win-win",
+    "ko": "모두에게 이로운",
+    "example": "It's a win-win situation.",
+    "exampleKo": "서로에게 좋은 상황이에요."
+   }
+  ]
+ },
+ {
+  "week": 52,
+  "words": [
+   {
+    "en": "share",
+    "ko": "공유하다",
+    "example": "Today I'll share my story.",
+    "exampleKo": "오늘 제 이야기를 공유할게요."
+   },
+   {
+    "en": "journey",
+    "ko": "여정",
+    "example": "It's been a long journey.",
+    "exampleKo": "긴 여정이었어요."
+   },
+   {
+    "en": "progress",
+    "ko": "발전",
+    "example": "I'm proud of my progress.",
+    "exampleKo": "제 발전이 자랑스러워요."
+   },
+   {
+    "en": "achieve",
+    "ko": "이루다",
+    "example": "I achieved my goal.",
+    "exampleKo": "목표를 이뤘어요."
+   },
+   {
+    "en": "growth",
+    "ko": "성장",
+    "example": "This year was about growth.",
+    "exampleKo": "올해는 성장의 해였어요."
+   },
+   {
+    "en": "struggle",
+    "ko": "고생하다",
+    "example": "I struggled at first.",
+    "exampleKo": "처음엔 고생했어요."
+   },
+   {
+    "en": "keep going",
+    "ko": "계속하다",
+    "example": "The key is to keep going.",
+    "exampleKo": "핵심은 계속하는 거예요."
+   },
+   {
+    "en": "consistent",
+    "ko": "꾸준한",
+    "example": "Being consistent is important.",
+    "exampleKo": "꾸준함이 중요해요."
+   },
+   {
+    "en": "proud",
+    "ko": "자랑스러운",
+    "example": "I'm proud of myself.",
+    "exampleKo": "제 자신이 자랑스러워요."
+   },
+   {
+    "en": "grateful",
+    "ko": "감사하는",
+    "example": "I'm grateful for your help.",
+    "exampleKo": "도와주셔서 감사해요."
+   },
+   {
+    "en": "next step",
+    "ko": "다음 단계",
+    "example": "What's the next step?",
+    "exampleKo": "다음 단계는 뭔가요?"
+   },
+   {
+    "en": "future",
+    "ko": "미래",
+    "example": "I'm excited about the future.",
+    "exampleKo": "미래가 기대돼요."
+   },
+   {
+    "en": "look back",
+    "ko": "돌아보다",
+    "example": "When I look back, I'm amazed.",
+    "exampleKo": "돌아보면 놀라워요."
+   },
+   {
+    "en": "a year ago",
+    "ko": "1년 전",
+    "example": "A year ago, I couldn't speak English.",
+    "exampleKo": "1년 전에는 영어를 못 했어요."
+   },
+   {
+    "en": "thank you for listening",
+    "ko": "들어 주셔서 감사합니다",
+    "example": "Thank you for listening!",
+    "exampleKo": "들어 주셔서 감사합니다!"
+   }
+  ]
+ }
+]

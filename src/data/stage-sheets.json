@@ -1,0 +1,368 @@
+{
+ "1": [
+  {
+   "kind": "choice",
+   "prompt": "I ___ a student.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answerIndex": 0,
+   "explanation": "I 다음에는 am."
+  },
+  {
+   "kind": "choice",
+   "prompt": "She ___ coffee.",
+   "options": [
+    "like",
+    "likes",
+    "liking"
+   ],
+   "answerIndex": 1,
+   "explanation": "he/she 다음 일반동사에는 -s를 붙여요."
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ you hungry?",
+   "options": [
+    "Do",
+    "Are",
+    "Is"
+   ],
+   "answerIndex": 1,
+   "explanation": "hungry(배고픈)는 상태라서 be동사 Are."
+  },
+  {
+   "kind": "choice",
+   "prompt": "I don't ___ cats.",
+   "options": [
+    "like",
+    "likes",
+    "liked"
+   ],
+   "answerIndex": 0,
+   "explanation": "don't 다음엔 동사 원형."
+  },
+  {
+   "kind": "choice",
+   "prompt": "'sh' 소리가 나는 단어는?",
+   "options": [
+    "ship",
+    "sip",
+    "chip"
+   ],
+   "answerIndex": 0,
+   "explanation": "ship = 쉽(배)."
+  },
+  {
+   "kind": "choice",
+   "prompt": "seventeen은 몇?",
+   "options": [
+    "7",
+    "17",
+    "70"
+   ],
+   "answerIndex": 1,
+   "explanation": "-teen = 13~19, -ty = 20, 30..."
+  },
+  {
+   "kind": "order",
+   "prompt": "순서대로 눌러 문장 만들기",
+   "tokens": [
+    "water",
+    "I",
+    "want"
+   ],
+   "answer": "I want water",
+   "explanation": "주어 → 동사 → 나머지"
+  },
+  {
+   "kind": "choice",
+   "prompt": "Yesterday I ___ pizza.",
+   "options": [
+    "eat",
+    "ate",
+    "eats"
+   ],
+   "answerIndex": 1,
+   "explanation": "어제 일 → 과거형 ate."
+  }
+ ],
+ "2": [
+  {
+   "kind": "choice",
+   "prompt": "I'd like ___ coffee, please.",
+   "options": [
+    "a",
+    "an",
+    "the"
+   ],
+   "answerIndex": 0,
+   "explanation": "처음 말하는 하나 → a."
+  },
+  {
+   "kind": "choice",
+   "prompt": "___ I sit here?",
+   "options": [
+    "Can",
+    "Do",
+    "Am"
+   ],
+   "answerIndex": 0,
+   "explanation": "허락 구하기 → Can I ~?"
+  },
+  {
+   "kind": "choice",
+   "prompt": "I'm looking ___ the station.",
+   "options": [
+    "at",
+    "for",
+    "to"
+   ],
+   "answerIndex": 1,
+   "explanation": "찾다 = look for."
+  },
+  {
+   "kind": "choice",
+   "prompt": "How about ___ a movie?",
+   "options": [
+    "watch",
+    "watching",
+    "watched"
+   ],
+   "answerIndex": 1,
+   "explanation": "How about 다음엔 -ing."
+  },
+  {
+   "kind": "choice",
+   "prompt": "Have you ever ___ to Japan?",
+   "options": [
+    "go",
+    "went",
+    "been"
+   ],
+   "answerIndex": 2,
+   "explanation": "가 본 적 있어? = Have you ever been to ~?"
+  },
+  {
+   "kind": "choice",
+   "prompt": "'gonna'의 원래 말은?",
+   "options": [
+    "going to",
+    "want to",
+    "have to"
+   ],
+   "answerIndex": 0,
+   "explanation": "wanna = want to, gotta = have to."
+  },
+  {
+   "kind": "order",
+   "prompt": "순서대로 눌러 문장 만들기",
+   "tokens": [
+    "do",
+    "for fun",
+    "What",
+    "you",
+    "do"
+   ],
+   "answer": "What do you do for fun",
+   "explanation": "취미가 뭐예요?"
+  },
+  {
+   "kind": "choice",
+   "prompt": "'No way!'의 뜻은?",
+   "options": [
+    "말도 안 돼!",
+    "길이 없어",
+    "싫어"
+   ],
+   "answerIndex": 0,
+   "explanation": "놀랄 때 쓰는 리액션."
+  }
+ ],
+ "3": [
+  {
+   "kind": "choice",
+   "prompt": "\"What's the purpose of your visit?\" 대답으로 알맞은 것",
+   "options": [
+    "Sightseeing.",
+    "Yes, I do.",
+    "Ten dollars."
+   ],
+   "answerIndex": 0,
+   "explanation": "방문 목적 → 관광(Sightseeing)."
+  },
+  {
+   "kind": "choice",
+   "prompt": "I have a ___ under Kim.",
+   "options": [
+    "reservation",
+    "restaurant",
+    "receipt"
+   ],
+   "answerIndex": 0,
+   "explanation": "김 이름으로 예약했어요."
+  },
+  {
+   "kind": "choice",
+   "prompt": "Can I get the ___? (계산서)",
+   "options": [
+    "check",
+    "chick",
+    "cheek"
+   ],
+   "answerIndex": 0,
+   "explanation": "미국에선 check, 영국에선 bill."
+  },
+  {
+   "kind": "choice",
+   "prompt": "How do I get ___ the museum?",
+   "options": [
+    "to",
+    "at",
+    "in"
+   ],
+   "answerIndex": 0,
+   "explanation": "get to = ~에 도착하다."
+  },
+  {
+   "kind": "choice",
+   "prompt": "\"Do you mind if I join you?\"의 뜻",
+   "options": [
+    "같이 해도 될까요?",
+    "신경 쓰지 마",
+    "나 좀 도와줘"
+   ],
+   "answerIndex": 0,
+   "explanation": "합석·참여를 부탁할 때."
+  },
+  {
+   "kind": "choice",
+   "prompt": "Let's keep in ___!",
+   "options": [
+    "touch",
+    "talk",
+    "time"
+   ],
+   "answerIndex": 0,
+   "explanation": "keep in touch = 계속 연락하다."
+  },
+  {
+   "kind": "order",
+   "prompt": "순서대로 눌러 문장 만들기",
+   "tokens": [
+    "your",
+    "Can",
+    "Instagram",
+    "I",
+    "get"
+   ],
+   "answer": "Can I get your Instagram",
+   "explanation": "연락처 물어보기."
+  },
+  {
+   "kind": "choice",
+   "prompt": "I lost my ___. (여권)",
+   "options": [
+    "passport",
+    "password",
+    "pass"
+   ],
+   "answerIndex": 0,
+   "explanation": "passport = 여권."
+  }
+ ],
+ "4": [
+  {
+   "kind": "choice",
+   "prompt": "Let's ___ up next week.",
+   "options": [
+    "follow",
+    "fall",
+    "fill"
+   ],
+   "answerIndex": 0,
+   "explanation": "follow up = 후속으로 챙기다."
+  },
+  {
+   "kind": "choice",
+   "prompt": "KPI는 무엇의 약자?",
+   "options": [
+    "Key Performance Indicator",
+    "Key Price Index",
+    "Known Product Item"
+   ],
+   "answerIndex": 0,
+   "explanation": "핵심 성과 지표."
+  },
+  {
+   "kind": "choice",
+   "prompt": "Sales ___ by 20% last quarter.",
+   "options": [
+    "increased",
+    "increase",
+    "increasing"
+   ],
+   "answerIndex": 0,
+   "explanation": "지난 분기 → 과거형."
+  },
+  {
+   "kind": "choice",
+   "prompt": "Our target ___ is people in their 30s.",
+   "options": [
+    "audience",
+    "audit",
+    "attention"
+   ],
+   "answerIndex": 0,
+   "explanation": "target audience = 목표 고객층."
+  },
+  {
+   "kind": "choice",
+   "prompt": "I'd ___ focusing on Instagram.",
+   "options": [
+    "recommend",
+    "remember",
+    "return"
+   ],
+   "answerIndex": 0,
+   "explanation": "I'd recommend ~ing = ~하기를 추천해요."
+  },
+  {
+   "kind": "choice",
+   "prompt": "Could you walk me ___ the data?",
+   "options": [
+    "through",
+    "over",
+    "in"
+   ],
+   "answerIndex": 0,
+   "explanation": "walk through = 차근차근 설명하다."
+  },
+  {
+   "kind": "order",
+   "prompt": "순서대로 눌러 문장 만들기",
+   "tokens": [
+    "forward",
+    "I",
+    "to",
+    "look",
+    "hearing from you"
+   ],
+   "answer": "I look forward to hearing from you",
+   "explanation": "이메일 끝인사로 자주 써요."
+  },
+  {
+   "kind": "choice",
+   "prompt": "agenda의 뜻은?",
+   "options": [
+    "회의 안건",
+    "대리인",
+    "일정 취소"
+   ],
+   "answerIndex": 0,
+   "explanation": "회의 시작 때: Let's go over the agenda."
+  }
+ ]
+}

@@ -1,0 +1,262 @@
+[
+ {
+  "week": 1,
+  "title": "알파벳 소리 익히기 (A~M)",
+  "searchQuery": "파닉스 기초 성인 알파벳 소리"
+ },
+ {
+  "week": 2,
+  "title": "알파벳 소리 (N~Z)·짧은 모음",
+  "searchQuery": "파닉스 단모음 성인"
+ },
+ {
+  "week": 3,
+  "title": "긴 모음·sh / ch / th 소리",
+  "searchQuery": "파닉스 sh ch th 발음"
+ },
+ {
+  "week": 4,
+  "title": "Be동사: I am / You are + 자기소개",
+  "searchQuery": "be동사 왕초보 영어"
+ },
+ {
+  "week": 5,
+  "title": "일반동사: I like / I want",
+  "searchQuery": "일반동사 현재형 왕초보"
+ },
+ {
+  "week": 6,
+  "title": "질문과 부정: Do you~? / I don't~",
+  "searchQuery": "영어 의문문 부정문 왕초보"
+ },
+ {
+  "week": 7,
+  "title": "숫자·시간·가격 말하기",
+  "searchQuery": "영어 숫자 시간 가격 말하기"
+ },
+ {
+  "week": 8,
+  "title": "과거형 기초 + 1단계 복습",
+  "searchQuery": "영어 과거형 기초 왕초보"
+ },
+ {
+  "week": 9,
+  "title": "I'd like ~ / I want to ~",
+  "searchQuery": "I'd like to 영어 회화 패턴"
+ },
+ {
+  "week": 10,
+  "title": "Can I ~? / Could you ~?",
+  "searchQuery": "Can I Could you 영어 회화 패턴"
+ },
+ {
+  "week": 11,
+  "title": "I'm looking for ~ / Where is ~?",
+  "searchQuery": "I'm looking for 영어 패턴"
+ },
+ {
+  "week": 12,
+  "title": "쉐도잉 시작하기",
+  "searchQuery": "영어 쉐도잉 방법 초보"
+ },
+ {
+  "week": 13,
+  "title": "제안하기: How about ~? / Let's ~",
+  "searchQuery": "How about Let's 영어 회화"
+ },
+ {
+  "week": 14,
+  "title": "생각 말하기: I think / I feel",
+  "searchQuery": "I think 영어 의견 말하기 기초"
+ },
+ {
+  "week": 15,
+  "title": "미래: I'm going to / I will",
+  "searchQuery": "be going to will 차이 쉽게"
+ },
+ {
+  "week": 16,
+  "title": "근황 말하기: I'm ~ing",
+  "searchQuery": "현재진행형 영어 회화"
+ },
+ {
+  "week": 17,
+  "title": "연음 듣기: gonna, wanna",
+  "searchQuery": "gonna wanna 연음 듣기"
+ },
+ {
+  "week": 18,
+  "title": "경험 묻기: Have you ever ~?",
+  "searchQuery": "Have you ever 영어 회화"
+ },
+ {
+  "week": 19,
+  "title": "리액션: No way! That's cool!",
+  "searchQuery": "영어 리액션 표현 원어민"
+ },
+ {
+  "week": 20,
+  "title": "대화 이어가기: What about you?",
+  "searchQuery": "영어 대화 이어가는 법"
+ },
+ {
+  "week": 21,
+  "title": "미드 한 장면 쉐도잉",
+  "searchQuery": "프렌즈 쉐도잉 초급"
+ },
+ {
+  "week": 22,
+  "title": "취미·하는 일 소개하기",
+  "searchQuery": "영어로 취미 직업 소개"
+ },
+ {
+  "week": 23,
+  "title": "좋아하는 영화·음식 말하기",
+  "searchQuery": "영어로 좋아하는 것 말하기"
+ },
+ {
+  "week": 24,
+  "title": "2단계 복습 + 1분 자기소개 녹음",
+  "searchQuery": "영어 1분 자기소개"
+ },
+ {
+  "week": 25,
+  "title": "공항·입국심사",
+  "searchQuery": "공항 입국심사 영어"
+ },
+ {
+  "week": 26,
+  "title": "호텔 체크인·요청하기",
+  "searchQuery": "호텔 체크인 영어 회화"
+ },
+ {
+  "week": 27,
+  "title": "식당·카페 주문",
+  "searchQuery": "식당 주문 영어 회화"
+ },
+ {
+  "week": 28,
+  "title": "길 묻기·교통",
+  "searchQuery": "길 묻기 영어 회화 여행"
+ },
+ {
+  "week": 29,
+  "title": "쇼핑·교환·환불",
+  "searchQuery": "쇼핑 영어 회화 환불"
+ },
+ {
+  "week": 30,
+  "title": "문제 해결: 분실·아플 때",
+  "searchQuery": "여행 영어 긴급상황"
+ },
+ {
+  "week": 31,
+  "title": "처음 만난 사람과 스몰토크",
+  "searchQuery": "영어 스몰토크 처음 만난 사람"
+ },
+ {
+  "week": 32,
+  "title": "친구 사귀기: 연락처·약속 잡기",
+  "searchQuery": "외국인 친구 사귀기 영어 표현"
+ },
+ {
+  "week": 33,
+  "title": "바·파티에서 대화",
+  "searchQuery": "bar party english conversation phrases"
+ },
+ {
+  "week": 34,
+  "title": "AI 친구와 언어교환 대화",
+  "searchQuery": "영어 언어교환 대화 표현"
+ },
+ {
+  "week": 35,
+  "title": "AI 튜터와 첫 영어 수업",
+  "searchQuery": "영어 수업 시간 유용한 표현"
+ },
+ {
+  "week": 36,
+  "title": "캐주얼 표현·슬랭",
+  "searchQuery": "원어민 일상 슬랭 표현"
+ },
+ {
+  "week": 37,
+  "title": "내 경험 이야기하기",
+  "searchQuery": "영어로 경험 이야기하기"
+ },
+ {
+  "week": 38,
+  "title": "동의·반대 표현",
+  "searchQuery": "영어 동의 반대 표현"
+ },
+ {
+  "week": 39,
+  "title": "자막 없이 영화 보기 연습",
+  "searchQuery": "영어 자막 없이 영화 보는 법"
+ },
+ {
+  "week": 40,
+  "title": "여행 롤플레이 종합",
+  "searchQuery": "여행영어 총정리"
+ },
+ {
+  "week": 41,
+  "title": "비즈니스 자기소개",
+  "searchQuery": "business english self introduction"
+ },
+ {
+  "week": 42,
+  "title": "영어 이메일 기본 구조",
+  "searchQuery": "영어 비즈니스 이메일 기초"
+ },
+ {
+  "week": 43,
+  "title": "회의 표현: agenda, follow up",
+  "searchQuery": "영어 회의 표현"
+ },
+ {
+  "week": 44,
+  "title": "마케팅 기본 용어: target, funnel, KPI",
+  "searchQuery": "marketing vocabulary english"
+ },
+ {
+  "week": 45,
+  "title": "숫자·그래프 설명하기",
+  "searchQuery": "describing graphs english"
+ },
+ {
+  "week": 46,
+  "title": "고객에게 질문하기 (컨설팅)",
+  "searchQuery": "consulting questions english client"
+ },
+ {
+  "week": 47,
+  "title": "제안·설득: I'd recommend ~",
+  "searchQuery": "english phrases recommend persuade"
+ },
+ {
+  "week": 48,
+  "title": "짧은 발표 구조",
+  "searchQuery": "short presentation english structure"
+ },
+ {
+  "week": 49,
+  "title": "화상회의·전화 표현",
+  "searchQuery": "english phrases video call meeting"
+ },
+ {
+  "week": 50,
+  "title": "마케팅 사례 영어로 읽기",
+  "searchQuery": "marketing case study explained english"
+ },
+ {
+  "week": 51,
+  "title": "협상·일정 조율",
+  "searchQuery": "negotiation english phrases"
+ },
+ {
+  "week": 52,
+  "title": "1년 총정리: 3분 영어 발표",
+  "searchQuery": "english presentation practice"
+ }
+]

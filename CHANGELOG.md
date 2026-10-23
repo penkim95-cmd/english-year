@@ -1,0 +1,42 @@
+# 변경 기록
+
+형식은 [Keep a Changelog](https://keepachangelog.com/ko/1.1.0/)를, 버전은 [Semantic Versioning](https://semver.org/lang/ko/)을 따릅니다.
+
+## [1.0.0] - 2026-10-23
+
+단일 HTML 프로토타입을 공개 저장소용 구조로 다시 설계했습니다. 학습 기능과 저장 형식은 그대로이며, 기존 기기의 기록을 그대로 읽습니다.
+
+### 바뀜
+
+- Vite + TypeScript(strict) 모듈 구조로 재구성: `core / data / domain / state / ai / speech / ui` 계층과 단방향 의존.
+- 콘텐츠(레슨·단어·슬랭·단계 학습지)를 JSON으로 분리하고 타입으로 형식을 정의([ADR 0004](docs/adr/0004-content-as-json.md)).
+- 문자열 HTML 대신 기본 이스케이프 `html` 템플릿과 이벤트 위임 방식의 `data-action` 라우팅([ADR 0001](docs/adr/0001-vanilla-typescript-no-framework.md)).
+- 복사해 두던 SDK 파일(`vendor/`) 대신 `@anthropic-ai/sdk`를 정식 의존성으로 번들하고, 처음 AI를 쓸 때 불러옴.
+- CSP의 인라인 스크립트 해시 목록 대신 인라인 스크립트 없는 빌드(`script-src 'self'`).
+- 서비스 워커를 빌드 때 파일 목록·내용 해시로 생성([ADR 0003](docs/adr/0003-pwa-instead-of-app-store.md)).
+
+### 추가
+
+- 단위·화면 테스트 54개(Vitest + jsdom)와 실제 브라우저 E2E 테스트 16개(Playwright), ESLint·Prettier, GitHub Actions CI와 GitHub Pages 수동 배포 워크플로.
+- 문서: README, 아키텍처, 학습 설계, ADR 5개, 보안, 기여 안내.
+- 아이콘 생성 스크립트(`scripts/make-icons.py`).
+
+### 고침
+
+- 음성 재생 함수가 재생을 시작하자마자 '재생 끝' 콜백을 부르던 문제.
+- 기기 음성 목록이 늦게 도착하면 입력 중인 설정 칸이 다시 그려져 지워질 수 있던 문제.
+
+### 제거
+
+- claude.ai 아티팩트 전용 기기 간 동기화. 설치형 앱에서는 동작하지 않는 기능이라 백업 파일로 대신합니다.
+- 다른 AI 앱의 음성 모드에 붙여 넣던 "대본 복사" 버튼. 앱 안 음성 대화 모드(말하면 자동 전송·답 읽어 주기)로 대신합니다.
+
+## [0.x] - 2026-10-22 ~ 2026-10-23
+
+단일 HTML 파일 프로토타입. claude.ai 아티팩트로 시작해 다음 순서로 기능을 늘렸습니다.
+
+- 1년 4단계 플랜, 주차별 학습지·단어장, AI 대화.
+- 외부 영상 대신 앱 안 레슨 클립(슬라이드 + 기기 음성 내레이션).
+- 실생활 슬랭, 간격 반복 복습, 받아쓰기·따라 말하기 채점.
+- AI 친구(기억 메모), 상황 롤플레이·평가, 쓰기 첨삭, 음성 대화 모드.
+- 홈 화면 설치형 PWA, 브라우저에서 Claude API 직접 호출, CSP·백업 검증 등 보안 보강.

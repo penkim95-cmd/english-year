@@ -1,0 +1,616 @@
+[
+ {
+  "category": "인사·작별",
+  "items": [
+   {
+    "en": "Sup?",
+    "ko": "잘 지내? (What's up 줄임)",
+    "example": "Hey man, sup?",
+    "exampleKo": "야, 잘 지내?",
+    "register": "친구끼리"
+   },
+   {
+    "en": "What's new?",
+    "ko": "요즘 별일 없어?",
+    "example": "Long time! What's new?",
+    "exampleKo": "오랜만! 요즘 별일 없어?",
+    "register": "어디서나"
+   },
+   {
+    "en": "Hey, stranger!",
+    "ko": "오랜만이네!",
+    "example": "Hey, stranger! Where have you been?",
+    "exampleKo": "오랜만이네! 어디 갔었어?",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Morning!",
+    "ko": "좋은 아침!",
+    "example": "Morning! Coffee?",
+    "exampleKo": "좋은 아침! 커피 마실래?",
+    "register": "어디서나"
+   },
+   {
+    "en": "Later!",
+    "ko": "나중에 봐!",
+    "example": "Okay, later!",
+    "exampleKo": "그래, 나중에 봐!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Take it easy.",
+    "ko": "잘 지내, 무리하지 마",
+    "example": "See you, take it easy.",
+    "exampleKo": "잘 가, 무리하지 마.",
+    "register": "어디서나"
+   },
+   {
+    "en": "I'm out.",
+    "ko": "나 간다",
+    "example": "It's late. I'm out.",
+    "exampleKo": "늦었다. 나 간다.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Gotta bounce.",
+    "ko": "가 봐야 돼",
+    "example": "Sorry, gotta bounce.",
+    "exampleKo": "미안, 가 봐야 돼.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Have a good one!",
+    "ko": "좋은 하루 보내!",
+    "example": "Thanks! Have a good one!",
+    "exampleKo": "고마워요! 좋은 하루 보내요!",
+    "register": "어디서나"
+   },
+   {
+    "en": "Talk soon!",
+    "ko": "곧 또 연락하자!",
+    "example": "Great catching up. Talk soon!",
+    "exampleKo": "얘기 즐거웠어. 곧 또 연락하자!",
+    "register": "어디서나"
+   }
+  ]
+ },
+ {
+  "category": "맞장구·리액션",
+  "items": [
+   {
+    "en": "Same.",
+    "ko": "나도.",
+    "example": "\"I'm so tired.\" \"Same.\"",
+    "exampleKo": "\"나 너무 피곤해.\" \"나도.\"",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Totally.",
+    "ko": "완전.",
+    "example": "\"That was fun.\" \"Totally.\"",
+    "exampleKo": "\"재밌었다.\" \"완전.\"",
+    "register": "어디서나"
+   },
+   {
+    "en": "For sure.",
+    "ko": "당연하지",
+    "example": "\"Coming tonight?\" \"For sure.\"",
+    "exampleKo": "\"오늘 밤 와?\" \"당연하지.\"",
+    "register": "어디서나"
+   },
+   {
+    "en": "I feel you.",
+    "ko": "무슨 마음인지 알아",
+    "example": "I feel you. Mondays are hard.",
+    "exampleKo": "알지. 월요일은 힘들지.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Tell me about it.",
+    "ko": "내 말이",
+    "example": "\"Traffic was crazy.\" \"Tell me about it.\"",
+    "exampleKo": "\"차 엄청 막혔어.\" \"내 말이.\"",
+    "register": "어디서나"
+   },
+   {
+    "en": "That's wild.",
+    "ko": "대박이다, 말도 안 된다",
+    "example": "He quit his job? That's wild.",
+    "exampleKo": "걔가 회사를 그만뒀다고? 대박이다.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "You're kidding!",
+    "ko": "농담이지!",
+    "example": "You're kidding! Really?",
+    "exampleKo": "농담이지! 진짜?",
+    "register": "어디서나"
+   },
+   {
+    "en": "Fair.",
+    "ko": "인정.",
+    "example": "\"It's too far.\" \"Fair.\"",
+    "exampleKo": "\"너무 멀어.\" \"인정.\"",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Facts.",
+    "ko": "팩트지, 맞는 말",
+    "example": "\"Pizza is the best.\" \"Facts.\"",
+    "exampleKo": "\"피자가 최고야.\" \"팩트지.\"",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Makes sense.",
+    "ko": "그렇구나, 이해돼",
+    "example": "Oh, makes sense.",
+    "exampleKo": "아, 그렇구나.",
+    "register": "어디서나"
+   }
+  ]
+ },
+ {
+  "category": "칭찬·감탄",
+  "items": [
+   {
+    "en": "That's sick!",
+    "ko": "완전 멋지다!",
+    "example": "Your new car is sick!",
+    "exampleKo": "새 차 완전 멋지다!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Killing it",
+    "ko": "완전 잘하고 있는",
+    "example": "You're killing it!",
+    "exampleKo": "너 완전 잘하고 있어!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Nailed it!",
+    "ko": "완벽하게 해냈어!",
+    "example": "You nailed it!",
+    "exampleKo": "완벽하게 해냈네!",
+    "register": "어디서나"
+   },
+   {
+    "en": "On point",
+    "ko": "딱 좋은, 완벽한",
+    "example": "Your outfit is on point.",
+    "exampleKo": "오늘 옷 완벽하다.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "It's fire.",
+    "ko": "끝내줘",
+    "example": "This burger is fire.",
+    "exampleKo": "이 버거 끝내준다.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Looking good!",
+    "ko": "멋져 보여! (친해진 사이에서만)",
+    "example": "Looking good today!",
+    "exampleKo": "오늘 멋진데!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Not bad at all",
+    "ko": "꽤 괜찮은데",
+    "example": "Not bad at all for a first try.",
+    "exampleKo": "처음치고 꽤 괜찮은데.",
+    "register": "어디서나"
+   },
+   {
+    "en": "Good call",
+    "ko": "좋은 선택이야",
+    "example": "Taking a taxi was a good call.",
+    "exampleKo": "택시 탄 건 좋은 선택이었어.",
+    "register": "어디서나"
+   },
+   {
+    "en": "Way to go!",
+    "ko": "잘했어!",
+    "example": "You passed? Way to go!",
+    "exampleKo": "합격했어? 잘했다!",
+    "register": "어디서나"
+   },
+   {
+    "en": "I'm impressed.",
+    "ko": "대단한데",
+    "example": "Wow, I'm impressed.",
+    "exampleKo": "와, 대단한데.",
+    "register": "어디서나"
+   }
+  ]
+ },
+ {
+  "category": "기분·상태",
+  "items": [
+   {
+    "en": "I'm beat.",
+    "ko": "완전 녹초야",
+    "example": "Long day. I'm beat.",
+    "exampleKo": "긴 하루였어. 완전 녹초야.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "I'm stuffed.",
+    "ko": "배 터질 것 같아",
+    "example": "No more, I'm stuffed.",
+    "exampleKo": "그만, 배 터질 것 같아.",
+    "register": "어디서나"
+   },
+   {
+    "en": "I'm pumped!",
+    "ko": "완전 신나!",
+    "example": "I'm pumped for the trip!",
+    "exampleKo": "여행 완전 기대돼!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "I'm stoked.",
+    "ko": "엄청 들떴어",
+    "example": "I'm so stoked about the concert.",
+    "exampleKo": "콘서트 때문에 엄청 들떴어.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "I'm bummed.",
+    "ko": "아쉬워, 실망이야",
+    "example": "I'm bummed you can't come.",
+    "exampleKo": "너 못 온다니 아쉽다.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "freaking out",
+    "ko": "멘붕 온, 엄청 당황한",
+    "example": "I'm freaking out! I lost my passport!",
+    "exampleKo": "멘붕이야! 여권 잃어버렸어!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "I'm over it.",
+    "ko": "이제 신경 안 써, 지겨워",
+    "example": "I was angry, but I'm over it now.",
+    "exampleKo": "화났었는데 이제 괜찮아.",
+    "register": "어디서나"
+   },
+   {
+    "en": "It's been a day.",
+    "ko": "오늘 진짜 힘든 날이었어",
+    "example": "Ugh, it's been a day.",
+    "exampleKo": "아, 오늘 진짜 힘들었다.",
+    "register": "어디서나"
+   },
+   {
+    "en": "I'm good.",
+    "ko": "괜찮아요(거절)",
+    "example": "\"More coffee?\" \"I'm good, thanks.\"",
+    "exampleKo": "\"커피 더 줄까?\" \"괜찮아, 고마워.\"",
+    "register": "어디서나"
+   },
+   {
+    "en": "I can't even.",
+    "ko": "할 말을 잃었어",
+    "example": "That ending... I can't even.",
+    "exampleKo": "그 결말... 할 말을 잃었어.",
+    "register": "친구끼리"
+   }
+  ]
+ },
+ {
+  "category": "약속·친구 사이",
+  "items": [
+   {
+    "en": "grab a bite",
+    "ko": "간단히 뭐 먹다",
+    "example": "Want to grab a bite?",
+    "exampleKo": "간단히 뭐 먹을래?",
+    "register": "어디서나"
+   },
+   {
+    "en": "I'm in.",
+    "ko": "나 낄래",
+    "example": "Karaoke? I'm in!",
+    "exampleKo": "노래방? 나 낄래!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Count me out.",
+    "ko": "난 빠질게",
+    "example": "Hiking at 5 a.m.? Count me out.",
+    "exampleKo": "새벽 5시 등산? 난 빠질게.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "rain check",
+    "ko": "다음 기회로 미루기",
+    "example": "Can I take a rain check?",
+    "exampleKo": "다음에 해도 될까?",
+    "register": "어디서나"
+   },
+   {
+    "en": "my treat",
+    "ko": "내가 쏠게",
+    "example": "Lunch is my treat.",
+    "exampleKo": "점심은 내가 쏠게.",
+    "register": "어디서나"
+   },
+   {
+    "en": "swing by",
+    "ko": "잠깐 들르다",
+    "example": "I'll swing by after work.",
+    "exampleKo": "퇴근하고 잠깐 들를게.",
+    "register": "어디서나"
+   },
+   {
+    "en": "bail",
+    "ko": "약속을 갑자기 취소하다",
+    "example": "Sorry, I have to bail tonight.",
+    "exampleKo": "미안, 오늘 밤 못 갈 것 같아.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "running late",
+    "ko": "좀 늦는",
+    "example": "I'm running late. Ten minutes!",
+    "exampleKo": "좀 늦어. 10분!",
+    "register": "어디서나"
+   },
+   {
+    "en": "Hit me up",
+    "ko": "연락해",
+    "example": "Hit me up when you're in town.",
+    "exampleKo": "이 동네 오면 연락해.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "plus-one",
+    "ko": "동반 1인",
+    "example": "Can I bring a plus-one?",
+    "exampleKo": "한 명 데려가도 돼?",
+    "register": "어디서나"
+   }
+  ]
+ },
+ {
+  "category": "대화에 꼭 쓰는 말",
+  "items": [
+   {
+    "en": "No biggie.",
+    "ko": "별거 아냐",
+    "example": "You forgot it? No biggie.",
+    "exampleKo": "까먹었어? 별거 아냐.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "It is what it is.",
+    "ko": "어쩔 수 없지",
+    "example": "We missed the bus. It is what it is.",
+    "exampleKo": "버스 놓쳤네. 어쩔 수 없지.",
+    "register": "어디서나"
+   },
+   {
+    "en": "Long story short,",
+    "ko": "간단히 말하면",
+    "example": "Long story short, I got lost.",
+    "exampleKo": "간단히 말하면 길을 잃었어.",
+    "register": "어디서나"
+   },
+   {
+    "en": "Piece of cake",
+    "ko": "식은 죽 먹기",
+    "example": "The test was a piece of cake.",
+    "exampleKo": "시험 식은 죽 먹기였어.",
+    "register": "어디서나"
+   },
+   {
+    "en": "Up to you.",
+    "ko": "너한테 맡길게",
+    "example": "Pizza or burgers? Up to you.",
+    "exampleKo": "피자 아니면 버거? 너 하고 싶은 걸로.",
+    "register": "어디서나"
+   },
+   {
+    "en": "Your call.",
+    "ko": "네가 정해",
+    "example": "It's your call.",
+    "exampleKo": "네가 정해.",
+    "register": "어디서나"
+   },
+   {
+    "en": "Keep me posted.",
+    "ko": "소식 알려 줘",
+    "example": "Keep me posted on the trip.",
+    "exampleKo": "여행 소식 알려 줘.",
+    "register": "어디서나"
+   },
+   {
+    "en": "I'm all ears.",
+    "ko": "잘 듣고 있어",
+    "example": "Go ahead, I'm all ears.",
+    "exampleKo": "말해 봐, 잘 듣고 있어.",
+    "register": "어디서나"
+   },
+   {
+    "en": "My bad, I forgot.",
+    "ko": "미안, 깜빡했어",
+    "example": "My bad, I forgot to text you.",
+    "exampleKo": "미안, 문자하는 걸 깜빡했어.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Don't sweat it.",
+    "ko": "걱정하지 마",
+    "example": "Don't sweat it. I'll handle it.",
+    "exampleKo": "걱정 마. 내가 처리할게.",
+    "register": "어디서나"
+   }
+  ]
+ },
+ {
+  "category": "문자·SNS 줄임말",
+  "items": [
+   {
+    "en": "lol",
+    "ko": "ㅋㅋㅋ (laughing out loud)",
+    "example": "That's so funny lol",
+    "exampleKo": "완전 웃기다 ㅋㅋ",
+    "register": "문자"
+   },
+   {
+    "en": "btw",
+    "ko": "그런데 (by the way)",
+    "example": "btw, are you free tomorrow?",
+    "exampleKo": "그런데 내일 시간 돼?",
+    "register": "문자"
+   },
+   {
+    "en": "idk",
+    "ko": "몰라 (I don't know)",
+    "example": "idk, maybe 7?",
+    "exampleKo": "몰라, 7시쯤?",
+    "register": "문자"
+   },
+   {
+    "en": "tbh",
+    "ko": "솔직히 (to be honest)",
+    "example": "tbh I didn't like it.",
+    "exampleKo": "솔직히 별로였어.",
+    "register": "문자"
+   },
+   {
+    "en": "omw",
+    "ko": "가는 중 (on my way)",
+    "example": "omw! 5 min",
+    "exampleKo": "가는 중! 5분",
+    "register": "문자"
+   },
+   {
+    "en": "brb",
+    "ko": "금방 올게 (be right back)",
+    "example": "brb, getting food",
+    "exampleKo": "금방 올게, 밥 가지러",
+    "register": "문자"
+   },
+   {
+    "en": "np",
+    "ko": "괜찮아 (no problem)",
+    "example": "\"thx!\" \"np!\"",
+    "exampleKo": "\"고마워!\" \"괜찮아!\"",
+    "register": "문자"
+   },
+   {
+    "en": "thx / ty",
+    "ko": "고마워 (thanks / thank you)",
+    "example": "ty for today!",
+    "exampleKo": "오늘 고마웠어!",
+    "register": "문자"
+   },
+   {
+    "en": "imo",
+    "ko": "내 생각엔 (in my opinion)",
+    "example": "imo the first one is better.",
+    "exampleKo": "내 생각엔 첫 번째가 나아.",
+    "register": "문자"
+   },
+   {
+    "en": "ngl",
+    "ko": "솔직히 말해서 (not gonna lie)",
+    "example": "ngl that was scary.",
+    "exampleKo": "솔직히 무서웠어.",
+    "register": "문자"
+   },
+   {
+    "en": "rn",
+    "ko": "지금 (right now)",
+    "example": "I'm at home rn.",
+    "exampleKo": "나 지금 집이야.",
+    "register": "문자"
+   },
+   {
+    "en": "jk",
+    "ko": "농담이야 (just kidding)",
+    "example": "You're late again! jk",
+    "exampleKo": "또 늦었네! 농담이야",
+    "register": "문자"
+   }
+  ]
+ },
+ {
+  "category": "술자리·파티",
+  "items": [
+   {
+    "en": "Bottoms up!",
+    "ko": "원샷!",
+    "example": "Okay everyone, bottoms up!",
+    "exampleKo": "자 다들, 원샷!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "Last call",
+    "ko": "마지막 주문",
+    "example": "It's last call. One more?",
+    "exampleKo": "마지막 주문이래. 한 잔 더?",
+    "register": "어디서나"
+   },
+   {
+    "en": "hangover",
+    "ko": "숙취",
+    "example": "I have a terrible hangover.",
+    "exampleKo": "숙취가 너무 심해.",
+    "register": "어디서나"
+   },
+   {
+    "en": "nightcap",
+    "ko": "자기 전 한잔",
+    "example": "Want a nightcap?",
+    "exampleKo": "자기 전에 한잔할래?",
+    "register": "어디서나"
+   },
+   {
+    "en": "BYOB",
+    "ko": "각자 술 지참",
+    "example": "The party is BYOB.",
+    "exampleKo": "파티는 각자 술 가져오는 거야.",
+    "register": "어디서나"
+   },
+   {
+    "en": "It's lit!",
+    "ko": "분위기 장난 아니다!",
+    "example": "This party is lit!",
+    "exampleKo": "이 파티 분위기 장난 아니다!",
+    "register": "친구끼리"
+   },
+   {
+    "en": "I'm buzzed.",
+    "ko": "살짝 취했어",
+    "example": "Just one beer and I'm buzzed.",
+    "exampleKo": "맥주 한 잔에 살짝 취했어.",
+    "register": "친구끼리"
+   },
+   {
+    "en": "What are you drinking?",
+    "ko": "뭐 마실래?",
+    "example": "My treat. What are you drinking?",
+    "exampleKo": "내가 살게. 뭐 마실래?",
+    "register": "어디서나"
+   },
+   {
+    "en": "Let's get out of here.",
+    "ko": "여기서 나가자",
+    "example": "It's too loud. Let's get out of here.",
+    "exampleKo": "너무 시끄럽다. 나가자.",
+    "register": "어디서나"
+   },
+   {
+    "en": "I'm the DD tonight.",
+    "ko": "오늘은 내가 운전해(술 안 마셔)",
+    "example": "No beer for me. I'm the DD tonight.",
+    "exampleKo": "난 맥주 안 마셔. 오늘 운전해야 돼.",
+    "register": "친구끼리"
+   }
+  ]
+ }
+]
