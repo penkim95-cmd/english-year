@@ -73,11 +73,13 @@ if ("serviceWorker" in navigator && import.meta.env.PROD) {
         /* offline support is optional */
       });
   });
-  // A new version took over: reload once, unless the learner is typing.
+  // A new version took over: reload once, unless the learner is typing or in a
+  // lesson clip. The first install also fires this event; nothing changed then.
+  const updating = !!navigator.serviceWorker.controller;
   let reloaded = false;
   navigator.serviceWorker.addEventListener("controllerchange", () => {
     const typing = document.activeElement?.matches("input, textarea") ?? false;
-    if (reloaded || typing) return;
+    if (!updating || reloaded || typing || clip.isOpen) return;
     reloaded = true;
     app.store.flush();
     location.reload();

@@ -380,3 +380,21 @@ test.describe("보안과 저장", () => {
     await expect(page.locator('[data-tab="vocab"]')).toHaveClass(/on/);
   });
 });
+
+test.describe("오프라인 설치", () => {
+  test.use({ serviceWorkers: "allow" });
+
+  test("the first install does not reload the page under the learner", async ({ page }) => {
+    let loads = 0;
+    page.on("load", () => loads++);
+    await page.goto("/");
+    await page.click('[data-action="openClip"]');
+    await expect(page.locator("#clip")).toBeVisible();
+    await expect
+      .poll(() => page.evaluate(() => !!navigator.serviceWorker.controller), { timeout: 15000 })
+      .toBe(true);
+    await page.waitForTimeout(500);
+    expect(loads).toBe(1);
+    await expect(page.locator("#clip")).toBeVisible();
+  });
+});

@@ -110,7 +110,7 @@ sequenceDiagram
 - Vite가 `index.html`과 `src/main.ts`에서 번들을 만들고, 콘텐츠 JSON은 번들에 포함됩니다. SDK는 별도 청크입니다.
 - `build/pwa.ts` 플러그인이 빌드 때만
   - `index.html`에 Content-Security-Policy를 넣습니다(`script-src 'self'`, `connect-src 'self' https://api.anthropic.com`). 개발 서버는 인라인 스크립트가 필요해서 넣지 않습니다.
-  - 내보낸 파일 전체 목록과 내용 해시로 `sw.js`를 만듭니다. 배포할 때마다 캐시 이름이 바뀌어 설치된 앱이 한 번에 새 버전으로 바뀌고, 입력 중이 아니면 자동으로 새로고침합니다.
+  - 내보낸 파일 전체 목록과 내용 해시로 `sw.js`를 만듭니다. 배포할 때마다 캐시 이름이 바뀌어 설치된 앱이 한 번에 새 버전으로 바뀌고, 입력 중이거나 클립을 보는 중이 아니면 자동으로 새로고침합니다(처음 설치할 때는 새로고침하지 않음).
 - `base: "./"`라서 같은 빌드가 도메인 루트와 GitHub Pages 하위 경로 모두에서 동작합니다.
 
 ## 8. 테스트 전략
@@ -121,6 +121,6 @@ sequenceDiagram
 | state         | Vitest + jsdom | 기존 저장 키 읽기, 잘못된 데이터 거르기, 백업 왕복(키 제외), 위조 백업 거부                                                                                               |
 | content       | Vitest         | 52주 모두 레슨 3포인트·단어 15개, 단계 연속성, ID 중복 없음                                                                                                               |
 | ui            | Vitest + jsdom | 탭 전환, 할 일 체크, 학습지·카드 동작, 사용자 입력 이스케이프, 키 없을 때 안내                                                                                            |
-| 실제 브라우저 | Playwright     | 배포 빌드에서 18개 사용 흐름(오늘의 퀘스트 단계 진행·설정·클립·학습지·단어장·AI 대화·음성 모드·백업·CSP). Claude API와 기기 음성은 `e2e/fixtures.ts`의 가짜 응답으로 대체 |
+| 실제 브라우저 | Playwright     | 배포 빌드에서 19개 사용 흐름(오늘의 퀘스트 단계 진행·첫 설치 시 새로고침 없음·설정·클립·학습지·단어장·AI 대화·음성 모드·백업·CSP). Claude API와 기기 음성은 `e2e/fixtures.ts`의 가짜 응답으로 대체 |
 
 CI(`.github/workflows/ci.yml`)는 `npm run ci`를 실행한 뒤 E2E 테스트(`npm run test:e2e`)를 돌립니다.
