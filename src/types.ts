@@ -78,7 +78,6 @@ export interface Stage {
   weeks: readonly [number, number];
   color: string;
   goal: string;
-  daily: DailyTask[];
 }
 
 export interface Friend {
@@ -144,6 +143,8 @@ export interface SrsRecord {
 
 export interface Progress {
   startDate: string | null;
+  /** Week the course started at, chosen by the level check (absent = not measured yet). */
+  startWeek?: number;
   /** YYYY-MM-DD → checked flags for that day's tasks. */
   daily: Record<string, boolean[]>;
   known: Record<string, 1>;

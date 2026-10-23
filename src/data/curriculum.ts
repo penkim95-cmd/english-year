@@ -25,13 +25,6 @@ export const STAGES: readonly Stage[] = [
     weeks: [1, 8],
     color: "var(--s1)",
     goal: "철자를 보고 소리 내기, 기초 단어 500개, 주어+동사 문장",
-    daily: [
-      { label: "이번 주 레슨 클립 보고 따라 읽기", minutes: 15, target: "clip" },
-      { label: "이번 주 단어 15개 외우기", minutes: 15, target: "vocab" },
-      { label: "이번 주 학습지 풀기", minutes: 10, target: "sheet" },
-      { label: "복습할 단어 정리", minutes: 5, target: "review" },
-      { label: "릴스·영화: 영어 자막 켜고 들린 단어 1개 메모", minutes: 15, target: "none" },
-    ],
   },
   {
     id: 2,
@@ -39,13 +32,6 @@ export const STAGES: readonly Stage[] = [
     weeks: [9, 24],
     color: "var(--s2)",
     goal: "회화 패턴 100개, 쉐도잉 습관, AI와 매일 대화",
-    daily: [
-      { label: "레슨 클립 보고 예문 쉐도잉", minutes: 15, target: "clip" },
-      { label: "이번 주 단어 + 복습", minutes: 10, target: "vocab" },
-      { label: "AI 친구와 대화 (Jake·Emma)", minutes: 15, target: "friend" },
-      { label: "받아쓰기 10문장", minutes: 10, target: "dictation" },
-      { label: "따라 말하기 채점 10문장", minutes: 5, target: "speaking" },
-    ],
   },
   {
     id: 3,
@@ -53,13 +39,6 @@ export const STAGES: readonly Stage[] = [
     weeks: [25, 40],
     color: "var(--s3)",
     goal: "여행 상황 대화, 처음 만난 사람과 스몰토크, 친구 사귀기",
-    daily: [
-      { label: "이번 주 레슨 클립 보고 따라 말하기", minutes: 10, target: "clip" },
-      { label: "AI 롤플레이 (이번 주 상황)", minutes: 15, target: "scene" },
-      { label: "AI 친구와 메시지 주고받기 (Emma·Carlos)", minutes: 10, target: "friend" },
-      { label: "단어·슬랭 복습", minutes: 10, target: "review" },
-      { label: "받아쓰기 10문장", minutes: 10, target: "dictation" },
-    ],
   },
   {
     id: 4,
@@ -67,13 +46,6 @@ export const STAGES: readonly Stage[] = [
     weeks: [41, 52],
     color: "var(--s4)",
     goal: "마케팅·컨설팅 기본 용어, 이메일, 회의, 짧은 발표",
-    daily: [
-      { label: "이번 주 레슨 클립 보고 따라 말하기", minutes: 10, target: "clip" },
-      { label: "AI 업무 대화 (Sophie·Daniel)", minutes: 15, target: "friend" },
-      { label: "이번 주 단어 + 복습", minutes: 10, target: "vocab" },
-      { label: "쓰기 첨삭: 이메일·메시지 3문장", minutes: 10, target: "writing" },
-      { label: "음성 대화 모드로 회의 연습 5분", minutes: 5, target: "voice" },
-    ],
   },
 ];
 

@@ -6,17 +6,22 @@ import { chatActions, chatView } from "../src/ui/views/chat";
 import { homeActions, homeView } from "../src/ui/views/home";
 import { planActions, planView } from "../src/ui/views/plan";
 import { questActions, questBar } from "../src/ui/views/quest";
+import { todayActions } from "../src/ui/views/today";
+import { PLACEMENT } from "../src/domain/placement";
 import { sheetActions, sheetView } from "../src/ui/views/sheet";
 import { vocabActions, vocabView } from "../src/ui/views/vocab";
 
 vi.stubGlobal("__APP_VERSION__", "test");
 vi.stubGlobal("scrollTo", () => {});
+// jsdom does not lay out pages.
+Element.prototype.scrollIntoView = () => {};
 
 function createApp() {
   document.body.innerHTML = '<main id="app"></main><div id="quest"></div><div id="tabs"></div>';
   const actions: Record<string, ActionHandler> = {
     ...homeActions,
     ...questActions,
+    ...todayActions,
     ...planActions,
     ...sheetActions,
     ...vocabActions,
@@ -48,7 +53,7 @@ beforeEach(() => localStorage.clear());
 describe("app shell", () => {
   it("opens on the home tab and switches tabs from the tab bar", () => {
     createApp();
-    expect(text()).toContain("오늘의 퀘스트");
+    expect(text()).toContain("실력 측정");
     click('[data-tab="plan"]');
     expect(text()).toContain("1단계");
     click('[data-tab="sheet"]');
@@ -60,48 +65,46 @@ describe("app shell", () => {
     expect(localStorage.getItem(STORAGE_KEYS.lastTab)).toBe("chat");
   });
 
-  it("walks through today's quest step by step", () => {
+  it("measures the level first and starts one stage up for a basic learner", () => {
+    const { app } = createApp();
+    PLACEMENT.forEach((q, i) =>
+      click(`[data-action="placementAnswer"][data-option="${i < 5 ? q.answerIndex : -1}"]`),
+    );
+    expect(text()).toContain("12문제 중 5개 맞혔어요");
+    click('[data-action="placementStart"]');
+    expect(app.week).toBe(9);
+    expect(app.stage.id).toBe(2);
+    expect(text()).toContain("오늘의 공부");
+  });
+
+  it("runs today's steps in place on the home screen", () => {
+    localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify({ startWeek: 1 }));
     const { app } = createApp();
     const steps = () => [...document.querySelectorAll(".qstep")].map((e) => e.classList[1]);
-    expect(text()).toContain("오늘의 퀘스트");
-    expect(steps()[0]).toBe("current");
-    expect(
-      steps()
-        .slice(1)
-        .filter((s) => s === "locked").length,
-    ).toBeGreaterThan(0);
+    expect(steps()).toEqual(["current", "locked", "locked", "locked", "locked", "locked", "done"]);
 
-    // Step 1 (clip) is finished by watching this week's clip.
-    app.track("clip");
-    app.renderNow();
-    expect(steps()[0]).toBe("done");
-    expect(steps()[1]).toBe("current");
-    expect(app.ui.questToast).toEqual({ stepIndex: 0 });
-    expect(app.store.progress.daily[Object.keys(app.store.progress.daily)[0]!]![0]).toBe(true);
+    // 1. Lesson: page through and finish, without leaving the home tab.
+    while (document.querySelector('[data-action="todayLessonPage"][data-step="1"]')) {
+      click('[data-action="todayLessonPage"][data-step="1"]');
+    }
+    click('[data-action="todayLessonDone"]');
+    expect(steps().slice(0, 2)).toEqual(["done", "current"]);
+    expect(text()).toContain("1단계 완료");
 
-    // The bar above the tabs announces it and leads to the next step.
-    click('[data-action="questNext"]');
-    expect(app.ui.tab).toBe("vocab");
-    expect(document.getElementById("quest")!.textContent).toContain("퀘스트 2/5");
+    // 2. Flashcards right inside the step.
+    for (let i = 0; i < 15; i++) click('[data-action="todayAnswer"][data-known="1"]');
+    expect(steps()[2]).toBe("current");
+    expect(document.querySelector('#app [data-action="pickOption"]')).not.toBeNull();
+    expect(app.ui.tab).toBe("home");
   });
 
-  it("counts flashcards toward the vocabulary step", () => {
+  it("shows where today's study stands on other tabs and leads back", () => {
+    localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify({ startWeek: 1 }));
     const { app } = createApp();
-    click('[data-action="questGo"][data-index="0"]');
-    app.track("clip");
-    app.setTab("vocab");
-    for (let i = 0; i < 3; i++) click('[data-action="answerCard"][data-known="1"]');
-    expect(app.quest.steps[1]!.progress).toBe(3);
-    expect(document.getElementById("quest")!.textContent).toContain("3 / 15장");
-  });
-
-  it("routes quest and shortcut buttons to the right screen", () => {
-    const { app, openClip } = createApp();
-    click('[data-action="questGo"][data-index="0"]');
-    expect(openClip).toHaveBeenCalledWith(app, 1);
-    click('[data-action="go"][data-to="vocab"]');
-    expect(app.ui.tab).toBe("vocab");
-    expect(app.ui.vocabMode).toBe("week");
+    click('[data-tab="vocab"]');
+    expect(document.getElementById("quest")!.textContent).toContain("오늘의 공부 1/7");
+    click('[data-action="questGo"]');
+    expect(app.ui.tab).toBe("home");
   });
 
   it("answers a worksheet question and records the score", () => {

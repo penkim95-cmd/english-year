@@ -11,6 +11,8 @@ const ENTER_ACTIONS: Record<string, string> = {
   "dictation-input": "dictationCheck",
   "add-word": "addWord",
   "api-key": "saveKey",
+  "today-dict": "todayDictCheck",
+  "today-key": "todaySaveKey",
 };
 
 export function bindInputs(

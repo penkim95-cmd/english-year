@@ -40,6 +40,13 @@ export function normalizeProgress(raw: unknown): Progress {
   const data = sanitizeJson(raw);
   if (!isRecord(data)) return out;
   if (isISODate(data.startDate)) out.startDate = data.startDate;
+  if (
+    Number.isInteger(data.startWeek) &&
+    (data.startWeek as number) >= 1 &&
+    (data.startWeek as number) <= 52
+  ) {
+    out.startWeek = data.startWeek as number;
+  }
   for (const f of PROGRESS_FIELDS) {
     if (isRecord(data[f])) (out as unknown as Record<string, unknown>)[f] = data[f];
   }

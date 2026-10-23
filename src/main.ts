@@ -9,6 +9,7 @@ import { chatActions, chatView } from "./ui/views/chat";
 import { homeActions, homeView } from "./ui/views/home";
 import { planActions, planView } from "./ui/views/plan";
 import { questActions, questBar } from "./ui/views/quest";
+import { todayActions } from "./ui/views/today";
 import { sheetActions, sheetView } from "./ui/views/sheet";
 import { vocabActions, vocabView } from "./ui/views/vocab";
 
@@ -30,6 +31,7 @@ const actions: Record<string, ActionHandler> = {
   ...commonActions,
   ...homeActions,
   ...questActions,
+  ...todayActions,
   ...planActions,
   ...sheetActions,
   ...vocabActions,

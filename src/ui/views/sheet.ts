@@ -82,7 +82,7 @@ function modeTabs(app: App): SafeHtml {
   return segmented(modes, app.ui.sheetMode, "sheetMode");
 }
 
-function questionView(
+export function questionView(
   q: Question,
   index: number,
   key: string,
@@ -296,7 +296,7 @@ function dictationView(app: App, week: number): SafeHtml {
   </section>`;
 }
 
-function comparisonView(c: { words: string[]; hit: Set<number> }): SafeHtml {
+export function comparisonView(c: { words: string[]; hit: Set<number> }): SafeHtml {
   return html`<div class="dres">
     ${c.words.map((w, i) => html`<span class="${c.hit.has(i) ? "ok" : "no"}">${w}</span> `)}
   </div>`;
@@ -384,12 +384,21 @@ export function sheetView(app: App): SafeHtml {
   return html`${header(app.week)}${body}`;
 }
 
-/** Records the best score once every question of a built-in sheet is answered. */
+/** Questions of a built-in sheet by its key (w12, s2, t3); AI sheets are not scored. */
+function sheetQuestions(key: string): Question[] | null {
+  const n = Number(key.slice(1));
+  if (!Number.isInteger(n) || n < 1) return null;
+  if (key[0] === "w") return weekSheet(n);
+  if (key[0] === "s") return stageSheet(n);
+  if (key[0] === "t") return stageTest(n);
+  return null;
+}
+
+/** Counts quest progress and records the best score once every question is answered. */
 function recordScore(app: App, key: string): void {
-  if (key === "ai") return;
-  const sheet = activeSheet(app);
-  if (sheet.key !== key) return;
-  const score = scoreSheet(sheet.questions, app.ui.answers[key] ?? {});
+  const questions = sheetQuestions(key);
+  if (!questions) return;
+  const score = scoreSheet(questions, app.ui.answers[key] ?? {});
   if (key === `w${app.week}`) app.track("sheet", score.answered, "max");
   if (score.answered < score.total) return;
   const best = app.store.progress.scores[key];

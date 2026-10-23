@@ -1,11 +1,13 @@
 import { addDays, daysBetween, type ISODate } from "../core/date";
 import { TOTAL_WEEKS } from "../data/curriculum";
 
-/** Course week (1-52) for a given start date; week 1 before the course starts. */
-export function currentWeek(startDate: ISODate | null, now: ISODate): number {
-  if (!startDate) return 1;
-  const week = Math.floor(daysBetween(startDate, now) / 7) + 1;
-  return Math.min(TOTAL_WEEKS, Math.max(1, week));
+/**
+ * Course week (1-52): the start week (set by the level check) plus whole weeks
+ * since the start date. Before the course starts it is the start week.
+ */
+export function currentWeek(startDate: ISODate | null, now: ISODate, startWeek = 1): number {
+  const elapsed = startDate ? Math.floor(daysBetween(startDate, now) / 7) : 0;
+  return Math.min(TOTAL_WEEKS, Math.max(1, startWeek + Math.max(0, elapsed)));
 }
 
 /** A day counts as studied when at least this many daily tasks were checked. */

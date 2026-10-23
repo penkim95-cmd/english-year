@@ -199,6 +199,8 @@ interface Fixtures {
   pageErrors: string[];
   /** Same page with an API key already saved. */
   withKey: Page;
+  /** Same page with the level check already done (course starts at week 1). */
+  measured: Page;
 }
 
 export const test = base.extend<Fixtures>({
@@ -219,6 +221,13 @@ export const test = base.extend<Fixtures>({
     });
     await use(page);
     expect(pageErrors, "no runtime errors").toEqual([]);
+  },
+  measured: async ({ page }, use) => {
+    await page.addInitScript(() => {
+      if (!localStorage.getItem("eng-year-v1"))
+        localStorage.setItem("eng-year-v1", JSON.stringify({ startWeek: 1 }));
+    });
+    await use(page);
   },
   withKey: async ({ page }, use) => {
     await page.addInitScript((key) => {

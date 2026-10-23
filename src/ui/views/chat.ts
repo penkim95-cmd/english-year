@@ -113,7 +113,7 @@ function voiceBar(app: App): SafeHtml {
   </div>`;
 }
 
-function chatBox(app: App, log: ChatMessage[]): SafeHtml {
+export function chatBox(app: App, log: ChatMessage[]): SafeHtml {
   const ui = app.ui;
   const voiceMode = app.store.personal.voiceMode;
   return html`${voiceBar(app)}

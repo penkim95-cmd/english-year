@@ -1,5 +1,6 @@
 /**
- * Today's quest: the stage's daily tasks as an ordered list of steps.
+ * Today's study: a fixed sequence of seven steps done on the home screen,
+ * with this week's content (input → memory → output → review).
  *
  * Each step has a measurable goal counted from what the learner actually did
  * today (cards answered, questions solved, messages sent...). Steps unlock in
@@ -21,7 +22,8 @@ export type ActivityKind =
   | "scene"
   | "writing"
   | "voice"
-  | `manual${number}`;
+  | `manual${number}`
+  | `skip${number}`;
 
 export type Activity = Partial<Record<string, number>>;
 
@@ -33,28 +35,20 @@ interface StepRule {
 }
 
 export const STEP_RULES: Record<TaskTarget, StepRule> = {
-  clip: {
-    goal: 1,
-    unit: "편",
-    how: "이번 주 레슨 클립을 끝까지 보고 마지막 장의 '다 봤어요'를 누르세요.",
-  },
-  vocab: {
-    goal: 15,
-    unit: "장",
-    how: "단어장 → 주차별 단어에서 카드를 '알아요/몰라요'로 넘기세요.",
-  },
-  review: {
+  clip: { goal: 1, unit: "번", how: "이번 주 핵심 표현 3개를 배우고 예문을 소리 내 따라 읽어요." },
+  vocab: { goal: 15, unit: "장", how: "카드를 눌러 뜻을 보고 '알아요/몰라요'로 넘겨요." },
+  review: { goal: 10, unit: "장", how: "다시 볼 때가 된 카드를 넘겨요. 없으면 바로 통과예요." },
+  sheet: { goal: 8, unit: "문제", how: "이번 주 표현으로 8문제를 풀어요." },
+  dictation: {
     goal: 10,
-    unit: "장",
-    how: "단어장 → 복습에서 오늘 다시 볼 카드를 넘기세요. 복습할 카드가 없으면 바로 통과예요.",
+    unit: "문장",
+    how: "🔊로 듣고 들린 영어를 써요. 틀린 단어는 빨갛게 보여요.",
   },
-  sheet: { goal: 8, unit: "문제", how: "학습지 → 주차별에서 이번 주 8문제를 모두 푸세요." },
-  dictation: { goal: 10, unit: "문장", how: "학습지 → 받아쓰기에서 듣고 쓴 뒤 '확인'을 누르세요." },
-  speaking: { goal: 10, unit: "번", how: "학습지 → 따라 말하기에서 듣고 🎤로 따라 말하세요." },
+  speaking: { goal: 10, unit: "문장", how: "🔊로 듣고 🎤를 눌러 똑같이 따라 말해요." },
   friend: {
-    goal: 6,
+    goal: 8,
     unit: "번",
-    how: "AI 대화 → AI 친구에게 메시지를 보내세요. 한국어로 써도 돼요.",
+    how: "AI 친구에게 영어로 메시지를 보내요. 막히면 '뭐라고 말하지?'를 누르세요.",
   },
   scene: { goal: 6, unit: "번", how: "AI 대화 → 상황 연습에서 미션을 보며 대화하세요." },
   writing: {
@@ -63,8 +57,19 @@ export const STEP_RULES: Record<TaskTarget, StepRule> = {
     how: "AI 대화 → 쓰기 첨삭에서 글을 쓰고 '첨삭 받기'를 누르세요.",
   },
   voice: { goal: 5, unit: "번", how: "AI 대화 → 음성 대화 모드를 켜고 말로 대화하세요." },
-  none: { goal: 1, unit: "번", how: "앱 밖에서 하는 공부예요. 하고 나서 '했어요'를 눌러 주세요." },
+  none: { goal: 1, unit: "번", how: "하고 나서 '했어요'를 눌러 주세요." },
 };
+
+/** The same seven steps every day; the content comes from the current week. */
+export const TODAY_PLAN: readonly DailyTask[] = [
+  { label: "레슨: 이번 주 핵심 표현 배우기", minutes: 10, target: "clip" },
+  { label: "단어 15개 외우기", minutes: 15, target: "vocab" },
+  { label: "문제 8개 풀기", minutes: 10, target: "sheet" },
+  { label: "듣고 받아쓰기 10문장", minutes: 10, target: "dictation" },
+  { label: "따라 말하기 10문장", minutes: 10, target: "speaking" },
+  { label: "AI 친구와 영어로 대화 8번", minutes: 15, target: "friend" },
+  { label: "복습 카드 정리", minutes: 5, target: "review" },
+];
 
 export type StepState = "done" | "current" | "locked";
 
@@ -93,6 +98,8 @@ export interface Quest {
 }
 
 export const manualKind = (index: number): ActivityKind => `manual${index}`;
+/** Marks a step the learner chose to skip today (e.g. no microphone or no API key). */
+export const skipKind = (index: number): ActivityKind => `skip${index}`;
 
 /** Counter that measures a step. */
 export function kindFor(task: DailyTask, index: number): ActivityKind {
@@ -109,7 +116,10 @@ export function buildQuest(
     const count = activity[kindFor(task, index)] ?? 0;
     let done = count >= rule.goal;
     let note: string | undefined;
-    if (task.target === "review" && !done && dueCount === 0) {
+    if (!done && (activity[skipKind(index)] ?? 0) > 0) {
+      done = true;
+      note = "오늘은 건너뛰었어요.";
+    } else if (task.target === "review" && !done && dueCount === 0) {
       done = true;
       note = count ? "오늘 복습 끝!" : "오늘은 복습할 카드가 없어요.";
     }

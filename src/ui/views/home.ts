@@ -1,16 +1,15 @@
 import { MODELS, currentModel, testConnection } from "../../ai/client";
 import { errorMessage } from "../../ai/errors";
-import { parseReply } from "../../ai/parse";
 import { today } from "../../core/date";
 import { STORAGE_KEYS, readString, writeString } from "../../core/storage";
-import { FRIENDS, stageOf, weekInfo } from "../../data/curriculum";
+import { stageOf, weekInfo } from "../../data/curriculum";
 import { dueKeys, learnedCount, slangOfTheDay } from "../../domain/dictionary";
 import { streak } from "../../domain/progress";
 import { RATES, englishVoices, pickVoice } from "../../speech/tts";
 import { flashLabel, type ActionHandler, type App, type Destination } from "../app";
-import { avatar, header, speakButton } from "../components";
-import { questCard } from "./quest";
+import { header, speakButton } from "../components";
 import { html, raw, type SafeHtml } from "../html";
+import { todayCard } from "./today";
 
 const youtubeSearch = (q: string) =>
   `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
@@ -67,8 +66,8 @@ function statsCard(app: App): SafeHtml {
     ${
       progress.startDate
         ? html`<p class="small muted">
-            시작일 ${progress.startDate} · 날짜에 맞춰 주차가 자동으로 넘어가요. 퀘스트를 2단계 이상
-            하면 공부한 날로 쳐요.
+            시작일 ${progress.startDate} · 날짜에 맞춰 주차가 자동으로 넘어가요. 오늘 공부를 2단계
+            이상 하면 공부한 날로 쳐요.
           </p>`
         : ""
     }
@@ -90,26 +89,6 @@ function slangCard(app: App): SafeHtml {
       >
     </p>
     <button class="btn sm" data-action="go" data-to="slang">슬랭 더 보기 →</button>
-  </section>`;
-}
-
-function friendsCard(app: App): SafeHtml {
-  const unlocked = FRIENDS.filter((f) => f.minStage <= Math.max(2, app.stage.id));
-  return html`<section class="card">
-    <h3>AI 친구</h3>
-    <div class="flist">
-      ${unlocked.map((f) => {
-        const msgs = app.store.personal.friends[f.id]?.msgs ?? [];
-        const last = msgs.at(-1);
-        return html`<button class="fr" data-action="openFriend" data-friend="${f.id}">
-          ${avatar(f, 36)}
-          <span class="ft"
-            ><b>${f.name} ${f.flag}</b
-            ><small>${last ? parseReply(last.content).main.slice(0, 50) : f.job}</small></span
-          >
-        </button>`;
-      })}
-    </div>
   </section>`;
 }
 
@@ -218,13 +197,20 @@ function settingsCard(app: App): SafeHtml {
       <input id="restore-file" type="file" accept="application/json,.json" hidden />
     </div>
     ${ui.backupMessage ? html`<span class="small">${ui.backupMessage}</span>` : ""}
+    <span class="label">내 수준</span>
+    <div class="row">
+      <span class="small"
+        >지금 ${app.week}주차 (${app.store.progress.startWeek ?? 1}주차부터 시작)</span
+      >
+      <button class="btn sm" data-action="placementOpen">실력 다시 측정</button>
+    </div>
     <span class="small muted">앱 버전 ${__APP_VERSION__}</span>
   </section>`;
 }
 
 export function homeView(app: App): SafeHtml {
-  return html`${header(app.week)} ${questCard(app)} ${statsCard(app)} ${weekCard(app, app.week)}
-    ${slangCard(app)} ${friendsCard(app)} ${profileCard(app)} ${voiceCard(app)} ${settingsCard(app)}
+  return html`${header(app.week)} ${todayCard(app)} ${statsCard(app)} ${slangCard(app)}
+    ${profileCard(app)} ${voiceCard(app)} ${settingsCard(app)}
     <section class="card">
       <h3>릴스·영화 보는 법</h3>
       <p class="small">
@@ -239,10 +225,6 @@ const inputValue = (id: string) =>
   (document.getElementById(id) as HTMLInputElement | null)?.value.trim() ?? "";
 
 export const homeActions: Record<string, ActionHandler> = {
-  startCourse(app) {
-    app.store.ensureStarted();
-    app.render();
-  },
   go(app, el) {
     const week = el.dataset.week ? Number(el.dataset.week) : undefined;
     app.go(el.dataset.to as Destination, week);

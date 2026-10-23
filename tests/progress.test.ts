@@ -13,6 +13,13 @@ describe("currentWeek", () => {
     expect(currentWeek("2026-01-01", "2025-12-01")).toBe(1);
     expect(currentWeek("2024-01-01", "2026-01-01")).toBe(52);
   });
+
+  it("counts from the start week chosen by the level check", () => {
+    expect(currentWeek("2026-01-01", "2026-01-01", 9)).toBe(9);
+    expect(currentWeek("2026-01-01", "2026-01-15", 9)).toBe(11);
+    expect(currentWeek(null, "2026-01-15", 9)).toBe(9);
+    expect(currentWeek("2026-01-01", "2027-06-01", 41)).toBe(52);
+  });
 });
 
 describe("streak", () => {

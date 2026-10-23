@@ -1343,3 +1343,59 @@ input[type="date"] {
     radial-gradient(closest-side, var(--surface) 72%, transparent 73%),
     conic-gradient(var(--accent) calc(var(--p) * 1%), var(--line) 0);
 }
+
+/* ---------- today's study (home) ---------- */
+.today .qstep.current .qwork {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 4px;
+}
+.today .qstep.locked .qn {
+  background: var(--line);
+  color: var(--muted);
+}
+.qjust {
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: var(--soft);
+  color: var(--good);
+  font-weight: 700;
+}
+.opts.col {
+  flex-direction: column;
+  align-items: stretch;
+}
+.opts.col .opt {
+  text-align: left;
+}
+.linkish {
+  align-self: flex-start;
+  background: none;
+  padding: 4px 0;
+  color: var(--muted);
+  text-decoration: underline;
+}
+.exlist {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.exrow {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: var(--soft);
+  text-align: left;
+  width: 100%;
+}
+.exrow.hidden {
+  border: 1px dashed var(--line);
+}
+.qlist {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

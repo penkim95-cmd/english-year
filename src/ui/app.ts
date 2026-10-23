@@ -10,7 +10,7 @@ import { STORAGE_KEYS, readString, writeString } from "../core/storage";
 import { defaultFriendFor, stageOf } from "../data/curriculum";
 import { dueKeys } from "../domain/dictionary";
 import { currentWeek } from "../domain/progress";
-import { buildQuest, newlyDone, type ActivityKind, type Quest } from "../domain/quest";
+import { TODAY_PLAN, buildQuest, newlyDone, type ActivityKind, type Quest } from "../domain/quest";
 import { isListening, stopListening } from "../speech/recognition";
 import { speak, type VoiceSettings } from "../speech/tts";
 import { Store } from "../state/store";
@@ -58,7 +58,8 @@ export class App {
   }
 
   get week(): number {
-    return currentWeek(this.store.progress.startDate, today());
+    const { startDate, startWeek } = this.store.progress;
+    return currentWeek(startDate, today(), startWeek);
   }
 
   get stage() {
@@ -73,7 +74,7 @@ export class App {
   get quest(): Quest {
     const day = today();
     const dueCount = dueKeys(this.store.dictionary, this.store.progress.srs, day).length;
-    return buildQuest(this.stage.daily, this.store.activityOn(day), { dueCount });
+    return buildQuest(TODAY_PLAN, this.store.activityOn(day), { dueCount });
   }
 
   /**

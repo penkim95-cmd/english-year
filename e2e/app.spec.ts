@@ -18,7 +18,7 @@ const personal = (page: import("@playwright/test").Page) =>
 test.describe("오늘", () => {
   test("starts the course and saves settings", async ({ page }) => {
     await page.goto("/");
-    await page.click('[data-action="startCourse"]');
+    await page.click('[data-action="placementSkip"]');
     await expect(page.locator(app)).toContainText("시작일");
 
     await page.fill("#profile-name", "Sam");
@@ -51,7 +51,7 @@ test.describe("오늘", () => {
 
   test("backs up and restores progress, rejecting foreign files", async ({ page }) => {
     await page.goto("/");
-    await page.click('[data-action="startCourse"]');
+    await page.click('[data-action="placementSkip"]');
     const [download] = await Promise.all([
       page.waitForEvent("download"),
       page.click('[data-action="backup"]'),
@@ -77,68 +77,127 @@ test.describe("오늘", () => {
   });
 });
 
-test.describe("오늘의 퀘스트", () => {
-  test("unlocks steps one by one as today's work is done", async ({ page }) => {
-    const steps = page.locator(".qstep");
-    const bar = page.locator("#quest");
+test.describe("오늘의 공부", () => {
+  test("a level check places a basic learner one stage up", async ({ page }) => {
     await page.goto("/");
-    await expect(page.locator(app)).toContainText("오늘의 퀘스트");
-    await expect(steps.nth(0)).toHaveClass(/current/);
-    await expect(steps.nth(1)).toHaveClass(/locked/);
-    await expect(steps.nth(2)).toHaveClass(/locked/);
-
-    // Step 1: the lesson clip, opened straight from the quest.
-    await page.click('.qstep.current [data-action="questGo"]');
-    await expect(page.locator("#clip")).toBeVisible();
-    for (let i = 0; i < 5; i++) await page.click('[data-clip="next"]');
-    await page.click('[data-clip="done"]');
-    await expect(steps.nth(0)).toHaveClass(/done/);
-    await expect(steps.nth(1)).toHaveClass(/current/);
-    await expect(bar).toContainText("1단계 완료");
-    // 1단계 + 복습 단계(오늘 복습할 카드가 없어 자동 통과)
-    await expect(page.locator(".quest .chip")).toContainText("2 / 5");
-
-    // Step 2: "next step" lands on this week's flashcards; 15 cards finish it.
-    await page.click('[data-action="questNext"]');
-    await expect(page.locator('[data-tab="vocab"]')).toHaveClass(/on/);
-    await expect(bar).toContainText("퀘스트 2/5");
-    for (let i = 0; i < 15; i++) {
-      await page.click('[data-action="answerCard"][data-known="1"]');
-      if (i === 6) await expect(bar).toContainText("7 / 15장");
+    await expect(page.locator(app)).toContainText("실력 측정");
+    // Right on the first five (cat, am, likes, Do, met), unsure after that.
+    const right = [0, 1, 2, 0, 1];
+    for (let i = 0; i < 12; i++) {
+      await page.click(`[data-action="placementAnswer"][data-option="${i < 5 ? right[i] : -1}"]`);
     }
-    await expect(bar).toContainText("2단계 완료");
-    await expect(bar).toContainText("다음: 3단계");
-
-    await page.click('[data-tab="home"]');
-    await expect(steps.nth(1)).toHaveClass(/done/);
-    await expect(steps.nth(2)).toHaveClass(/current/);
-    await expect(page.locator(".stat b").first()).toHaveText("1"); // two steps done = a study day
+    await expect(page.locator(app)).toContainText("12문제 중 5개 맞혔어요");
+    await page.click('[data-action="placementStart"]');
+    await expect(page.locator(".top")).toContainText("Week 9");
+    await expect(page.locator(".top")).toContainText("2단계");
+    await expect(page.locator(app)).toContainText("오늘의 공부");
   });
 
-  test("off-app steps are confirmed by hand and the quest completes", async ({ page }) => {
+  test("the whole day is done on the first screen, step by step", async ({ measured: page }) => {
+    await page.addInitScript(
+      (key) => localStorage.setItem("eng-year-apikey", key),
+      "sk-ant-test-key",
+    );
+    const steps = page.locator(".qstep");
+    const current = page.locator("#today-current");
+    await page.goto("/");
+    await expect(steps.nth(0)).toHaveClass(/current/);
+    await expect(steps.nth(1)).toHaveClass(/locked/);
+
+    // 1. Lesson pages in place.
+    while (await current.locator('[data-action="todayLessonPage"][data-step="1"]').count()) {
+      await current.locator('[data-action="todayLessonPage"][data-step="1"]').click();
+    }
+    await current.locator('[data-action="todayLessonDone"]').click();
+    await expect(steps.nth(1)).toHaveClass(/current/);
+    await expect(page.locator(app)).toContainText("1단계 완료");
+
+    // 2. Fifteen flashcards.
+    for (let i = 0; i < 15; i++)
+      await current.locator('[data-action="todayAnswer"][data-known="1"]').click();
+    await expect(steps.nth(2)).toHaveClass(/current/);
+
+    // 3. Eight questions.
+    for (let q = 0; q < 8; q++) {
+      const option = current.locator(`[data-action="pickOption"][data-q="${q}"]`).first();
+      if (await option.count()) await option.click();
+      const tokens = current.locator(`[data-action="pickToken"][data-q="${q}"]`);
+      for (let n = await tokens.count(); n > 0; n--) {
+        await tokens.first().click();
+        await expect(tokens).toHaveCount(n - 1);
+      }
+    }
+    await expect(steps.nth(3)).toHaveClass(/current/);
+
+    // 4. Ten dictation sentences.
+    for (let i = 0; i < 10; i++) {
+      await current.locator('[data-action="todayDictPlay"]').first().click();
+      await page.fill("#today-dict", await lastSpoken(page));
+      await page.press("#today-dict", "Enter");
+      if (i < 9) await current.locator('[data-action="todayDictNext"]').click();
+    }
+    await expect(steps.nth(4)).toHaveClass(/current/);
+
+    // 5. Ten spoken sentences (speech recognition hears the sentence itself).
+    for (let i = 0; i < 10; i++) {
+      const sentence = await current
+        .locator('[data-action="speak"]')
+        .first()
+        .getAttribute("data-text");
+      await page.evaluate((t) => (window.__nextTranscript = t ?? ""), sentence);
+      await current.locator('[data-action="todaySpeak"]').click();
+      if (i === 9) break; // the 10th sentence finishes the step and opens the next one
+      await expect(current.locator(".dres")).toBeVisible();
+      await current.locator('[data-action="todaySpeakNext"]').click();
+    }
+    await expect(steps.nth(5)).toHaveClass(/current/);
+
+    // 6. Eight messages to the AI friend.
+    for (let i = 0; i < 8; i++) {
+      await page.fill("#chat-input", `Message ${i + 1}`);
+      await page.press("#chat-input", "Enter");
+      await expect(page.locator("#live")).toHaveCount(0);
+      if (i < 7) await expect(page.locator(".msg.me").last()).toHaveText(`Message ${i + 1}`);
+    }
+
+    // 7. Review passes (nothing due) and the day is complete — never left the home tab.
+    await expect(page.locator(app)).toContainText("오늘 공부 끝");
+    await expect(page.locator(".quest .chip")).toContainText("7 / 7");
+    await expect(page.locator('[data-tab="home"]')).toHaveClass(/on/);
+  });
+
+  test("the bar on other tabs shows today's progress and leads back", async ({
+    measured: page,
+  }) => {
+    await page.goto("/");
+    await page.click('[data-tab="vocab"]');
+    await expect(page.locator("#quest")).toContainText("오늘의 공부 1/7"); // review passes: nothing due
+    await page.click('[data-action="questGo"]');
+    await expect(page.locator('[data-tab="home"]')).toHaveClass(/on/);
+  });
+
+  test("a step can be skipped when the phone can't do it", async ({ measured: page }) => {
     await page.addInitScript(() => {
       const d = new Date();
       const day = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-      if (!localStorage.getItem("eng-year-v1")) {
-        localStorage.setItem(
-          "eng-year-v1",
-          JSON.stringify({
-            startDate: day,
-            activity: { [day]: { clip: 1, vocab: 15, sheet: 8, review: 10 } },
-          }),
-        );
-      }
+      localStorage.setItem(
+        "eng-year-v1",
+        JSON.stringify({
+          startWeek: 1,
+          startDate: day,
+          activity: { [day]: { clip: 1, vocab: 15, sheet: 8, dictation: 10, speaking: 10 } },
+        }),
+      );
     });
     await page.goto("/");
-    await expect(page.locator(".qstep.current")).toContainText("릴스");
-    await page.click('[data-action="questManual"]');
-    await expect(page.locator(app)).toContainText("오늘 퀘스트 완료");
-    await expect(page.locator(".quest .chip")).toContainText("5 / 5");
+    await expect(page.locator("#today-current")).toContainText("API 키");
+    await page.click('[data-action="todaySkip"]');
+    await expect(page.locator(app)).toContainText("오늘 공부 끝");
   });
 });
 
 test.describe("레슨 클립", () => {
-  test("narrates slides, navigates and marks the clip done", async ({ page }) => {
+  test("narrates slides, navigates and marks the clip done", async ({ measured: page }) => {
     await page.goto("/");
     await page.click('[data-action="openClip"]');
     const clip = page.locator("#clip");
@@ -163,7 +222,9 @@ test.describe("레슨 클립", () => {
     await page.click('[data-clip="done"]');
     await expect(clip).toBeHidden();
     expect((await progress(page)).clips).toEqual({ "1": true });
+    await expect(page.locator(".qstep").first()).toHaveClass(/done/);
 
+    await page.click('[data-tab="plan"]');
     await page.click('[data-action="openClip"]');
     await page.keyboard.press("Escape");
     await expect(clip).toBeHidden();
@@ -384,7 +445,9 @@ test.describe("보안과 저장", () => {
 test.describe("오프라인 설치", () => {
   test.use({ serviceWorkers: "allow" });
 
-  test("the first install does not reload the page under the learner", async ({ page }) => {
+  test("the first install does not reload the page under the learner", async ({
+    measured: page,
+  }) => {
     let loads = 0;
     page.on("load", () => loads++);
     await page.goto("/");

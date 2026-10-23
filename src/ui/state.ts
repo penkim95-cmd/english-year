@@ -2,6 +2,7 @@
 import type { Comparison } from "../domain/dictation";
 import type { Answer } from "../domain/worksheets";
 import type { ChatMessage, Example, Question } from "../types";
+import type { TodaySession } from "./views/today";
 
 export type Tab = "home" | "plan" | "sheet" | "vocab" | "chat";
 export type SheetMode = "week" | "stage" | "test" | "dictation" | "speaking" | "ai";
@@ -75,6 +76,10 @@ export interface UiState {
   writingOut: string;
   writingError: string;
 
+  /** Inline activities of today's study on the home screen. */
+  today: TodaySession | null;
+  /** Level check in progress (index of the current question and answers so far). */
+  placement: { index: number; answers: number[] } | null;
   /** Set when a quest step was just completed; cleared when dismissed or followed. */
   questToast: { stepIndex: number } | null;
 
@@ -123,6 +128,8 @@ export function initialUi(tab: Tab): UiState {
     writingOut: "",
     writingError: "",
     questToast: null,
+    today: null,
+    placement: null,
     profileMessage: "",
     testing: false,
     testMessage: "",
