@@ -49,7 +49,7 @@ npm run dev        # http://localhost:5173
 
 ### 아이폰에 설치
 
-1. `dist/`를 HTTPS 정적 호스팅에 올립니다(GitHub Pages는 [`deploy.yml`](.github/workflows/deploy.yml)을 수동 실행).
+1. `main`에 올리면 [`deploy.yml`](.github/workflows/deploy.yml)이 검사 후 GitHub Pages에 자동 배포합니다. 배포 주소: https://penkim95-cmd.github.io/english-year/
 2. 아이폰 Safari로 주소를 열고 **공유 → 홈 화면에 추가**를 누릅니다.
 3. 한 번 설치하면 재설치 없이 새 버전이 자동으로 반영됩니다(서비스 워커).
 

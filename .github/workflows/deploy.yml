@@ -1,8 +1,10 @@
-# Publishes dist/ to GitHub Pages. Runs only when started by hand
-# (Actions → Deploy → Run workflow), so nothing goes public by accident.
+# Publishes dist/ to GitHub Pages on every push to main (after the full CI
+# check passes). Installed apps pick up the new version automatically.
 name: Deploy
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:

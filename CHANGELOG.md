@@ -17,7 +17,7 @@
 
 ### 추가
 
-- 단위·화면 테스트 54개(Vitest + jsdom)와 실제 브라우저 E2E 테스트 16개(Playwright), ESLint·Prettier, GitHub Actions CI와 GitHub Pages 수동 배포 워크플로.
+- 단위·화면 테스트 54개(Vitest + jsdom)와 실제 브라우저 E2E 테스트 16개(Playwright), ESLint·Prettier, GitHub Actions CI와 GitHub Pages 자동 배포 워크플로.
 - 문서: README, 아키텍처, 학습 설계, ADR 5개, 보안, 기여 안내.
 - 아이콘 생성 스크립트(`scripts/make-icons.py`).
 
